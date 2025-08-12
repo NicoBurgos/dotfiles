@@ -1,0 +1,94 @@
+✅ Cosas que normalmente SÍ se versionan (si los has personalizado):
+Terminal/emuladores:
+
+alacritty/
+
+kitty/
+
+wezterm/
+
+htop/
+
+btop/
+
+starship.toml
+
+Shell/herramientas de línea de comandos:
+
+atuin/
+
+lazygit/
+
+lazydocker/
+
+fastfetch/
+
+mise/
+
+WM/Compositores/Barra de estado:
+
+hypr/
+
+waybar/
+
+mako/
+
+swaync/
+
+swayosd/
+
+wlogout/
+
+Launchers, menus, etc:
+
+rofi/
+
+walker/
+
+Editores:
+
+nvim/
+
+Typora/ (si personalizaste configuración)
+
+Multimedia:
+
+mpv/ (si personalizaste)
+
+cava/ (si usas visualizadores de audio)
+
+Archivo/gestores de archivos:
+
+ranger/
+
+Thunar/ (si modificaste a mano)
+
+Teclado/idioma/input:
+
+fcitx/ o fcitx5/
+
+ibus/
+
+Configuraciones gráficas:
+
+gtk-3.0/
+
+qt5ct/
+
+qt6ct/
+
+Kvantum/
+
+fontconfig/
+
+Otros:
+
+yay/ (si has cambiado su config)
+
+user-dirs.dirs, user-dirs.locale, mimeapps.list (si modificaste a mano)
+
+starship.toml
+
+qt5ct/, qt6ct/, QtProject.conf (si personalizaste)
+
+wallust/, waypaper/ (temas/fondos)
