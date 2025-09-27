@@ -1,7 +1,7 @@
 /* ---- 💫 https://github.com/JaKooLit 💫 ---- */
-/* Oh My ZSH Theme */
+/* Main Config (compact) */
 
-@import "~/.config/rofi/config.rasi"  
+@import "~/.config/rofi/config.rasi" 
 
 /* ---- Configuration ---- */ 
 configuration {
@@ -10,13 +10,15 @@ configuration {
 
 /* ---- Window ---- */
 window {
-  width: inherit;
-  height: inherit;
+  width: 40%;
   border-radius: 15px;
 }
 
-mainbox {
-  children: [ "inputbar" , "listview" ];
+/* ---- Imagebox ---- */
+imagebox {
+  orientation: vertical;
+  children:
+    [ "inputbar", "listbox"];
 }
 
 /* ---- Listbox ---- */
@@ -31,38 +33,28 @@ inputbar {
 }
 
 entry {
-  expand: true;
-  placeholder: " 🪟  Search / Choose ZSH theme";
+  placeholder: "󰸉  Choose ZSH theme";
 }
 
 /* ---- Listview ---- */
 listview {
   columns: 3;
-  lines: 3;
+  lines: 4;
   spacing: 4px;
+  scrollbar: false;
   border-radius: 10px;
-  cycle: true;
 }
 
 /* ---- Element ---- */
 element {
-  orientation: horizontal;
+  border-radius: 10px;
 }
 
-/* ---- Message ---- */
+/*****----- Message -----*****/
 message {
   border-radius: 10px;
 }
 
 textbox {
   padding: 15px;
-}
-
-/* ---- Element ---- */
-element-icon {
-  size: 0%;
-}
-element-text {
-  horizontal-align: 0.0;
-  margin: 5px 30px 5px 30px;
 }

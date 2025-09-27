@@ -1,19 +1,7 @@
 /* ---- 💫 https://github.com/JaKooLit 💫 ---- */
-/* Rofi Beats Config */
+/* Rofi Beats Config (compact) */
 
-@import "~/.config/rofi/config.rasi" 
-
-/* ---- Window ---- */
-window {
-  width: inherit;
-  height: inherit;
-}
-
-/* ---- Mainbox ---- */
-mainbox {
-  children:
-    [ "inputbar", "listview"];
-}
+@import "~/.config/rofi/config-compact.rasi" 
 
 /* ---- Entry ---- */ 
 entry {
@@ -22,27 +10,5 @@ entry {
 
 /* ---- Listview ---- */
 listview {
-  columns: 2;
-  lines: 7;
-  fixed-height: false;
-  margin: 10px;
-  scrollbar: true;
-  spacing: 6px;
-  cycle: true;
-}
-
-/* ---- Elements ---- */
-element {
-  orientation: horizontal;
-}
-
-element-icon {
-  size: 0%;
-}
-
-element-text {
-  horizontal-align: 0.0;
-  vertical-align: 0.5;
-  margin: 0px;
-  padding: 0px;
+  lines: 6;
 }

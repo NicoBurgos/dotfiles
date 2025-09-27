@@ -20,8 +20,8 @@ for _, mode in ipairs { "i", "v", "n", "x" } do
   -- duplicate line
   keymap(mode, "<S-Down>", "<cmd>t.<cr>", opts)
   keymap(mode, "<S-Up>", "<cmd>t -1<cr>", opts)
-  -- save file
-  keymap(mode, "<C-s>", "<cmd>silent! w<cr>", opts)
+  -- save file and return to normal mode
+  keymap(mode, "<C-s>", "<cmd>silent! w<cr><ESC>", opts)
 end
 
 -- duplicate line visual block

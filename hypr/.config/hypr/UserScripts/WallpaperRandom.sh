@@ -24,7 +24,7 @@ swww query || swww-daemon --format xrgb && swww img -o $focused_monitor ${RANDOM
 wait $!
 "$SCRIPTSDIR/WallustSwww.sh" &&
 
-wait $!
-sleep 2
-"$SCRIPTSDIR/Refresh.sh"
+# wait $!
+# sleep 2
+# "$SCRIPTSDIR/Refresh.sh"
 

@@ -1,0 +1,30 @@
+
+[colors]
+# The default text color
+foreground = "#F7DCDB"
+# The default background color
+background = "#040610"
+
+# Overrides the cell background color when the current cell is occupied by the
+# cursor and the cursor style is set to Block
+cursor_bg = "#827888"
+# Overrides the text color when the current cell is occupied by the cursor
+cursor_fg = "#040610"
+# Specifies the border color of the cursor when the cursor style is set to Block,
+# of the color of the vertical or horizontal bar when the cursor style is set to
+# Bar or Underline.
+cursor_border = "#827888"
+
+# the foreground color of selected text
+selection_fg = "#F7DCDB"
+# the background color of selected text
+selection_bg = "#827888"
+
+# The color of the scrollbar "thumb"; the portion that represents the current viewport
+scrollbar_thumb = "#827888"
+
+# The color of the split lines between panes
+split = "#827888"
+
+ansi = ["#3D3C44", "#E99C98", "#488FBF", "#9D6B8E", "#6A71AB", "#444863", "#444863", "#ECC5C3"]
+brights = ["#A58A88", "#E99C98", "#488FBF", "#9D6B8E", "#6A71AB", "#444863", "#444863", "#ECC5C3"]
