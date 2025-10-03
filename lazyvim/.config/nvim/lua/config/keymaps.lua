@@ -37,5 +37,5 @@ keymap("i", "<C-A-Up>", "<cmd>m-2<cr>", opts)
 -- close windows
 keymap("n", "q", "<cmd>q<cr>", opts)
 
-map("n", "<Tab>", "<cmd>e #<cr>", { desc = "Switch to Other Buffer" })
+map("n", "<Tab>", "<cmd>bnext<cr>", { desc = "Switch to Next Buffer" })
 map("n", "<S-Tab>", "<cmd>bprevious<cr>", { desc = "Previous Buffer" })
