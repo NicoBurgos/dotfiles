@@ -1,0 +1,125 @@
+2025-09-22 17:56:38.419 [info] [main] Log level: Info
+2025-09-22 17:56:38.419 [info] [main] Validating found git in: "git"
+2025-09-22 17:56:38.419 [info] [main] Using git "2.51.0" from "git"
+2025-09-22 17:56:38.419 [info] [Model][doInitialScan] Initial repository scan started
+2025-09-22 17:56:38.419 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-09-22 17:56:38.419 [info] > git config --get remote.origin.url [20ms]
+2025-09-22 17:56:38.556 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [9ms]
+2025-09-22 17:56:38.556 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 17:56:38.564 [info] > git rev-parse --verify origin/main [1ms]
+2025-09-22 17:56:38.564 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 17:56:38.571 [info] > git rev-parse --verify origin/master [1ms]
+2025-09-22 17:56:38.571 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 17:56:38.585 [info] > git rev-parse --verify origin/develop [6ms]
+2025-09-22 17:56:38.585 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 17:56:38.592 [info] > git branch -r [1ms]
+2025-09-22 17:56:38.592 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 17:56:38.599 [info] > git config --get init.defaultBranch [1ms]
+2025-09-22 17:56:39.028 [info] > git remote get-url --push origin [82ms]
+2025-09-22 17:56:39.028 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 17:56:47.581 [info] > git config --global user.name [4ms]
+2025-09-22 17:56:47.601 [info] > git config --global user.email [2ms]
+2025-09-22 17:56:47.601 [info] [main] Stored git author name in global state: Nico Burgos <42035172@fi.unju.edu.ar>
+2025-09-22 17:58:25.683 [info] > git rev-parse --show-toplevel [2ms]
+2025-09-22 17:58:25.683 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:04:17.662 [info] > git rev-parse --show-toplevel [1ms]
+2025-09-22 18:04:17.662 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:06:37.001 [info] > git config user.email [22ms]
+2025-09-22 18:06:37.008 [info] > git log --pretty=format:%H<|ENT|><|RY|>%s<|COM|><|MIT|> -n 10 --author 42035172@fi.unju.edu.ar [1ms]
+2025-09-22 18:06:37.008 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:09:24.319 [info] > git remote get-url --push origin [141ms]
+2025-09-22 18:09:24.319 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:09:25.089 [info] > git remote get-url --push origin [75ms]
+2025-09-22 18:09:25.089 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:09:25.233 [info] > git remote get-url --push origin [42ms]
+2025-09-22 18:09:25.233 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:11:37.006 [info] > git status [19ms]
+2025-09-22 18:11:37.006 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:11:37.006 [info] > git status [2ms]
+2025-09-22 18:11:37.006 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:11:37.018 [info] > git remote get-url --push origin [2ms]
+2025-09-22 18:11:37.018 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:12:37.107 [info] > git status [7ms]
+2025-09-22 18:12:37.107 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:12:40.013 [info] > git status [1ms]
+2025-09-22 18:12:40.013 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:13:19.477 [info] > git status [7ms]
+2025-09-22 18:13:19.477 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:13:19.478 [info] > git status [2ms]
+2025-09-22 18:13:19.478 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:13:19.491 [info] > git remote get-url --push origin [2ms]
+2025-09-22 18:13:19.491 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:15:00.173 [info] > git rev-parse --show-toplevel [2ms]
+2025-09-22 18:15:00.173 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:16:37.030 [info] > git config user.email [23ms]
+2025-09-22 18:16:37.037 [info] > git log --pretty=format:%H<|ENT|><|RY|>%s<|COM|><|MIT|> -n 10 --author 42035172@fi.unju.edu.ar [1ms]
+2025-09-22 18:16:37.037 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:22:01.844 [info] > git status [1ms]
+2025-09-22 18:22:01.844 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:22:10.433 [info] > git status [1ms]
+2025-09-22 18:22:10.433 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:22:18.508 [info] > git status [1ms]
+2025-09-22 18:22:18.508 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:22:18.508 [info] > git status [19ms]
+2025-09-22 18:22:18.508 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:22:18.527 [info] > git remote get-url --push origin [2ms]
+2025-09-22 18:22:18.527 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:23:07.181 [info] > git status [1ms]
+2025-09-22 18:23:07.181 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:23:30.935 [info] > git status [11ms]
+2025-09-22 18:23:30.935 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:23:30.935 [info] > git status [1ms]
+2025-09-22 18:23:30.935 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:23:30.961 [info] > git remote get-url --push origin [2ms]
+2025-09-22 18:23:30.961 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:24:30.896 [info] > git status [2ms]
+2025-09-22 18:24:30.896 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:24:33.066 [info] > git status [1ms]
+2025-09-22 18:24:33.066 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:24:50.480 [info] > git status [6ms]
+2025-09-22 18:24:50.480 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:24:50.481 [info] > git status [1ms]
+2025-09-22 18:24:50.481 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:24:50.498 [info] > git remote get-url --push origin [2ms]
+2025-09-22 18:24:50.498 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:26:00.294 [info] > git status [1ms]
+2025-09-22 18:26:00.294 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:26:21.320 [info] > git status [1ms]
+2025-09-22 18:26:21.320 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:26:35.361 [info] > git status [8ms]
+2025-09-22 18:26:35.361 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:26:35.361 [info] > git status [1ms]
+2025-09-22 18:26:35.361 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:26:35.379 [info] > git remote get-url --push origin [2ms]
+2025-09-22 18:26:35.379 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:26:36.709 [info] > git config user.email [4ms]
+2025-09-22 18:26:36.728 [info] > git log --pretty=format:%H<|ENT|><|RY|>%s<|COM|><|MIT|> -n 10 --author 42035172@fi.unju.edu.ar [2ms]
+2025-09-22 18:26:36.728 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:27:47.277 [info] > git status [1ms]
+2025-09-22 18:27:47.277 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:27:51.456 [info] > git status [0ms]
+2025-09-22 18:27:51.456 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:28:30.016 [info] > git status [18ms]
+2025-09-22 18:28:30.016 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:28:30.016 [info] > git status [1ms]
+2025-09-22 18:28:30.016 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:28:30.036 [info] > git remote get-url --push origin [1ms]
+2025-09-22 18:28:30.036 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:28:51.761 [info] > git status [1ms]
+2025-09-22 18:28:51.761 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:29:12.212 [info] > git status [7ms]
+2025-09-22 18:29:12.212 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:29:12.213 [info] > git status [1ms]
+2025-09-22 18:29:12.213 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:29:12.235 [info] > git remote get-url --push origin [3ms]
+2025-09-22 18:29:12.235 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:36:37.029 [info] > git config user.email [22ms]
+2025-09-22 18:36:37.036 [info] > git log --pretty=format:%H<|ENT|><|RY|>%s<|COM|><|MIT|> -n 10 --author 42035172@fi.unju.edu.ar [1ms]
+2025-09-22 18:36:37.036 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:39:21.674 [info] > git status [1ms]
+2025-09-22 18:39:21.674 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:39:24.784 [info] > git status [1ms]
+2025-09-22 18:39:24.784 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-22 18:46:36.703 [info] > git config user.email [4ms]
+2025-09-22 18:46:36.725 [info] > git log --pretty=format:%H<|ENT|><|RY|>%s<|COM|><|MIT|> -n 10 --author 42035172@fi.unju.edu.ar [4ms]
+2025-09-22 18:46:36.725 [info] fatal: not a git repository (or any of the parent directories): .git

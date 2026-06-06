@@ -1,0 +1,305 @@
+2025-09-22 18:46:47.238 [info] Handling ListOfferings action, server stored: false
+2025-09-22 18:46:47.238 [error] No server info found
+2025-09-22 18:46:47.238 [info] Handling CreateClient action
+2025-09-22 18:46:47.238 [info] Starting new stdio process with command: npx -y mcp-remote@latest http://localhost:8000/mcp --allow-http --transport sse-only
+2025-09-22 18:46:47.950 [error] [69110] Using automatically selected callback port: 16442
+
+2025-09-22 18:46:47.951 [error] [69110] [69110] Connecting to remote server: http://localhost:8000/mcp
+
+2025-09-22 18:46:47.951 [error] [69110] Using transport strategy: http-first
+
+2025-09-22 18:46:48.003 [error] [69110] Received error: Error POSTing to endpoint (HTTP 405): {"detail":"Method Not Allowed"}
+[69110] Recursively reconnecting for reason: falling-back-to-alternate-transport
+[69110] [69110] Connecting to remote server: http://localhost:8000/mcp
+[69110] Using transport strategy: sse-only
+
+2025-09-22 18:46:48.012 [error] [69110] Connected to remote server using SSEClientTransport
+
+2025-09-22 18:46:48.012 [error] [69110] Local STDIO server running
+
+2025-09-22 18:46:48.012 [error] [69110] Proxy established successfully between local STDIO and remote SSEClientTransport
+[69110] Press Ctrl+C to exit
+
+2025-09-22 18:46:48.014 [error] [69110] [Local→Remote] initialize
+[69110] {
+  "jsonrpc": "2.0",
+  "id": 0,
+  "method": "initialize",
+  "params": {
+    "protocolVersion": "2025-06-18",
+    "capabilities": {
+      "tools": true,
+      "prompts": true,
+      "resources": true,
+      "logging": false,
+      "elicitation": {},
+      "roots": {
+        "listChanged": false
+      }
+    },
+    "clientInfo": {
+      "name": "cursor-vscode (via mcp-remote 0.1.29)",
+      "version": "1.0.0"
+    }
+  }
+}
+
+2025-09-22 18:46:48.019 [error] [69110] [Remote→Local] 0
+
+2025-09-22 18:46:48.022 [info] Successfully connected to stdio server
+2025-09-22 18:46:48.022 [info] Storing stdio client user-cupos
+2025-09-22 18:46:48.022 [info] CreateClient completed, server stored: true
+2025-09-22 18:46:48.023 [error] [69110] [Local→Remote] notifications/initialized
+
+2025-09-22 18:46:48.023 [error] [69110] [Local→Remote] notifications/initialized
+
+2025-09-22 18:46:48.023 [info] Handling ListOfferings action, server stored: true
+2025-09-22 18:46:48.023 [info] Connected to stdio server, fetching offerings
+2025-09-22 18:46:48.024 [info] Handling ListOfferings action, server stored: true
+2025-09-22 18:46:48.024 [info] Connected to stdio server, fetching offerings
+2025-09-22 18:46:48.025 [error] [69110] [Local→Remote] tools/list
+
+2025-09-22 18:46:48.025 [error] [69110] [Local→Remote] tools/list
+
+2025-09-22 18:46:48.025 [error] [69110] [Local→Remote] tools/list
+
+2025-09-22 18:46:48.025 [error] [69110] [Local→Remote] tools/list
+
+2025-09-22 18:46:48.082 [error] [69110] [Remote→Local] 1
+
+2025-09-22 18:46:48.082 [error] [69110] [Remote→Local] 1
+
+2025-09-22 18:46:48.087 [info] Found 133 tools, 0 prompts, and 0 resources
+2025-09-22 18:46:48.090 [info] Found 133 tools, 0 prompts, and 0 resources
+2025-09-22 18:46:48.092 [error] [69110] [Remote→Local] 2
+
+2025-09-22 18:46:48.092 [error] [69110] [Remote→Local] 2
+
+2025-09-22 18:49:08.166 [info] Handling CallTool action for tool 'get_carreras_v1_api_carreras__get'
+2025-09-22 18:49:08.166 [info] Calling tool 'get_carreras_v1_api_carreras__get' with toolCallId: tool_15997ad5-783c-42f4-ba03-73ad14ddaf1
+2025-09-22 18:49:08.167 [error] [69110] [Local→Remote] tools/call
+
+2025-09-22 18:49:08.167 [error] [69110] [Local→Remote] tools/call
+
+2025-09-22 18:49:08.180 [error] [69110] [Remote→Local] 3
+
+2025-09-22 18:49:08.180 [error] [69110] [Remote→Local] 3
+
+2025-09-22 18:49:08.181 [info] Successfully called tool 'get_carreras_v1_api_carreras__get'
+2025-09-22 18:51:46.131 [info] Handling CallTool action for tool 'get_carreras_v1_api_carreras__get'
+2025-09-22 18:51:46.131 [info] Calling tool 'get_carreras_v1_api_carreras__get' with toolCallId: tool_fbbca7d2-0321-4e1c-972d-da63c1da336
+2025-09-22 18:51:46.132 [error] [69110] [Local→Remote] tools/call
+
+2025-09-22 18:51:46.132 [error] [69110] [Local→Remote] tools/call
+
+2025-09-22 18:51:46.155 [error] [69110] [Remote→Local] 4
+
+2025-09-22 18:51:46.155 [error] [69110] [Remote→Local] 4
+
+2025-09-22 18:51:46.156 [info] Successfully called tool 'get_carreras_v1_api_carreras__get'
+2025-09-22 18:52:15.013 [info] Handling CallTool action for tool 'get_datos_aux_v1_api_solicitudes_practica_aux_get'
+2025-09-22 18:52:15.013 [info] Calling tool 'get_datos_aux_v1_api_solicitudes_practica_aux_get' with toolCallId: tool_501d3be5-5e73-40e1-a82c-2b142e14d0b
+2025-09-22 18:52:15.014 [error] [69110] [Local→Remote] tools/call
+
+2025-09-22 18:52:15.014 [error] [69110] [Local→Remote] tools/call
+
+2025-09-22 18:52:15.077 [error] [69110] [Remote→Local] 5
+
+2025-09-22 18:52:15.077 [error] [69110] [Remote→Local] 5
+
+2025-09-22 18:52:15.080 [info] Successfully called tool 'get_datos_aux_v1_api_solicitudes_practica_aux_get'
+2025-09-22 18:54:16.923 [info] Handling CallTool action for tool 'get_servicios_extendidos_v1_api_servicios__get'
+2025-09-22 18:54:16.923 [info] Calling tool 'get_servicios_extendidos_v1_api_servicios__get' with toolCallId: tool_24237389-83cf-4e7c-8ce5-d2a9cfce414
+2025-09-22 18:54:16.924 [error] [69110] [Local→Remote] tools/call
+
+2025-09-22 18:54:16.924 [error] [69110] [Local→Remote] tools/call
+
+2025-09-22 18:54:16.936 [error] [69110] [Remote→Local] 6
+
+2025-09-22 18:54:16.936 [error] [69110] [Remote→Local] 6
+
+2025-09-22 18:54:16.937 [info] Successfully called tool 'get_servicios_extendidos_v1_api_servicios__get'
+2025-09-22 18:54:24.252 [info] Handling CallTool action for tool 'login_auth_login_post'
+2025-09-22 18:54:24.252 [info] Calling tool 'login_auth_login_post' with toolCallId: tool_0e83f73b-e780-4dfa-9711-a0a44b856f0
+2025-09-22 18:54:24.253 [error] [69110] [Local→Remote] tools/call
+
+2025-09-22 18:54:24.253 [error] [69110] [Local→Remote] tools/call
+
+2025-09-22 18:54:24.269 [error] [69110] [Remote→Local] 7
+
+2025-09-22 18:54:24.269 [error] [69110] [Remote→Local] 7
+
+2025-09-22 18:54:24.269 [info] Successfully called tool 'login_auth_login_post'
+2025-09-22 18:54:58.822 [info] Handling CallTool action for tool 'login_auth_login_post'
+2025-09-22 18:54:58.822 [info] Calling tool 'login_auth_login_post' with toolCallId: tool_a56ccb76-6c62-4ef5-ae7c-bcdba39f527
+2025-09-22 18:54:58.822 [error] [69110] [Local→Remote] tools/call
+
+2025-09-22 18:54:58.822 [error] [69110] [Local→Remote] tools/call
+
+2025-09-22 18:54:59.067 [error] [69110] [Remote→Local] 8
+
+2025-09-22 18:54:59.067 [error] [69110] [Remote→Local] 8
+
+2025-09-22 18:54:59.067 [info] Successfully called tool 'login_auth_login_post'
+2025-09-22 18:55:04.111 [info] Handling CallTool action for tool 'get_servicios_extendidos_v1_api_servicios__get'
+2025-09-22 18:55:04.111 [info] Calling tool 'get_servicios_extendidos_v1_api_servicios__get' with toolCallId: tool_e1d16982-f7b1-4393-b087-7537c1779b5
+2025-09-22 18:55:04.112 [error] [69110] [Local→Remote] tools/call
+
+2025-09-22 18:55:04.112 [error] [69110] [Local→Remote] tools/call
+
+2025-09-22 18:55:04.120 [error] [69110] [Remote→Local] 9
+
+2025-09-22 18:55:04.120 [error] [69110] [Remote→Local] 9
+
+2025-09-22 18:55:04.120 [info] Successfully called tool 'get_servicios_extendidos_v1_api_servicios__get'
+2025-09-22 18:56:34.876 [info] Handling CallTool action for tool 'get_sedes_extendidas_v1_api_sedes__get'
+2025-09-22 18:56:34.876 [info] Calling tool 'get_sedes_extendidas_v1_api_sedes__get' with toolCallId: tool_f0d635f3-549a-44e7-b31e-375e9fcfe9f
+2025-09-22 18:56:34.877 [error] [69110] [Local→Remote] tools/call
+
+2025-09-22 18:56:34.877 [error] [69110] [Local→Remote] tools/call
+
+2025-09-22 18:56:34.916 [error] [69110] [Remote→Local] 10
+
+2025-09-22 18:56:34.916 [error] [69110] [Remote→Local] 10
+
+2025-09-22 18:56:34.917 [info] Successfully called tool 'get_sedes_extendidas_v1_api_sedes__get'
+2025-09-22 18:58:30.296 [error] [69110] Error from remote server: SseError: SSE error: TypeError: terminated: other side closed
+    at _eventSource.onerror (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13096:23)
+    at EventSource.scheduleReconnect_fn (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13000:53)
+    at file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:12850:174
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: undefined,
+  event: {
+    type: 'error',
+    message: 'TypeError: terminated: other side closed',
+    code: undefined,
+    defaultPrevented: false,
+    cancelable: false,
+    timeStamp: 702511.266343
+  }
+}
+
+2025-09-22 18:58:30.298 [error] [69110] Error from remote server: SseError: SSE error: TypeError: terminated: other side closed
+    at _eventSource.onerror (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13096:23)
+    at EventSource.scheduleReconnect_fn (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13000:53)
+    at file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:12850:174
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: undefined,
+  event: {
+    type: 'error',
+    message: 'TypeError: terminated: other side closed',
+    code: undefined,
+    defaultPrevented: false,
+    cancelable: false,
+    timeStamp: 702511.266343
+  }
+}
+
+2025-09-22 18:59:40.763 [info] Handling CallTool action for tool 'get_servicios_extendidos_v1_api_servicios__get'
+2025-09-22 18:59:40.763 [info] Calling tool 'get_servicios_extendidos_v1_api_servicios__get' with toolCallId: tool_5d8e3583-26c2-48f8-845f-10fd03a3845
+2025-09-22 18:59:40.764 [error] [69110] [Local→Remote] tools/call
+
+2025-09-22 18:59:40.764 [error] [69110] [Local→Remote] tools/call
+
+2025-09-22 18:59:40.769 [error] [69110] [Remote→Local] 11
+
+2025-09-22 18:59:40.769 [error] [69110] [Remote→Local] 11
+
+2025-09-22 18:59:40.769 [error] Error calling tool 'get_servicios_extendidos_v1_api_servicios__get': MCP error -32602: Invalid request parameters
+2025-09-22 18:59:57.329 [info] Handling CallTool action for tool 'get_servicios_extendidos_v1_api_servicios__get'
+2025-09-22 18:59:57.330 [info] Calling tool 'get_servicios_extendidos_v1_api_servicios__get' with toolCallId: tool_8e5202a1-6ad7-4c81-8614-90d92b3e46f
+2025-09-22 18:59:57.330 [error] [69110] [Local→Remote] tools/call
+
+2025-09-22 18:59:57.330 [error] [69110] [Local→Remote] tools/call
+
+2025-09-22 18:59:57.336 [error] [69110] [Remote→Local] 12
+
+2025-09-22 18:59:57.336 [error] [69110] [Remote→Local] 12
+
+2025-09-22 18:59:57.337 [error] Error calling tool 'get_servicios_extendidos_v1_api_servicios__get': MCP error -32602: Invalid request parameters
+2025-09-22 19:00:03.538 [info] Handling CallTool action for tool 'get_servicios_extendidos_v1_api_servicios__get'
+2025-09-22 19:00:03.538 [info] Calling tool 'get_servicios_extendidos_v1_api_servicios__get' with toolCallId: tool_90801886-eea8-44bf-8f99-3bbe7128a23
+2025-09-22 19:00:03.538 [error] [69110] [Local→Remote] tools/call
+
+2025-09-22 19:00:03.538 [error] [69110] [Local→Remote] tools/call
+
+2025-09-22 19:00:03.545 [error] [69110] [Remote→Local] 13
+
+2025-09-22 19:00:03.545 [error] [69110] [Remote→Local] 13
+
+2025-09-22 19:00:03.545 [error] Error calling tool 'get_servicios_extendidos_v1_api_servicios__get': MCP error -32602: Invalid request parameters
+2025-09-22 19:00:27.533 [info] Handling DeleteClient action
+2025-09-22 19:00:27.533 [info] Cleaning up
+2025-09-22 19:00:29.591 [info] Handling CreateClient action
+2025-09-22 19:00:29.591 [info] Starting new stdio process with command: npx -y mcp-remote@latest http://localhost:8000/mcp --allow-http --transport sse-only
+2025-09-22 19:00:30.390 [error] [72673] Using automatically selected callback port: 16442
+[72673] [72673] Connecting to remote server: http://localhost:8000/mcp
+[72673] Using transport strategy: http-first
+
+2025-09-22 19:00:30.441 [error] [72673] Received error: Error POSTing to endpoint (HTTP 405): {"detail":"Method Not Allowed"}
+[72673] Recursively reconnecting for reason: falling-back-to-alternate-transport
+[72673] [72673] Connecting to remote server: http://localhost:8000/mcp
+[72673] Using transport strategy: sse-only
+
+2025-09-22 19:00:30.450 [error] [72673] Connected to remote server using SSEClientTransport
+
+2025-09-22 19:00:30.450 [error] [72673] Local STDIO server running
+[72673] Proxy established successfully between local STDIO and remote SSEClientTransport
+[72673] Press Ctrl+C to exit
+
+2025-09-22 19:00:30.452 [error] [72673] [Local→Remote] initialize
+
+2025-09-22 19:00:30.452 [error] [72673] {
+  "jsonrpc": "2.0",
+  "id": 0,
+  "method": "initialize",
+  "params": {
+    "protocolVersion": "2025-06-18",
+    "capabilities": {
+      "tools": true,
+      "prompts": true,
+      "resources": true,
+      "logging": false,
+      "elicitation": {},
+      "roots": {
+        "listChanged": false
+      }
+    },
+    "clientInfo": {
+      "name": "cursor-vscode (via mcp-remote 0.1.29)",
+      "version": "1.0.0"
+    }
+  }
+}
+
+2025-09-22 19:00:30.458 [error] [72673] [Remote→Local] 0
+
+2025-09-22 19:00:30.459 [info] Successfully connected to stdio server
+2025-09-22 19:00:30.459 [info] Storing stdio client user-cupos
+2025-09-22 19:00:30.459 [info] CreateClient completed, server stored: true
+2025-09-22 19:00:30.459 [error] [72673] [Local→Remote] notifications/initialized
+
+2025-09-22 19:00:30.459 [error] [72673] [Local→Remote] notifications/initialized
+
+2025-09-22 19:00:30.460 [info] Handling ListOfferings action, server stored: true
+2025-09-22 19:00:30.460 [info] Connected to stdio server, fetching offerings
+2025-09-22 19:00:30.461 [error] [72673] [Local→Remote] tools/list
+
+2025-09-22 19:00:30.461 [error] [72673] [Local→Remote] tools/list
+
+2025-09-22 19:00:30.492 [error] [72673] [Remote→Local] 1
+
+2025-09-22 19:00:30.492 [error] [72673] [Remote→Local] 1
+
+2025-09-22 19:00:30.495 [info] Found 133 tools, 0 prompts, and 0 resources
+2025-09-22 19:01:19.637 [info] Handling CallTool action for tool 'get_servicios_extendidos_v1_api_servicios__get'
+2025-09-22 19:01:19.637 [info] Calling tool 'get_servicios_extendidos_v1_api_servicios__get' with toolCallId: tool_c90574ea-c6a2-4047-9eb9-8585f53202a
+2025-09-22 19:01:19.638 [error] [72673] [Local→Remote] tools/call
+
+2025-09-22 19:01:19.638 [error] [72673] [Local→Remote] tools/call
+
+2025-09-22 19:01:19.655 [error] [72673] [Remote→Local] 2
+
+2025-09-22 19:01:19.655 [error] [72673] [Remote→Local] 2
+
+2025-09-22 19:01:19.656 [info] Successfully called tool 'get_servicios_extendidos_v1_api_servicios__get'

@@ -1,0 +1,35 @@
+2025-09-28 23:12:00.377 [info] Tools environment: GOPATH=/home/nico/go, GOTOOLCHAIN=auto
+2025-09-28 23:12:00.377 [info] Installing 2 tools at /home/nico/go/bin
+2025-09-28 23:12:00.377 [info]   gopls
+2025-09-28 23:12:00.377 [info]   staticcheck
+2025-09-28 23:12:00.377 [info] 
+2025-09-28 23:12:32.042 [info] Installing golang.org/x/tools/gopls@latest (/home/nico/go/bin/gopls) SUCCEEDED
+2025-09-28 23:12:40.062 [info] Installing honnef.co/go/tools/cmd/staticcheck@latest (/home/nico/go/bin/staticcheck) SUCCEEDED
+2025-09-28 23:12:40.063 [info] 
+2025-09-28 23:12:40.063 [info] All tools successfully installed. You are ready to Go. :)
+2025-09-28 23:12:40.192 [info] Try to start language server - activation (enabled: true)
+2025-09-28 23:12:40.339 [info] Running language server gopls(v0.20.0/go1.25.1)
+2025-09-28 23:29:36.681 [info] Running checks...
+2025-09-28 23:29:36.682 [info] Starting linting the current package at /home/nico/Documentos/Workspace/inversiones/backend
+2025-09-28 23:29:38.911 [info] /home/nico/Documentos/Workspace/inversiones/backend>Finished running tool: /home/nico/go/bin/staticcheck
+2025-09-28 23:29:38.911 [info] /home/nico/Documentos/Workspace/inversiones/backend/main.go:11:2 missing go.sum entry for module providing package github.com/gofiber/fiber/v2 (imported by inversiones-backend); to add:
+2025-09-28 23:29:38.911 [info] /home/nico/Documentos/Workspace/inversiones/backend/main.go:12:2 missing go.sum entry for module providing package github.com/jmoiron/sqlx (imported by inversiones-backend); to add:
+2025-09-28 23:29:38.911 [info] /home/nico/Documentos/Workspace/inversiones/backend/main.go:13:2 missing go.sum entry for module providing package github.com/lib/pq (imported by inversiones-backend); to add:
+2025-09-28 23:29:38.911 [info] 
+2025-09-28 23:39:18.348 [info] Running checks...
+2025-09-28 23:39:18.349 [info] Starting linting the current package at /home/nico/Documentos/Workspace/inversiones/backend
+2025-09-28 23:39:18.496 [info] /home/nico/Documentos/Workspace/inversiones/backend>Finished running tool: /home/nico/go/bin/staticcheck
+2025-09-28 23:39:18.496 [info] /home/nico/Documentos/Workspace/inversiones/backend/main.go:11:2 missing go.sum entry for module providing package github.com/gofiber/fiber/v2 (imported by inversiones-backend); to add:
+2025-09-28 23:39:18.496 [info] /home/nico/Documentos/Workspace/inversiones/backend/main.go:12:2 missing go.sum entry for module providing package github.com/jmoiron/sqlx (imported by inversiones-backend); to add:
+2025-09-28 23:39:18.496 [info] /home/nico/Documentos/Workspace/inversiones/backend/main.go:13:2 missing go.sum entry for module providing package github.com/lib/pq (imported by inversiones-backend); to add:
+2025-09-28 23:39:18.496 [info] 
+2025-09-28 23:42:40.232 [info] Fetching latest go developer survey
+2025-09-28 23:42:41.725 [info] Using fetched Go developer survey: v0.1.0
+2025-09-28 23:42:41.725 [info] Survey active from Mon Sep 08 2025 to Tue Sep 30 2025
+2025-09-28 23:50:29.897 [info] Running checks...
+2025-09-28 23:50:29.897 [info] Starting linting the current package at /home/nico/Documentos/Workspace/inversiones/backend
+2025-09-28 23:50:30.032 [info] /home/nico/Documentos/Workspace/inversiones/backend>Finished running tool: /home/nico/go/bin/staticcheck
+2025-09-28 23:50:30.032 [info] /home/nico/Documentos/Workspace/inversiones/backend/main.go:11:2 missing go.sum entry for module providing package github.com/gofiber/fiber/v2 (imported by inversiones-backend); to add:
+2025-09-28 23:50:30.032 [info] /home/nico/Documentos/Workspace/inversiones/backend/main.go:12:2 missing go.sum entry for module providing package github.com/jmoiron/sqlx (imported by inversiones-backend); to add:
+2025-09-28 23:50:30.032 [info] /home/nico/Documentos/Workspace/inversiones/backend/main.go:13:2 missing go.sum entry for module providing package github.com/lib/pq (imported by inversiones-backend); to add:
+2025-09-28 23:50:30.032 [info] 

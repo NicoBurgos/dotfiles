@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Backend Connection</title>
+</head>
+<body>
+    <h1>Test Backend Connection</h1>
+    <button onclick="testConnection()">Test Connection</button>
+    <div id="result"></div>
+
+    <script>
+        async function testConnection() {
+            const resultDiv = document.getElementById('result');
+            resultDiv.innerHTML = 'Testing...';
+            
+            try {
+                // Test ping endpoint
+                const pingResponse = await fetch('http://localhost:8080/ping');
+                const pingText = await pingResponse.text();
+                
+                // Test portfolio endpoint
+                const portfolioResponse = await fetch('http://localhost:8080/portfolio');
+                const portfolioData = await portfolioResponse.json();
+                
+                resultDiv.innerHTML = `
+                    <h3>✅ Backend is working!</h3>
+                    <p><strong>Ping:</strong> ${pingText}</p>
+                    <p><strong>Portfolio data:</strong> ${JSON.stringify(portfolioData, null, 2)}</p>
+                `;
+            } catch (error) {
+                resultDiv.innerHTML = `
+                    <h3>❌ Backend connection failed</h3>
+                    <p><strong>Error:</strong> ${error.message}</p>
+                    <p>Make sure the backend is running on port 8080</p>
+                `;
+            }
+        }
+    </script>
+</body>
+</html>

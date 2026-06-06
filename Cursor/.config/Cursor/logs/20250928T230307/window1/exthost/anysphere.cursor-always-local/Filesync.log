@@ -1,0 +1,273 @@
+2025-09-28 23:03:11.697 [error] Failed to check if file sync is enabled for user {}
+2025-09-28 23:03:11.697 [error] Failed to fetch fsConfig File sync is disabled
+2025-09-28 23:03:11.697 [error] Failed to fetch fsConfig File sync is disabled
+2025-09-28 23:03:11.897 [info] [registerEventListeners] Registering event listeners
+2025-09-28 23:03:13.171 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-09-28 23:03:13.354 [info] Fetched fsConfig in 181.6769320000003ms
+2025-09-28 23:03:13.354 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-09-28 23:03:13.628 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-09-28 23:03:13.934 [info] Handled visible editors change in 0.10080099999959202ms
+2025-09-28 23:03:14.169 [info] Fetched fsConfig in 540.7701449999995ms
+2025-09-28 23:03:14.169 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-09-28 23:03:14.169 [info] File sync enabled status: true
+2025-09-28 23:03:14.170 [info] Starting sync of visible tabs
+2025-09-28 23:03:14.170 [info] Synced all visible tabs in 0.13891500000045198ms
+2025-09-28 23:03:14.448 [info] Starting sync of visible tabs
+2025-09-28 23:03:14.448 [info] Synced all visible tabs in 0.2182890000003681ms
+2025-09-28 23:03:14.629 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-09-28 23:03:14.810 [info] Fetched fsConfig in 181.16992899999968ms
+2025-09-28 23:03:14.810 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-09-28 23:03:28.105 [error] Failed to check if file sync is enabled for user {}
+2025-09-28 23:03:28.105 [error] Failed to fetch fsConfig File sync is disabled
+2025-09-28 23:03:28.105 [error] Failed to fetch fsConfig File sync is disabled
+2025-09-28 23:03:28.360 [info] [registerEventListeners] Registering event listeners
+2025-09-28 23:03:29.549 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-09-28 23:03:29.738 [info] Fetched fsConfig in 187.6637780000001ms
+2025-09-28 23:03:29.738 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-09-28 23:03:29.807 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-09-28 23:03:30.339 [info] Fetched fsConfig in 531.8000390000002ms
+2025-09-28 23:03:30.339 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-09-28 23:03:30.339 [info] File sync enabled status: true
+2025-09-28 23:03:30.339 [info] Starting sync of visible tabs
+2025-09-28 23:03:30.339 [info] Synced all visible tabs in 0.11837600000035309ms
+2025-09-28 23:03:30.628 [info] Starting sync of visible tabs
+2025-09-28 23:03:30.628 [info] Synced all visible tabs in 0.21552199999950972ms
+2025-09-28 23:03:30.808 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-09-28 23:03:30.987 [info] Fetched fsConfig in 178.4186839999993ms
+2025-09-28 23:03:30.987 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-09-28 23:03:31.590 [info] Uploaded file frontend/astro.config.mjs modelVersion=1 in 290.5720730000003ms
+2025-09-28 23:03:31.591 [info] Handled visible editors change in 430.6627129999997ms
+2025-09-28 23:03:33.626 [info] Handled visible editors change in 0.8854870000004667ms
+2025-09-28 23:03:33.664 [info] Handled visible editors change in 0.9295899999997346ms
+2025-09-28 23:03:37.255 [info] Handled visible editors change in 1.350891000000047ms
+2025-09-28 23:03:37.282 [info] Handled visible editors change in 0.6954669999995531ms
+2025-09-28 23:03:37.959 [info] Handled visible editors change in 0.6986359999991691ms
+2025-09-28 23:03:37.993 [info] Handled visible editors change in 0.6807279999993625ms
+2025-09-28 23:03:42.232 [info] Handled visible editors change in 0.30173800000011397ms
+2025-09-28 23:03:52.135 [info] Handled visible editors change in 0.7724840000009863ms
+2025-09-28 23:06:57.312 [info] Handled visible editors change in 0.679413999983808ms
+2025-09-28 23:06:57.340 [info] Handled visible editors change in 0.7769299999927171ms
+2025-09-28 23:10:41.586 [info] Uploaded file frontend/src/components/Portfolio.svelte modelVersion=3 in 697.6951520000002ms
+2025-09-28 23:10:41.587 [info] Uploaded file frontend/src/components/Portfolio.svelte modelVersion=3 in 697.2991089999559ms
+2025-09-28 23:10:41.589 [info] Uploaded file frontend/src/components/Portfolio.svelte modelVersion=3 in 697.6590580000193ms
+2025-09-28 23:10:41.593 [info] Uploaded file frontend/src/components/Portfolio.svelte modelVersion=3 in 672.7971560000442ms
+2025-09-28 23:10:41.612 [info] Uploaded file frontend/src/components/Portfolio.svelte modelVersion=3 in 692.5813820000039ms
+2025-09-28 23:10:59.106 [info] Handled visible editors change in 0.7776929999818094ms
+2025-09-28 23:10:59.130 [info] Handled visible editors change in 0.8956269999616779ms
+2025-09-28 23:11:13.215 [info] Uploaded file frontend/src/components/Chart.svelte modelVersion=3 in 177.2363100000075ms
+2025-09-28 23:11:13.216 [info] Uploaded file frontend/src/components/Chart.svelte modelVersion=3 in 178.86265600001207ms
+2025-09-28 23:11:13.217 [info] Uploaded file frontend/src/components/Chart.svelte modelVersion=3 in 178.44805000000633ms
+2025-09-28 23:11:13.293 [info] Uploaded file frontend/src/components/Chart.svelte modelVersion=3 in 176.23112700000638ms
+2025-09-28 23:11:13.293 [info] Uploaded file frontend/src/components/Chart.svelte modelVersion=3 in 176.15399999998044ms
+2025-09-28 23:11:23.741 [info] Synced file frontend/src/components/Portfolio.svelte modelVersion=6 in 184.87148199998774ms
+2025-09-28 23:11:25.510 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-09-28 23:11:25.691 [info] Fetched fsConfig in 180.77944399998523ms
+2025-09-28 23:11:25.691 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-09-28 23:11:25.692 [info] File sync enabled status: true
+2025-09-28 23:11:25.692 [info] Starting sync of visible tabs
+2025-09-28 23:11:25.692 [info] Synced all visible tabs in 0.2608680000412278ms
+2025-09-28 23:11:35.346 [info] Synced file frontend/src/components/Portfolio.svelte modelVersion=9 in 180.53407899994636ms
+2025-09-28 23:11:48.600 [info] Handled visible editors change in 0.45960700005525723ms
+2025-09-28 23:11:48.734 [info] Synced file frontend/src/components/Portfolio.svelte modelVersion=12 in 180.50274100003298ms
+2025-09-28 23:11:48.942 [info] Uploaded file backend/main.go modelVersion=1 in 189.31836900004419ms
+2025-09-28 23:11:48.943 [info] Handled visible editors change in 303.8157559999963ms
+2025-09-28 23:11:53.070 [info] Handled visible editors change in 0.3380110000143759ms
+2025-09-28 23:11:53.190 [info] Synced file frontend/src/components/Portfolio.svelte modelVersion=15 in 182.61759999999776ms
+2025-09-28 23:11:57.372 [info] Synced file frontend/src/components/Portfolio.svelte modelVersion=18 in 180.4941289999988ms
+2025-09-28 23:11:57.664 [info] Handled visible editors change in 0.7110959999845363ms
+2025-09-28 23:12:00.385 [info] Handled visible editors change in 0.3239600000088103ms
+2025-09-28 23:12:00.661 [info] Handled visible editors change in 0.14333500002976507ms
+2025-09-28 23:12:02.260 [info] Synced file backend/main.go modelVersion=2 in 178.1404469999834ms
+2025-09-28 23:12:02.920 [info] Handled visible editors change in 0.5621739999623969ms
+2025-09-28 23:12:06.148 [info] Synced file backend/main.go modelVersion=4 in 177.6192550000269ms
+2025-09-28 23:12:06.470 [info] Handled visible editors change in 0.28393599996343255ms
+2025-09-28 23:12:10.320 [info] Synced file frontend/src/components/Portfolio.svelte modelVersion=21 in 182.39604899997357ms
+2025-09-28 23:12:20.526 [info] Synced file frontend/src/components/Portfolio.svelte modelVersion=24 in 183.99221399996895ms
+2025-09-28 23:12:29.417 [info] Synced file frontend/src/components/Portfolio.svelte modelVersion=27 in 180.6733790000435ms
+2025-09-28 23:12:37.151 [info] Handled visible editors change in 1.5216090000467375ms
+2025-09-28 23:12:37.192 [info] Handled visible editors change in 4.822644000058062ms
+2025-09-28 23:12:39.087 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-09-28 23:12:39.269 [info] Fetched fsConfig in 181.3787669999292ms
+2025-09-28 23:12:39.269 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-09-28 23:12:39.269 [info] File sync enabled status: true
+2025-09-28 23:12:39.269 [info] Starting sync of visible tabs
+2025-09-28 23:12:39.354 [info] Synced file frontend/src/components/Portfolio.svelte modelVersion=30 in 192.92828100000042ms
+2025-09-28 23:12:39.494 [info] Uploaded file frontend/src/components/Portfolio.svelte modelVersion=30 in 184.5403220000444ms
+2025-09-28 23:12:39.494 [info] Synced all visible tabs in 224.80540800001472ms
+2025-09-28 23:12:39.709 [info] Synced file frontend/src/components/Portfolio.svelte modelVersion=30 in 178.40503899997566ms
+2025-09-28 23:12:50.570 [info] Handled visible editors change in 0.8970320000080392ms
+2025-09-28 23:12:50.611 [info] Handled visible editors change in 0.6669289999408647ms
+2025-09-28 23:12:55.920 [info] Synced file frontend/src/components/Portfolio.svelte modelVersion=33 in 181.32701400003862ms
+2025-09-28 23:13:00.320 [info] Synced file frontend/src/components/Portfolio.svelte modelVersion=36 in 180.89631699991878ms
+2025-09-28 23:13:03.639 [info] Handled visible editors change in 0.5823839999502525ms
+2025-09-28 23:13:12.701 [info] Handled visible editors change in 1.0081520000239834ms
+2025-09-28 23:13:16.952 [info] Handled visible editors change in 0.7889630000572652ms
+2025-09-28 23:13:17.355 [info] Uploaded file frontend/src/pages/index.astro modelVersion=1 in 177.14014500007033ms
+2025-09-28 23:13:17.355 [info] Handled visible editors change in 360.10325400007423ms
+2025-09-28 23:13:36.886 [info] Synced file backend/main.go modelVersion=5 in 178.6720750000095ms
+2025-09-28 23:16:02.322 [info] Handled visible editors change in 0.5608550000470132ms
+2025-09-28 23:16:02.350 [info] Handled visible editors change in 1.0987910000840202ms
+2025-09-28 23:16:03.481 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-09-28 23:16:03.662 [info] Fetched fsConfig in 180.3366870000027ms
+2025-09-28 23:16:03.662 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-09-28 23:16:03.662 [info] File sync enabled status: true
+2025-09-28 23:16:03.662 [info] Starting sync of visible tabs
+2025-09-28 23:16:03.662 [info] Synced all visible tabs in 0.07981700007803738ms
+2025-09-28 23:16:12.762 [info] Handled visible editors change in 1.1836879999609664ms
+2025-09-28 23:16:12.790 [info] Handled visible editors change in 0.7451970000984147ms
+2025-09-28 23:16:14.648 [info] Handled visible editors change in 0.8028059999924153ms
+2025-09-28 23:16:14.672 [info] Handled visible editors change in 0.8764449999434873ms
+2025-09-28 23:16:30.184 [info] Handled visible editors change in 0.9711409999290481ms
+2025-09-28 23:16:30.207 [info] Handled visible editors change in 0.7238620000425726ms
+2025-09-28 23:16:53.143 [info] Handled visible editors change in 0.4908670000731945ms
+2025-09-28 23:16:53.399 [info] Uploaded file frontend/package.json modelVersion=1 in 174.4134859999176ms
+2025-09-28 23:16:53.399 [info] Handled visible editors change in 216.7127389999805ms
+2025-09-28 23:18:48.317 [info] Synced file frontend/package.json modelVersion=2 in 550.2870620000176ms
+2025-09-28 23:18:48.840 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-09-28 23:18:49.022 [info] Fetched fsConfig in 181.86658399994485ms
+2025-09-28 23:18:49.022 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-09-28 23:18:49.022 [info] File sync enabled status: true
+2025-09-28 23:18:49.022 [info] Starting sync of visible tabs
+2025-09-28 23:18:49.022 [info] Synced all visible tabs in 0.09834899997804314ms
+2025-09-28 23:19:52.852 [info] Uploaded file frontend/src/components/Chart.svelte modelVersion=6 in 530.7153580000158ms
+2025-09-28 23:19:52.954 [info] Uploaded file frontend/src/components/Chart.svelte modelVersion=6 in 624.1330760000274ms
+2025-09-28 23:19:52.954 [info] Uploaded file frontend/src/components/Chart.svelte modelVersion=4 in 666.8471709999721ms
+2025-09-28 23:19:52.954 [info] Uploaded file frontend/src/components/Chart.svelte modelVersion=6 in 606.2753139999695ms
+2025-09-28 23:19:52.954 [info] Uploaded file frontend/src/components/Chart.svelte modelVersion=6 in 607.3198300000513ms
+2025-09-28 23:19:52.955 [info] Uploaded file frontend/src/components/Chart.svelte modelVersion=4 in 649.8468710000161ms
+2025-09-28 23:19:58.413 [info] Handled visible editors change in 1.456629000022076ms
+2025-09-28 23:19:58.753 [info] Uploaded file frontend/src/components/Portfolio.svelte modelVersion=36 in 178.9285909999162ms
+2025-09-28 23:19:58.753 [info] Handled visible editors change in 307.1617209999822ms
+2025-09-28 23:20:35.194 [warning] Failed to sync changes for frontend/src/components/Chart.svelte, version=9, retrying (attempt 1) [invalid_argument] Version mismatch: VersionMismatch: Expects current file version 4 to be one less than the new update version 7
+2025-09-28 23:20:35.405 [warning] Failed to sync changes for frontend/src/components/Chart.svelte, version=9, retrying (attempt 2) [invalid_argument] Version mismatch: VersionMismatch: Expects current file version 4 to be one less than the new update version 7
+2025-09-28 23:20:35.630 [warning] Failed to sync changes for frontend/src/components/Chart.svelte, version=9, retrying (attempt 3) [invalid_argument] Version mismatch: VersionMismatch: Expects current file version 4 to be one less than the new update version 7
+2025-09-28 23:20:35.631 [error] Failed to sync changes for frontend/src/components/Chart.svelte, version=9, attempting full file sync [invalid_argument] Version mismatch: VersionMismatch: Expects current file version 4 to be one less than the new update version 7
+2025-09-28 23:20:35.812 [info] Uploaded file frontend/src/components/Chart.svelte modelVersion=9 in 180.84738099994138ms
+2025-09-28 23:20:40.645 [info] Synced file frontend/package.json modelVersion=3 in 178.2494599999627ms
+2025-09-28 23:20:49.093 [info] Uploaded file backend/main.go modelVersion=5 in 177.53197200002614ms
+2025-09-28 23:20:51.582 [info] Handled visible editors change in 0.7265700000571087ms
+2025-09-28 23:20:51.611 [info] Handled visible editors change in 0.5926310000941157ms
+2025-09-28 23:23:21.669 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-09-28 23:23:21.850 [info] Fetched fsConfig in 181.19316700007766ms
+2025-09-28 23:23:21.850 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-09-28 23:23:21.850 [info] File sync enabled status: true
+2025-09-28 23:23:21.850 [info] Starting sync of visible tabs
+2025-09-28 23:23:21.850 [info] Synced all visible tabs in 0.11634299997240305ms
+2025-09-28 23:23:44.894 [info] Synced file frontend/src/components/Portfolio.svelte modelVersion=37 in 196.6923620000016ms
+2025-09-28 23:23:48.986 [info] Synced file frontend/src/components/Portfolio.svelte modelVersion=39 in 175.50924500008114ms
+2025-09-28 23:23:51.705 [info] Synced file frontend/src/components/Portfolio.svelte modelVersion=41 in 176.07730000000447ms
+2025-09-28 23:23:55.424 [info] Synced file frontend/src/components/Portfolio.svelte modelVersion=43 in 178.15030800015666ms
+2025-09-28 23:23:59.121 [info] Synced file frontend/src/components/Portfolio.svelte modelVersion=45 in 177.9390209999401ms
+2025-09-28 23:24:05.254 [info] Synced file backend/main.go modelVersion=6 in 179.4800549999345ms
+2025-09-28 23:24:11.481 [info] Uploaded file test-backend.html modelVersion=3 in 209.97370400000364ms
+2025-09-28 23:24:11.481 [info] Uploaded file test-backend.html modelVersion=3 in 209.50590600003488ms
+2025-09-28 23:24:11.482 [info] Uploaded file test-backend.html modelVersion=3 in 208.69708100007847ms
+2025-09-28 23:24:11.482 [info] Uploaded file test-backend.html modelVersion=3 in 208.23829100001603ms
+2025-09-28 23:24:11.484 [info] Uploaded file test-backend.html modelVersion=3 in 211.37243900005706ms
+2025-09-28 23:24:17.310 [info] Uploaded file diagnose.sh modelVersion=3 in 177.33036700007506ms
+2025-09-28 23:24:17.310 [info] Uploaded file diagnose.sh modelVersion=3 in 178.49502100003883ms
+2025-09-28 23:24:17.311 [info] Uploaded file diagnose.sh modelVersion=3 in 177.56374399992637ms
+2025-09-28 23:24:17.328 [info] Uploaded file diagnose.sh modelVersion=3 in 176.24509299988858ms
+2025-09-28 23:24:17.338 [info] Uploaded file diagnose.sh modelVersion=3 in 178.67061099992134ms
+2025-09-28 23:24:40.611 [info] Synced file backend/main.go modelVersion=8 in 178.43022400001064ms
+2025-09-28 23:24:46.043 [info] Synced file backend/main.go modelVersion=10 in 177.89028900000267ms
+2025-09-28 23:26:06.067 [info] Uploaded file test-backend.html modelVersion=2 in 490.66456900001504ms
+2025-09-28 23:26:06.068 [info] Uploaded file test-backend.html modelVersion=2 in 490.3943730001338ms
+2025-09-28 23:26:06.068 [info] Uploaded file test-backend.html modelVersion=2 in 523.8167060001288ms
+2025-09-28 23:26:06.069 [info] Uploaded file test-backend.html modelVersion=2 in 542.5199489998631ms
+2025-09-28 23:26:07.360 [info] Uploaded file diagnose.sh modelVersion=2 in 177.39863900002092ms
+2025-09-28 23:26:07.360 [info] Uploaded file diagnose.sh modelVersion=2 in 176.97514499980025ms
+2025-09-28 23:26:07.370 [info] Uploaded file diagnose.sh modelVersion=2 in 178.4712630000431ms
+2025-09-28 23:26:07.370 [info] Uploaded file diagnose.sh modelVersion=2 in 177.89704999979585ms
+2025-09-28 23:28:24.095 [info] Handled visible editors change in 1.2619590000249445ms
+2025-09-28 23:28:24.119 [info] Handled visible editors change in 1.29101000004448ms
+2025-09-28 23:29:26.915 [info] Synced file backend/main.go modelVersion=11 in 420.2274309999775ms
+2025-09-28 23:29:27.620 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-09-28 23:29:27.801 [info] Fetched fsConfig in 181.0826169999782ms
+2025-09-28 23:29:27.801 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-09-28 23:29:27.801 [info] File sync enabled status: true
+2025-09-28 23:29:27.801 [info] Starting sync of visible tabs
+2025-09-28 23:29:27.994 [info] Uploaded file backend/main.go modelVersion=14 in 181.84966199984774ms
+2025-09-28 23:29:27.994 [info] Synced all visible tabs in 192.8301980001852ms
+2025-09-28 23:29:28.225 [info] Synced file backend/main.go modelVersion=14 in 181.9081409999635ms
+2025-09-28 23:29:28.847 [info] Synced file backend/main.go modelVersion=15 in 179.20436700014398ms
+2025-09-28 23:29:29.833 [info] Synced file backend/main.go modelVersion=16 in 178.00047900015488ms
+2025-09-28 23:31:57.737 [info] Handled visible editors change in 0.42139800009317696ms
+2025-09-28 23:31:58.585 [info] Uploaded file frontend/src/components/Portfolio.svelte modelVersion=45 in 546.053593999939ms
+2025-09-28 23:31:58.585 [info] Handled visible editors change in 826.3952220000792ms
+2025-09-28 23:32:55.467 [info] Handled visible editors change in 0.5306059999857098ms
+2025-09-28 23:32:55.488 [info] Handled visible editors change in 0.8215680001303554ms
+2025-09-28 23:32:59.818 [info] Handled visible editors change in 0.5788700000848621ms
+2025-09-28 23:32:59.837 [info] Handled visible editors change in 0.7056319999974221ms
+2025-09-28 23:33:14.780 [info] Synced file frontend/src/components/Portfolio.svelte modelVersion=46 in 288.1400180000346ms
+2025-09-28 23:33:15.470 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-09-28 23:33:15.651 [info] Fetched fsConfig in 180.23600000003353ms
+2025-09-28 23:33:15.651 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-09-28 23:33:15.651 [info] File sync enabled status: true
+2025-09-28 23:33:15.651 [info] Starting sync of visible tabs
+2025-09-28 23:33:15.651 [info] Synced all visible tabs in 0.1149339999537915ms
+2025-09-28 23:35:08.421 [info] Handled visible editors change in 0.9669329999014735ms
+2025-09-28 23:35:09.135 [info] Uploaded file backend/main.go modelVersion=16 in 567.4434020000044ms
+2025-09-28 23:35:09.135 [info] Handled visible editors change in 683.6891550000291ms
+2025-09-28 23:37:51.918 [info] Synced file backend/main.go modelVersion=18 in 220.97662799991667ms
+2025-09-28 23:37:52.657 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-09-28 23:37:52.695 [info] Synced file backend/main.go modelVersion=19 in 176.29023899999447ms
+2025-09-28 23:37:52.838 [info] Fetched fsConfig in 180.58712000004016ms
+2025-09-28 23:37:52.838 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-09-28 23:37:52.838 [info] File sync enabled status: true
+2025-09-28 23:37:52.838 [info] Starting sync of visible tabs
+2025-09-28 23:37:52.839 [info] Synced all visible tabs in 0.3258680000435561ms
+2025-09-28 23:37:53.654 [info] Synced file backend/main.go modelVersion=20 in 179.72204699995928ms
+2025-09-28 23:38:24.269 [info] Synced file backend/main.go modelVersion=21 in 178.255829999689ms
+2025-09-28 23:38:24.650 [info] Synced file backend/main.go modelVersion=22 in 177.2547319997102ms
+2025-09-28 23:38:25.319 [info] Synced file backend/main.go modelVersion=23 in 180.10381700005382ms
+2025-09-28 23:38:34.539 [info] Synced file backend/main.go modelVersion=24 in 179.35310099972412ms
+2025-09-28 23:38:58.670 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-09-28 23:38:58.851 [info] Fetched fsConfig in 181.3704439997673ms
+2025-09-28 23:38:58.851 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-09-28 23:38:58.851 [info] File sync enabled status: true
+2025-09-28 23:38:58.851 [info] Starting sync of visible tabs
+2025-09-28 23:38:58.851 [info] Synced all visible tabs in 0.07698399992659688ms
+2025-09-28 23:38:59.983 [info] Synced file backend/main.go modelVersion=25 in 178.33271399978548ms
+2025-09-28 23:39:17.288 [info] Synced file backend/main.go modelVersion=27 in 179.55622100038454ms
+2025-09-28 23:39:18.097 [info] Synced file backend/main.go modelVersion=28 in 176.92861799988896ms
+2025-09-28 23:44:20.224 [info] Handled visible editors change in 0.4406570000573993ms
+2025-09-28 23:44:20.889 [info] Uploaded file docker-compose.yml modelVersion=1 in 564.2062650001608ms
+2025-09-28 23:44:20.890 [info] Handled visible editors change in 629.017343999818ms
+2025-09-28 23:47:45.632 [info] Handled visible editors change in 1.1978810001164675ms
+2025-09-28 23:47:46.336 [info] Uploaded file frontend/src/components/Portfolio.svelte modelVersion=46 in 551.0506970002316ms
+2025-09-28 23:47:46.337 [info] Handled visible editors change in 668.1416990002617ms
+2025-09-28 23:48:33.944 [info] Handled visible editors change in 1.0204249997623265ms
+2025-09-28 23:48:34.223 [info] Uploaded file frontend/src/pages/index.astro modelVersion=1 in 181.0564149999991ms
+2025-09-28 23:48:34.223 [info] Handled visible editors change in 252.80388699984178ms
+2025-09-28 23:48:36.676 [info] Handled visible editors change in 0.9330049999989569ms
+2025-09-28 23:48:36.701 [info] Handled visible editors change in 0.7300720000639558ms
+2025-09-28 23:48:40.728 [info] Handled visible editors change in 0.9552570004016161ms
+2025-09-28 23:48:41.028 [info] Uploaded file backend/main.go modelVersion=28 in 178.09787400020286ms
+2025-09-28 23:48:41.028 [info] Handled visible editors change in 278.7399800000712ms
+2025-09-28 23:50:19.263 [info] Synced file backend/main.go modelVersion=29 in 176.6643819999881ms
+2025-09-28 23:50:19.388 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-09-28 23:50:19.568 [info] Fetched fsConfig in 180.146033000201ms
+2025-09-28 23:50:19.568 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-09-28 23:50:19.569 [info] File sync enabled status: true
+2025-09-28 23:50:19.569 [info] Starting sync of visible tabs
+2025-09-28 23:50:19.758 [info] Uploaded file backend/main.go modelVersion=32 in 179.863925000187ms
+2025-09-28 23:50:19.758 [info] Synced all visible tabs in 189.8097040001303ms
+2025-09-28 23:50:19.964 [info] Synced file backend/main.go modelVersion=32 in 176.57800500001758ms
+2025-09-28 23:50:20.495 [info] Synced file backend/main.go modelVersion=33 in 178.56034599989653ms
+2025-09-28 23:50:22.676 [info] Synced file backend/main.go modelVersion=34 in 181.8944100001827ms
+2025-09-28 23:50:24.283 [info] Synced file backend/main.go modelVersion=35 in 179.26422199979424ms
+2025-09-28 23:50:24.866 [info] Synced file backend/main.go modelVersion=44 in 180.7422660002485ms
+2025-09-28 23:50:25.690 [info] Synced file backend/main.go modelVersion=45 in 179.90599399991333ms
+2025-09-28 23:50:25.964 [info] Synced file backend/main.go modelVersion=46 in 180.64639799995348ms
+2025-09-28 23:50:27.007 [info] Synced file backend/main.go modelVersion=54 in 178.92799799982458ms
+2025-09-28 23:50:27.921 [info] Synced file backend/main.go modelVersion=56 in 178.4213739996776ms
+2025-09-28 23:50:28.857 [info] Synced file backend/main.go modelVersion=57 in 176.47500299988315ms
+2025-09-28 23:50:29.116 [info] Synced file backend/main.go modelVersion=58 in 177.9413919998333ms
+2025-09-28 23:50:29.591 [info] Synced file backend/main.go modelVersion=59 in 208.48259099991992ms
+2025-09-28 23:53:17.254 [info] Handled visible editors change in 0.8986829998902977ms
+2025-09-28 23:53:32.294 [info] Uploaded file /home/nico/.cursor/argv.json modelVersion=2 in 521.6053050002083ms
+2025-09-28 23:53:32.295 [info] Uploaded file /home/nico/.cursor/argv.json modelVersion=2 in 525.8979030000046ms
+2025-09-28 23:53:32.297 [info] Uploaded file /home/nico/.cursor/argv.json modelVersion=2 in 544.8126040003262ms
+2025-09-28 23:53:32.298 [info] Uploaded file /home/nico/.cursor/argv.json modelVersion=2 in 525.9867110000923ms
+2025-09-28 23:53:34.505 [info] Handled visible editors change in 0.7995279999449849ms

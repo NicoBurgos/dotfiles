@@ -1,0 +1,14 @@
+frontend/astro.config.mjs
+frontend/src/components/Portfolio.svelte
+frontend/package.json
+frontend/src/components/Chart.svelte
+docker-compose.yml
+db/init.sql
+backend/main.go
+backend/go.mod
+frontend/src/components/styles.css
+backend/Dockerfile
+frontend/src/pages/index.astro
+README.md
+frontend/src/utils/api.js
+frontend/Dockerfile

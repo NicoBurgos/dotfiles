@@ -1,0 +1,13 @@
+2025-09-22 18:46:47.237 [info] Using repo backend url https://repo42.cursor.sh
+2025-09-22 18:46:49.023 [info] Using repo backend url https://repo42.cursor.sh
+2025-09-22 18:46:49.699 [error] Failed to check if git graph is enabled [unimplemented] HTTP 404
+2025-09-22 18:51:49.874 [error] Failed to check if git graph is enabled [unimplemented] HTTP 404
+2025-09-22 18:56:49.899 [error] Failed to check if git graph is enabled [unimplemented] HTTP 404
+2025-09-22 19:01:49.878 [error] Failed to check if git graph is enabled [unimplemented] HTTP 404
+2025-09-22 19:06:49.877 [error] Failed to check if git graph is enabled [unimplemented] HTTP 404
+2025-09-22 19:11:49.875 [error] Failed to check if git graph is enabled [unimplemented] HTTP 404
+2025-09-22 19:16:49.879 [error] Failed to check if git graph is enabled [unimplemented] HTTP 404
+2025-09-22 19:21:49.880 [error] Failed to check if git graph is enabled [unimplemented] HTTP 404
+2025-09-22 19:26:49.884 [error] Failed to check if git graph is enabled [unimplemented] HTTP 404
+2025-09-22 19:31:49.881 [error] Failed to check if git graph is enabled [unimplemented] HTTP 404
+2025-09-22 19:36:49.883 [error] Failed to check if git graph is enabled [unimplemented] HTTP 404

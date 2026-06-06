@@ -1,0 +1,48 @@
+# Backups
+*.bak
+*.bak.*
+*~
+.*.swp
+.*.swo
+
+# Secrets
+Documentos/gh-credentials.txt
+Documentos/obsidian-git-token
+.git-credentials
+.gnupg/
+.ssh/
+
+# Runtime / state
+.initial_startup_done
+v[0-9]*
+profile.jpg
+.cache/
+go/pkg/mod/
+node_modules/
+__pycache__/
+*.pyc
+target/
+
+# Cursor editor caches (settings sí, caches no)
+Cursor/Cache/
+Cursor/CachedData/
+Cursor/GPUCache/
+Cursor/logs/
+Cursor/Code Cache/
+Cursor/DawnGraphiteCache/
+Cursor/DawnWebGPUCache/
+
+# Brave cache
+BraveSoftware/*/Cache/
+BraveSoftware/*/Code Cache/
+BraveSoftware/*/GPUCache/
+
+# Electron app caches
+*Cache_Data/
+*CachedData/
+*GPUCache/
+
+# Local state
+session/
+local/share/keyrings/
+local/share/gvfs-metadata/

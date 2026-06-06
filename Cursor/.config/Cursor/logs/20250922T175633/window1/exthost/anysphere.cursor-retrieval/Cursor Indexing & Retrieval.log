@@ -1,0 +1,49 @@
+2025-09-22 17:56:38.442 [error] Error getting repo info: Failed to execute git
+2025-09-22 17:56:38.442 [error] Error: Failed to execute git
+	at t.Git._exec (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:34408)
+	at async t.Git.exec (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:33531)
+	at async t.GitProvider.executeGitCommandStable (/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1488625)
+	at async t.GitProvider.getRepoInfo (/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1461494)
+2025-09-22 17:56:38.556 [warning] Failed to get symbolic ref: Failed to execute git
+2025-09-22 17:56:38.557 [warning] Failed to read .git/HEAD: A system error occurred (ENOENT: no such file or directory, open '.git/HEAD')
+2025-09-22 17:56:38.592 [warning] Failed to get branches from remote: Failed to execute git
+2025-09-22 17:56:38.599 [warning] Failed to get default branch from git config: Failed to execute git
+2025-09-22 17:56:38.668 [error] accessToken is undefined. User is not logged in. We shouldn't do any indexing.
+2025-09-22 18:06:37.008 [error] Error getting user commits: Failed to execute git
+2025-09-22 18:09:24.166 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-09-22 18:09:24.166 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-09-22 18:09:24.168 [error] NoWorkspaceUriError
+2025-09-22 18:11:37.006 [error] Error getting git status: Failed to execute git
+2025-09-22 18:11:37.006 [error] Error getting git status: Failed to execute git
+2025-09-22 18:12:37.107 [error] Error getting git status: Failed to execute git
+2025-09-22 18:12:40.013 [error] Error getting git status: Failed to execute git
+2025-09-22 18:13:19.477 [error] Error getting git status: Failed to execute git
+2025-09-22 18:13:19.478 [error] Error getting git status: Failed to execute git
+2025-09-22 18:16:37.037 [error] Error getting user commits: Failed to execute git
+2025-09-22 18:22:01.845 [error] Error getting git status: Failed to execute git
+2025-09-22 18:22:10.433 [error] Error getting git status: Failed to execute git
+2025-09-22 18:22:18.508 [error] Error getting git status: Failed to execute git
+2025-09-22 18:22:18.508 [error] Error getting git status: Failed to execute git
+2025-09-22 18:23:07.181 [error] Error getting git status: Failed to execute git
+2025-09-22 18:23:30.935 [error] Error getting git status: Failed to execute git
+2025-09-22 18:23:30.936 [error] Error getting git status: Failed to execute git
+2025-09-22 18:24:30.896 [error] Error getting git status: Failed to execute git
+2025-09-22 18:24:33.066 [error] Error getting git status: Failed to execute git
+2025-09-22 18:24:50.481 [error] Error getting git status: Failed to execute git
+2025-09-22 18:24:50.481 [error] Error getting git status: Failed to execute git
+2025-09-22 18:26:00.294 [error] Error getting git status: Failed to execute git
+2025-09-22 18:26:21.320 [error] Error getting git status: Failed to execute git
+2025-09-22 18:26:35.361 [error] Error getting git status: Failed to execute git
+2025-09-22 18:26:35.361 [error] Error getting git status: Failed to execute git
+2025-09-22 18:26:36.729 [error] Error getting user commits: Failed to execute git
+2025-09-22 18:27:47.277 [error] Error getting git status: Failed to execute git
+2025-09-22 18:27:51.457 [error] Error getting git status: Failed to execute git
+2025-09-22 18:28:30.016 [error] Error getting git status: Failed to execute git
+2025-09-22 18:28:30.016 [error] Error getting git status: Failed to execute git
+2025-09-22 18:28:51.761 [error] Error getting git status: Failed to execute git
+2025-09-22 18:29:12.213 [error] Error getting git status: Failed to execute git
+2025-09-22 18:29:12.213 [error] Error getting git status: Failed to execute git
+2025-09-22 18:36:37.036 [error] Error getting user commits: Failed to execute git
+2025-09-22 18:39:21.674 [error] Error getting git status: Failed to execute git
+2025-09-22 18:39:24.784 [error] Error getting git status: Failed to execute git
+2025-09-22 18:46:36.725 [error] Error getting user commits: Failed to execute git

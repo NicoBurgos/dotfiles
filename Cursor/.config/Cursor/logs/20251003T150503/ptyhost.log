@@ -1,0 +1,9 @@
+2025-10-03 15:05:06.021 [info] Revived process, old id 2132cf9cce240b26551e6fe5122bbec0-5 -> new id 1
+2025-10-03 15:05:06.022 [info] Revived process, old id 2132cf9cce240b26551e6fe5122bbec0-8 -> new id 2
+2025-10-03 15:05:06.097 [info] Expanding terminal instance, old id 2132cf9cce240b26551e6fe5122bbec0-7 -> new id undefined
+2025-10-03 15:05:06.097 [warning] Couldn't get layout info, a terminal was probably disconnected Could not find pty 7 on pty host
+2025-10-03 15:05:06.097 [info] Expanding terminal instance, old id 2132cf9cce240b26551e6fe5122bbec0-8 -> new id 2
+2025-10-03 15:05:06.560 [warning] Persistent process "2": Process had no disconnect runners but was an orphan
+2025-10-03 15:05:06.560 [info] Persistent process reconnection "2"
+2025-10-03 15:05:06.573 [error] Failed to set sticky bit on /tmp/nico-cursor-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/nico-cursor-zsh'
+2025-10-03 15:05:06.599 [info] Persistent process "2": Replaying 5096 chars and 1 size events

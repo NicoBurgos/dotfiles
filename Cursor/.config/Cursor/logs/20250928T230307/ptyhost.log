@@ -1,0 +1,2 @@
+2025-09-28 23:03:09.342 [info] Revived process, old id 1758574594676-2 -> new id 1
+2025-09-28 23:03:13.609 [error] Failed to set sticky bit on /tmp/nico-cursor-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/nico-cursor-zsh'

@@ -1,0 +1,146 @@
+2025-10-03 15:05:09.579 [info] Handling ListOfferings action, server stored: false
+2025-10-03 15:05:09.579 [error] No server info found
+2025-10-03 15:05:09.579 [info] Handling CreateClient action
+2025-10-03 15:05:09.579 [info] Starting new stdio process with command: npx -y mcp-remote@latest http://localhost:8000/mcp --allow-http --transport sse-only
+2025-10-03 15:05:11.259 [error] [13140] Using automatically selected callback port: 16442
+
+2025-10-03 15:05:11.260 [error] [13140] [13140] Connecting to remote server: http://localhost:8000/mcp
+[13140] Using transport strategy: http-first
+
+2025-10-03 15:05:11.317 [error] [13140] Received error: Error POSTing to endpoint (HTTP 405): {"detail":"Method Not Allowed"}
+[13140] Recursively reconnecting for reason: falling-back-to-alternate-transport
+[13140] [13140] Connecting to remote server: http://localhost:8000/mcp
+
+2025-10-03 15:05:11.317 [error] [13140] Using transport strategy: sse-only
+
+2025-10-03 15:05:11.327 [error] [13140] Connected to remote server using SSEClientTransport
+
+2025-10-03 15:05:11.327 [error] [13140] Local STDIO server running
+[13140] Proxy established successfully between local STDIO and remote SSEClientTransport
+
+2025-10-03 15:05:11.328 [error] [13140] Press Ctrl+C to exit
+
+2025-10-03 15:05:11.330 [error] [13140] [Local→Remote] initialize
+[13140] {
+  "jsonrpc": "2.0",
+  "id": 0,
+  "method": "initialize",
+  "params": {
+    "protocolVersion": "2025-06-18",
+    "capabilities": {
+      "tools": true,
+      "prompts": true,
+      "resources": true,
+      "logging": false,
+      "elicitation": {},
+      "roots": {
+        "listChanged": false
+      }
+    },
+    "clientInfo": {
+      "name": "cursor-vscode (via mcp-remote 0.1.29)",
+      "version": "1.0.0"
+    }
+  }
+}
+
+2025-10-03 15:05:11.336 [error] [13140] [Remote→Local] 0
+
+2025-10-03 15:05:11.339 [info] Successfully connected to stdio server
+2025-10-03 15:05:11.339 [info] Storing stdio client user-cupos
+2025-10-03 15:05:11.339 [info] CreateClient completed, server stored: true
+2025-10-03 15:05:11.339 [error] [13140] [Local→Remote] notifications/initialized
+
+2025-10-03 15:05:11.339 [error] [13140] [Local→Remote] notifications/initialized
+
+2025-10-03 15:05:11.339 [info] Handling ListOfferings action, server stored: true
+2025-10-03 15:05:11.340 [info] Connected to stdio server, fetching offerings
+2025-10-03 15:05:11.340 [info] Handling ListOfferings action, server stored: true
+2025-10-03 15:05:11.340 [info] Connected to stdio server, fetching offerings
+2025-10-03 15:05:11.341 [error] [13140] [Local→Remote] tools/list
+
+2025-10-03 15:05:11.341 [error] [13140] [Local→Remote] tools/list
+
+2025-10-03 15:05:11.341 [error] [13140] [Local→Remote] tools/list
+
+2025-10-03 15:05:11.341 [error] [13140] [Local→Remote] tools/list
+
+2025-10-03 15:05:11.405 [error] [13140] [Remote→Local] 1
+[13140] [Remote→Local] 2
+
+2025-10-03 15:05:11.405 [error] [13140] [Remote→Local] 1
+[13140] [Remote→Local] 2
+
+2025-10-03 15:05:11.409 [info] Found 130 tools, 0 prompts, and 0 resources
+2025-10-03 15:05:11.412 [info] Found 130 tools, 0 prompts, and 0 resources
+2025-10-03 15:06:03.855 [info] Handling ListOfferings action, server stored: false
+2025-10-03 15:06:03.855 [error] No server info found
+2025-10-03 15:06:03.855 [info] Handling CreateClient action
+2025-10-03 15:06:03.855 [info] Starting new stdio process with command: npx -y mcp-remote@latest http://localhost:8000/mcp --allow-http --transport sse-only
+2025-10-03 15:06:04.685 [error] [13701] Using automatically selected callback port: 16442
+[13701] [13701] Connecting to remote server: http://localhost:8000/mcp
+[13701] Using transport strategy: http-first
+
+2025-10-03 15:06:04.730 [error] [13701] Received error: Error POSTing to endpoint (HTTP 405): {"detail":"Method Not Allowed"}
+[13701] Recursively reconnecting for reason: falling-back-to-alternate-transport
+[13701] [13701] Connecting to remote server: http://localhost:8000/mcp
+[13701] Using transport strategy: sse-only
+
+2025-10-03 15:06:04.732 [error] [13701] Connected to remote server using SSEClientTransport
+[13701] Local STDIO server running
+[13701] Proxy established successfully between local STDIO and remote SSEClientTransport
+[13701] Press Ctrl+C to exit
+
+2025-10-03 15:06:04.734 [error] [13701] [Local→Remote] initialize
+[13701] {
+  "jsonrpc": "2.0",
+  "id": 0,
+  "method": "initialize",
+  "params": {
+    "protocolVersion": "2025-06-18",
+    "capabilities": {
+      "tools": true,
+      "prompts": true,
+      "resources": true,
+      "logging": false,
+      "elicitation": {},
+      "roots": {
+        "listChanged": false
+      }
+    },
+    "clientInfo": {
+      "name": "cursor-vscode (via mcp-remote 0.1.29)",
+      "version": "1.0.0"
+    }
+  }
+}
+
+2025-10-03 15:06:04.738 [error] [13701] [Remote→Local] 0
+
+2025-10-03 15:06:04.741 [info] Successfully connected to stdio server
+2025-10-03 15:06:04.741 [info] Storing stdio client user-cupos
+2025-10-03 15:06:04.741 [info] CreateClient completed, server stored: true
+2025-10-03 15:06:04.742 [error] [13701] [Local→Remote] notifications/initialized
+
+2025-10-03 15:06:04.742 [error] [13701] [Local→Remote] notifications/initialized
+
+2025-10-03 15:06:04.742 [info] Handling ListOfferings action, server stored: true
+2025-10-03 15:06:04.742 [info] Connected to stdio server, fetching offerings
+2025-10-03 15:06:04.742 [info] Handling ListOfferings action, server stored: true
+2025-10-03 15:06:04.743 [info] Connected to stdio server, fetching offerings
+2025-10-03 15:06:04.745 [error] [13701] [Local→Remote] tools/list
+[13701] [Local→Remote] tools/list
+
+2025-10-03 15:06:04.745 [error] [13701] [Local→Remote] tools/list
+[13701] [Local→Remote] tools/list
+
+2025-10-03 15:06:04.799 [error] [13701] [Remote→Local] 1
+
+2025-10-03 15:06:04.799 [error] [13701] [Remote→Local] 1
+
+2025-10-03 15:06:04.803 [info] Found 130 tools, 0 prompts, and 0 resources
+2025-10-03 15:06:04.823 [info] Found 130 tools, 0 prompts, and 0 resources
+2025-10-03 15:06:04.826 [error] [13701] [Remote→Local] 2
+
+2025-10-03 15:06:04.826 [error] [13701] [Remote→Local] 2
+

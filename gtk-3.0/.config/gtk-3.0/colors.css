@@ -1,0 +1,112 @@
+@define-color theme_bg_color #131218;
+@define-color theme_fg_color #F7DCDB;
+@define-color theme_accent #8F6E86;
+@define-color theme_accent_dark #A58A88;
+
+/* =================================================================== */
+/* Thunar                                                              */
+/* =================================================================== */
+.thunar window,
+.thunar view,
+.thunar textview,
+.thunar .sidebar,
+.thunar .sidebar view {
+    background-color: @theme_bg_color;
+    color: @theme_fg_color;
+}
+
+.thunar headerbar,
+.thunar toolbar,
+.thunar menubar {
+    background-color: @theme_bg_color;
+    color: @theme_fg_color;
+    border: none;
+}
+
+.thunar entry {
+    background-color: @theme_accent_dark;
+    color: @theme_fg_color;
+    caret-color: @theme_fg_color;
+    border: 1px solid @theme_accent;
+}
+
+.thunar *:selected,
+.thunar row:selected,
+.thunar view:selected {
+    background-color: @theme_accent;
+    color: @theme_bg_color;
+}
+
+/* =================================================================== */
+/* Nemo                                                                */
+/* =================================================================== */
+.nemo-window,
+.nemo-window > .background,
+.nemo-window .view,
+.nemo-window iconview,
+.nemo-window .nemo-canvas-container,
+.nemo-window .nemo-canvas-item,
+.nemo-window .nemo-places-sidebar,
+.nemo-window .nemo-places-sidebar viewport,
+.nemo-window .sidebar,
+.nemo-window .sidebar view,
+.nemo-window GtkScrolledWindow,
+.nemo-window paned > box {
+    background-color: @theme_bg_color;
+    color: @theme_fg_color;
+}
+
+.nemo-window headerbar,
+.nemo-window .titlebar,
+.nemo-window toolbar,
+.nemo-window menubar,
+.nemo-window .nemo-pathbar {
+    background-color: @theme_bg_color;
+    color: @theme_fg_color;
+    border: none;
+}
+
+.nemo-window entry,
+.nemo-location-entry,
+.nemo-window .path-bar entry,
+.nemo-window .nemo-entry {
+    background-color: @theme_accent_dark;
+    color: @theme_fg_color;
+    caret-color: @theme_fg_color;
+    border: 1px solid @theme_accent;
+}
+
+.nemo-window *:selected,
+.nemo-window row:selected,
+.nemo-window .view:selected,
+.nemo-window iconview:selected,
+.nemo-window flowbox flowboxchild:selected,
+.nemo-window .nemo-places-sidebar row:selected,
+.nemo-window list row:selected {
+    background-color: @theme_accent;
+    color: @theme_bg_color;
+}
+
+.nemo-window .nemo-places-sidebar row:hover {
+  background-color: shade(@theme_accent, 1.2);
+  color: @theme_bg_color;
+}
+
+.nemo-window notebook > header > tabs > tab:checked,
+.nemo-window .nemo-tab-label:checked {
+    background-color: @theme_accent_dark;
+    color: @theme_fg_color;
+}
+
+.nemo-window statusbar,
+.nemo-window .statusbar {
+    background-color: shade(@theme_bg_color, 0.95);
+    color: @theme_fg_color;
+    border-top: 1px solid @theme_accent_dark;
+}
+
+.nemo-window .nemo-properties-dialog,
+.nemo-window .nemo-properties-window {
+    background-color: @theme_bg_color;
+    color: @theme_fg_color;
+}

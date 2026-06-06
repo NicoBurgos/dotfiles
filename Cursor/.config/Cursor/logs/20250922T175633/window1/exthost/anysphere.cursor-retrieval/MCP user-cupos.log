@@ -1,0 +1,719 @@
+2025-09-22 18:01:51.733 [info] Handling CreateClient action
+2025-09-22 18:01:51.733 [info] Starting new stdio process with command: npx -y mcp-remote@latest http://localhost:8000/mcp --allow-http --transport sse-only
+2025-09-22 18:01:51.733 [info] Handling CreateClient action
+2025-09-22 18:01:51.733 [info] Starting new stdio process with command: npx -y mcp-remote@latest http://localhost:8000/mcp --allow-http --transport sse-only
+2025-09-22 18:01:58.705 [error] [55484] Using automatically selected callback port: 16442
+
+2025-09-22 18:01:58.706 [error] [55484] [55484] Connecting to remote server: http://localhost:8000/mcp
+
+2025-09-22 18:01:58.706 [error] [55484] Using transport strategy: http-first
+
+2025-09-22 18:01:58.754 [error] [55491] Using automatically selected callback port: 16442
+
+2025-09-22 18:01:58.755 [error] [55491] [55491] Connecting to remote server: http://localhost:8000/mcp
+[55491] Using transport strategy: http-first
+
+2025-09-22 18:01:58.766 [error] [55484] Received error: Error POSTing to endpoint (HTTP 405): {"detail":"Method Not Allowed"}
+[55484] Recursively reconnecting for reason: falling-back-to-alternate-transport
+[55484] [55484] Connecting to remote server: http://localhost:8000/mcp
+
+2025-09-22 18:01:58.766 [error] [55484] Using transport strategy: sse-only
+
+2025-09-22 18:01:58.776 [error] [55484] Connected to remote server using SSEClientTransport
+
+2025-09-22 18:01:58.777 [error] [55484] Local STDIO server running
+[55484] Proxy established successfully between local STDIO and remote SSEClientTransport
+
+2025-09-22 18:01:58.777 [error] [55484] Press Ctrl+C to exit
+
+2025-09-22 18:01:58.779 [error] [55484] [Local→Remote] initialize
+[55484] {
+  "jsonrpc": "2.0",
+  "id": 0,
+  "method": "initialize",
+  "params": {
+    "protocolVersion": "2025-06-18",
+    "capabilities": {
+      "tools": true,
+      "prompts": true,
+      "resources": true,
+      "logging": false,
+      "elicitation": {},
+      "roots": {
+        "listChanged": false
+      }
+    },
+    "clientInfo": {
+      "name": "cursor-vscode (via mcp-remote 0.1.29)",
+      "version": "1.0.0"
+    }
+  }
+}
+
+2025-09-22 18:01:58.786 [error] [55484] [Remote→Local] 0
+
+2025-09-22 18:01:58.790 [info] Successfully connected to stdio server
+2025-09-22 18:01:58.790 [info] Storing stdio client user-cupos
+2025-09-22 18:01:58.790 [info] CreateClient completed, server stored: true
+2025-09-22 18:01:58.790 [error] [55484] [Local→Remote] notifications/initialized
+
+2025-09-22 18:01:58.790 [error] [55484] [Local→Remote] notifications/initialized
+
+2025-09-22 18:01:58.791 [info] Handling ListOfferings action, server stored: true
+2025-09-22 18:01:58.791 [info] Connected to stdio server, fetching offerings
+2025-09-22 18:01:58.791 [info] Handling ListOfferings action, server stored: true
+2025-09-22 18:01:58.791 [info] Connected to stdio server, fetching offerings
+2025-09-22 18:01:58.792 [error] [55484] [Local→Remote] tools/list
+
+2025-09-22 18:01:58.792 [error] [55484] [Local→Remote] tools/list
+
+2025-09-22 18:01:58.792 [error] [55484] [Local→Remote] tools/list
+
+2025-09-22 18:01:58.792 [error] [55484] [Local→Remote] tools/list
+
+2025-09-22 18:01:58.854 [error] [55484] [Remote→Local] 1
+
+2025-09-22 18:01:58.854 [error] [55484] [Remote→Local] 1
+
+2025-09-22 18:01:58.860 [info] Found 133 tools, 0 prompts, and 0 resources
+2025-09-22 18:01:58.864 [info] Found 133 tools, 0 prompts, and 0 resources
+2025-09-22 18:01:58.865 [error] [55484] [Remote→Local] 2
+
+2025-09-22 18:01:58.865 [error] [55484] [Remote→Local] 2
+
+2025-09-22 18:01:58.866 [error] [55491] Received error: Error POSTing to endpoint (HTTP 405): {"detail":"Method Not Allowed"}
+[55491] Recursively reconnecting for reason: falling-back-to-alternate-transport
+[55491] [55491] Connecting to remote server: http://localhost:8000/mcp
+[55491] Using transport strategy: sse-only
+
+2025-09-22 18:01:58.870 [error] [55491] Connected to remote server using SSEClientTransport
+
+2025-09-22 18:01:58.870 [error] [55491] Local STDIO server running
+
+2025-09-22 18:01:58.870 [error] [55491] Proxy established successfully between local STDIO and remote SSEClientTransport
+[55491] Press Ctrl+C to exit
+
+2025-09-22 18:01:58.872 [error] [55491] [Local→Remote] initialize
+[55491] {
+  "jsonrpc": "2.0",
+  "id": 0,
+  "method": "initialize",
+  "params": {
+    "protocolVersion": "2025-06-18",
+    "capabilities": {
+      "tools": true,
+      "prompts": true,
+      "resources": true,
+      "logging": false,
+      "elicitation": {},
+      "roots": {
+        "listChanged": false
+      }
+    },
+    "clientInfo": {
+      "name": "cursor-vscode (via mcp-remote 0.1.29)",
+      "version": "1.0.0"
+    }
+  }
+}
+
+2025-09-22 18:01:58.877 [error] [55491] [Remote→Local] 0
+
+2025-09-22 18:01:58.878 [info] Successfully connected to stdio server
+2025-09-22 18:01:58.878 [info] A second client was created while connecting, discarding it.
+2025-09-22 18:01:58.878 [info] CreateClient completed, server stored: true
+2025-09-22 18:01:58.878 [error] [55491] [Local→Remote] notifications/initialized
+
+2025-09-22 18:01:58.878 [error] [55491] [Local→Remote] notifications/initialized
+
+2025-09-22 18:01:58.878 [info] Handling ListOfferings action, server stored: true
+2025-09-22 18:01:58.878 [info] Connected to stdio server, fetching offerings
+2025-09-22 18:01:58.878 [info] Handling ListOfferings action, server stored: true
+2025-09-22 18:01:58.878 [info] Connected to stdio server, fetching offerings
+2025-09-22 18:01:58.879 [error] [55484] [Local→Remote] tools/list
+
+2025-09-22 18:01:58.879 [error] [55484] [Local→Remote] tools/list
+
+2025-09-22 18:01:58.879 [error] [55484] [Local→Remote] tools/list
+
+2025-09-22 18:01:58.879 [error] [55484] [Local→Remote] tools/list
+
+2025-09-22 18:01:58.935 [error] [55484] [Remote→Local] 3
+
+2025-09-22 18:01:58.935 [error] [55484] [Remote→Local] 3
+
+2025-09-22 18:01:58.938 [info] Found 133 tools, 0 prompts, and 0 resources
+2025-09-22 18:01:58.941 [info] Found 133 tools, 0 prompts, and 0 resources
+2025-09-22 18:01:58.942 [error] [55484] [Remote→Local] 4
+
+2025-09-22 18:01:58.942 [error] [55484] [Remote→Local] 4
+
+2025-09-22 18:03:05.747 [info] Handling CreateClient action
+2025-09-22 18:03:05.747 [info] CreateClient completed, server stored: true
+2025-09-22 18:03:05.748 [info] Handling CreateClient action
+2025-09-22 18:03:05.748 [info] CreateClient completed, server stored: true
+2025-09-22 18:03:05.749 [info] Handling ListOfferings action, server stored: true
+2025-09-22 18:03:05.749 [info] Connected to stdio server, fetching offerings
+2025-09-22 18:03:05.749 [info] Handling ListOfferings action, server stored: true
+2025-09-22 18:03:05.749 [info] Connected to stdio server, fetching offerings
+2025-09-22 18:03:05.750 [info] Handling ListOfferings action, server stored: true
+2025-09-22 18:03:05.750 [info] Connected to stdio server, fetching offerings
+2025-09-22 18:03:05.750 [info] Handling ListOfferings action, server stored: true
+2025-09-22 18:03:05.751 [info] Connected to stdio server, fetching offerings
+2025-09-22 18:03:05.751 [error] [55484] [Local→Remote] tools/list
+
+2025-09-22 18:03:05.751 [error] [55484] [Local→Remote] tools/list
+
+2025-09-22 18:03:05.751 [error] [55484] [Local→Remote] tools/list
+
+2025-09-22 18:03:05.752 [error] [55484] [Local→Remote] tools/list
+
+2025-09-22 18:03:05.752 [error] [55484] [Local→Remote] tools/list
+
+2025-09-22 18:03:05.752 [error] [55484] [Local→Remote] tools/list
+
+2025-09-22 18:03:05.752 [error] [55484] [Local→Remote] tools/list
+
+2025-09-22 18:03:05.752 [error] [55484] [Local→Remote] tools/list
+
+2025-09-22 18:03:05.863 [error] [55484] [Remote→Local] 5
+
+2025-09-22 18:03:05.863 [error] [55484] [Remote→Local] 5
+
+2025-09-22 18:03:05.865 [info] Found 133 tools, 0 prompts, and 0 resources
+2025-09-22 18:03:05.887 [error] [55484] [Remote→Local] 7
+
+2025-09-22 18:03:05.887 [error] [55484] [Remote→Local] 7
+
+2025-09-22 18:03:05.890 [info] Found 133 tools, 0 prompts, and 0 resources
+2025-09-22 18:03:05.894 [error] [55484] [Remote→Local] 6
+
+2025-09-22 18:03:05.894 [error] [55484] [Remote→Local] 6
+
+2025-09-22 18:03:05.897 [info] Found 133 tools, 0 prompts, and 0 resources
+2025-09-22 18:03:05.899 [info] Found 133 tools, 0 prompts, and 0 resources
+2025-09-22 18:03:05.900 [error] [55484] [Remote→Local] 8
+
+2025-09-22 18:03:05.900 [error] [55484] [Remote→Local] 8
+
+2025-09-22 18:06:45.835 [error] [55484] Error from remote server: SseError: SSE error: TypeError: terminated: other side closed
+    at _eventSource.onerror (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13096:23)
+    at EventSource.scheduleReconnect_fn (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13000:53)
+    at file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:12850:174
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: undefined,
+  event: {
+    type: 'error',
+    message: 'TypeError: terminated: other side closed',
+    code: undefined,
+    defaultPrevented: false,
+    cancelable: false,
+    timeStamp: 287318.968439
+  }
+}
+
+2025-09-22 18:06:45.836 [error] [55484] Error from remote server: SseError: SSE error: TypeError: terminated: other side closed
+    at _eventSource.onerror (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13096:23)
+    at EventSource.scheduleReconnect_fn (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13000:53)
+    at file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:12850:174
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: undefined,
+  event: {
+    type: 'error',
+    message: 'TypeError: terminated: other side closed',
+    code: undefined,
+    defaultPrevented: false,
+    cancelable: false,
+    timeStamp: 287318.968439
+  }
+}
+
+2025-09-22 18:10:15.985 [info] Handling CallTool action for tool 'get_estadisticas_v1_api_estadisticas_get'
+2025-09-22 18:10:15.985 [info] Calling tool 'get_estadisticas_v1_api_estadisticas_get' with toolCallId: call_PeBpahZ8zjc2HxtiFlYzeacA
+fc_68d1bb1a9e188193b906b0bd3b1c6f47036faac44f6a8a48
+2025-09-22 18:10:15.986 [error] [55484] [Local→Remote] tools/call
+
+2025-09-22 18:10:15.986 [error] [55484] [Local→Remote] tools/call
+
+2025-09-22 18:10:15.994 [error] [55484] [Remote→Local] 9
+
+2025-09-22 18:10:15.994 [error] [55484] [Remote→Local] 9
+
+2025-09-22 18:10:15.995 [error] Error calling tool 'get_estadisticas_v1_api_estadisticas_get': MCP error -32602: Invalid request parameters
+2025-09-22 18:10:35.439 [info] Handling CallTool action for tool 'get_datos_aux_v1_api_comisiones_aux_get'
+2025-09-22 18:10:35.439 [info] Calling tool 'get_datos_aux_v1_api_comisiones_aux_get' with toolCallId: call_6isy3cm8vJWedBygsC5ac8Gw
+fc_68d1bb47988c819392723233c089e554036faac44f6a8a48
+2025-09-22 18:10:35.439 [error] [55484] [Local→Remote] tools/call
+
+2025-09-22 18:10:35.439 [error] [55484] [Local→Remote] tools/call
+
+2025-09-22 18:10:35.445 [error] [55484] [Remote→Local] 10
+
+2025-09-22 18:10:35.445 [error] [55484] [Remote→Local] 10
+
+2025-09-22 18:10:35.445 [error] Error calling tool 'get_datos_aux_v1_api_comisiones_aux_get': MCP error -32602: Invalid request parameters
+2025-09-22 18:10:45.603 [info] Handling CallTool action for tool 'get_datos_aux_v1_api_solicitudes_practica_aux_get'
+2025-09-22 18:10:45.603 [info] Calling tool 'get_datos_aux_v1_api_solicitudes_practica_aux_get' with toolCallId: call_qooHrG8giPT4adsvkJNBkrpv
+fc_68d1bb5262388193a9549c1bc4bf28c1036faac44f6a8a48
+2025-09-22 18:10:45.603 [error] [55484] [Local→Remote] tools/call
+
+2025-09-22 18:10:45.603 [error] [55484] [Local→Remote] tools/call
+
+2025-09-22 18:10:45.609 [error] [55484] [Remote→Local] 11
+
+2025-09-22 18:10:45.609 [error] [55484] [Remote→Local] 11
+
+2025-09-22 18:10:45.609 [error] Error calling tool 'get_datos_aux_v1_api_solicitudes_practica_aux_get': MCP error -32602: Invalid request parameters
+2025-09-22 18:11:27.279 [info] Handling CallTool action for tool 'login_auth_login_post'
+2025-09-22 18:11:27.279 [info] Calling tool 'login_auth_login_post' with toolCallId: call_6c4Y0vL9tNCOIqjGlRbodF13
+fc_68d1bb7a270081988e1a1fcd5ecf78860c925ffe443f4b39
+2025-09-22 18:11:27.280 [error] [55484] [Local→Remote] tools/call
+
+2025-09-22 18:11:27.280 [error] [55484] [Local→Remote] tools/call
+
+2025-09-22 18:11:27.285 [error] [55484] [Remote→Local] 12
+
+2025-09-22 18:11:27.285 [error] [55484] [Remote→Local] 12
+
+2025-09-22 18:11:27.285 [error] Error calling tool 'login_auth_login_post': MCP error -32602: Invalid request parameters
+2025-09-22 18:13:00.976 [info] Handling CallTool action for tool 'login_auth_login_post'
+2025-09-22 18:13:00.976 [info] Calling tool 'login_auth_login_post' with toolCallId: call_6vRQviGTjIkJ5SEIJjyEMHz4
+fc_68d1bbd1c870819797138c70e93ad894008aa27338cec74c
+2025-09-22 18:13:00.976 [error] [55484] [Local→Remote] tools/call
+
+2025-09-22 18:13:00.976 [error] [55484] [Local→Remote] tools/call
+
+2025-09-22 18:13:00.981 [error] [55484] [Remote→Local] 13
+
+2025-09-22 18:13:00.981 [error] [55484] [Remote→Local] 13
+
+2025-09-22 18:13:00.981 [error] Error calling tool 'login_auth_login_post': MCP error -32602: Invalid request parameters
+2025-09-22 18:13:05.890 [info] Handling CallTool action for tool 'get_datos_aux_v1_api_comisiones_aux_get'
+2025-09-22 18:13:05.890 [info] Calling tool 'get_datos_aux_v1_api_comisiones_aux_get' with toolCallId: call_CzU2gZkwSHNlzJm6l6klnOOo
+fc_68d1bbd1f54c819780a77800f21f148a008aa27338cec74c
+2025-09-22 18:13:05.891 [error] [55484] [Local→Remote] tools/call
+
+2025-09-22 18:13:05.891 [error] [55484] [Local→Remote] tools/call
+
+2025-09-22 18:13:05.895 [error] [55484] [Remote→Local] 14
+
+2025-09-22 18:13:05.895 [error] [55484] [Remote→Local] 14
+
+2025-09-22 18:13:05.895 [error] Error calling tool 'get_datos_aux_v1_api_comisiones_aux_get': MCP error -32602: Invalid request parameters
+2025-09-22 18:17:46.789 [error] [55484] Error from remote server: SseError: SSE error: TypeError: terminated: other side closed
+    at _eventSource.onerror (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13096:23)
+    at EventSource.scheduleReconnect_fn (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13000:53)
+    at file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:12850:174
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: undefined,
+  event: {
+    type: 'error',
+    message: 'TypeError: terminated: other side closed',
+    code: undefined,
+    defaultPrevented: false,
+    cancelable: false,
+    timeStamp: 948272.006086
+  }
+}
+
+2025-09-22 18:17:46.789 [error] [55484] Error from remote server: SseError: SSE error: TypeError: terminated: other side closed
+    at _eventSource.onerror (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13096:23)
+    at EventSource.scheduleReconnect_fn (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13000:53)
+    at file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:12850:174
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: undefined,
+  event: {
+    type: 'error',
+    message: 'TypeError: terminated: other side closed',
+    code: undefined,
+    defaultPrevented: false,
+    cancelable: false,
+    timeStamp: 948272.006086
+  }
+}
+
+2025-09-22 18:20:33.099 [error] [55484] Error from remote server: SseError: SSE error: TypeError: terminated: other side closed
+    at _eventSource.onerror (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13096:23)
+    at EventSource.scheduleReconnect_fn (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13000:53)
+    at file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:12850:174
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: undefined,
+  event: {
+    type: 'error',
+    message: 'TypeError: terminated: other side closed',
+    code: undefined,
+    defaultPrevented: false,
+    cancelable: false,
+    timeStamp: 1114582.454408
+  }
+}
+
+2025-09-22 18:20:33.099 [error] [55484] Error from remote server: SseError: SSE error: TypeError: terminated: other side closed
+    at _eventSource.onerror (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13096:23)
+    at EventSource.scheduleReconnect_fn (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13000:53)
+    at file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:12850:174
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: undefined,
+  event: {
+    type: 'error',
+    message: 'TypeError: terminated: other side closed',
+    code: undefined,
+    defaultPrevented: false,
+    cancelable: false,
+    timeStamp: 1114582.454408
+  }
+}
+
+2025-09-22 18:20:36.104 [error] [55484] Error from remote server: SseError: SSE error: TypeError: fetch failed: connect ECONNREFUSED ::1:8000, connect ECONNREFUSED 127.0.0.1:8000
+    at _eventSource.onerror (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13096:23)
+    at EventSource.scheduleReconnect_fn (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13000:53)
+    at file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:12850:174
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: undefined,
+  event: {
+    type: 'error',
+    message: 'TypeError: fetch failed: connect ECONNREFUSED ::1:8000, connect ECONNREFUSED 127.0.0.1:8000',
+    code: undefined,
+    defaultPrevented: false,
+    cancelable: false,
+    timeStamp: 1117587.887435
+  }
+}
+
+2025-09-22 18:20:36.104 [error] [55484] Error from remote server: SseError: SSE error: TypeError: fetch failed: connect ECONNREFUSED ::1:8000, connect ECONNREFUSED 127.0.0.1:8000
+    at _eventSource.onerror (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13096:23)
+    at EventSource.scheduleReconnect_fn (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13000:53)
+    at file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:12850:174
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: undefined,
+  event: {
+    type: 'error',
+    message: 'TypeError: fetch failed: connect ECONNREFUSED ::1:8000, connect ECONNREFUSED 127.0.0.1:8000',
+    code: undefined,
+    defaultPrevented: false,
+    cancelable: false,
+    timeStamp: 1117587.887435
+  }
+}
+
+2025-09-22 18:20:39.113 [error] [55484] Error from remote server: SseError: SSE error: TypeError: fetch failed: connect ECONNREFUSED ::1:8000, connect ECONNREFUSED 127.0.0.1:8000
+    at _eventSource.onerror (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13096:23)
+    at EventSource.scheduleReconnect_fn (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13000:53)
+    at file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:12850:174
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: undefined,
+  event: {
+    type: 'error',
+    message: 'TypeError: fetch failed: connect ECONNREFUSED ::1:8000, connect ECONNREFUSED 127.0.0.1:8000',
+    code: undefined,
+    defaultPrevented: false,
+    cancelable: false,
+    timeStamp: 1120596.37825
+  }
+}
+
+2025-09-22 18:20:39.113 [error] [55484] Error from remote server: SseError: SSE error: TypeError: fetch failed: connect ECONNREFUSED ::1:8000, connect ECONNREFUSED 127.0.0.1:8000
+    at _eventSource.onerror (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13096:23)
+    at EventSource.scheduleReconnect_fn (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13000:53)
+    at file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:12850:174
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: undefined,
+  event: {
+    type: 'error',
+    message: 'TypeError: fetch failed: connect ECONNREFUSED ::1:8000, connect ECONNREFUSED 127.0.0.1:8000',
+    code: undefined,
+    defaultPrevented: false,
+    cancelable: false,
+    timeStamp: 1120596.37825
+  }
+}
+
+2025-09-22 18:20:42.122 [error] [55484] Error from remote server: SseError: SSE error: TypeError: fetch failed: connect ECONNREFUSED ::1:8000, connect ECONNREFUSED 127.0.0.1:8000
+    at _eventSource.onerror (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13096:23)
+    at EventSource.scheduleReconnect_fn (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13000:53)
+    at file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:12850:174
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: undefined,
+  event: {
+    type: 'error',
+    message: 'TypeError: fetch failed: connect ECONNREFUSED ::1:8000, connect ECONNREFUSED 127.0.0.1:8000',
+    code: undefined,
+    defaultPrevented: false,
+    cancelable: false,
+    timeStamp: 1123605.474908
+  }
+}
+
+2025-09-22 18:20:42.122 [error] [55484] Error from remote server: SseError: SSE error: TypeError: fetch failed: connect ECONNREFUSED ::1:8000, connect ECONNREFUSED 127.0.0.1:8000
+    at _eventSource.onerror (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13096:23)
+    at EventSource.scheduleReconnect_fn (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13000:53)
+    at file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:12850:174
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: undefined,
+  event: {
+    type: 'error',
+    message: 'TypeError: fetch failed: connect ECONNREFUSED ::1:8000, connect ECONNREFUSED 127.0.0.1:8000',
+    code: undefined,
+    defaultPrevented: false,
+    cancelable: false,
+    timeStamp: 1123605.474908
+  }
+}
+
+2025-09-22 18:20:45.127 [error] [55484] Error from remote server: SseError: SSE error: TypeError: fetch failed: read ECONNRESET
+    at _eventSource.onerror (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13096:23)
+    at EventSource.scheduleReconnect_fn (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13000:53)
+    at file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:12850:174 {
+  code: undefined,
+  event: {
+    type: 'error',
+    message: 'TypeError: fetch failed: read ECONNRESET',
+    code: undefined,
+    defaultPrevented: false,
+    cancelable: false,
+    timeStamp: 1126610.780096
+  }
+}
+
+2025-09-22 18:20:45.127 [error] [55484] Error from remote server: SseError: SSE error: TypeError: fetch failed: read ECONNRESET
+    at _eventSource.onerror (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13096:23)
+    at EventSource.scheduleReconnect_fn (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13000:53)
+    at file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:12850:174 {
+  code: undefined,
+  event: {
+    type: 'error',
+    message: 'TypeError: fetch failed: read ECONNRESET',
+    code: undefined,
+    defaultPrevented: false,
+    cancelable: false,
+    timeStamp: 1126610.780096
+  }
+}
+
+2025-09-22 18:22:15.013 [info] Handling CallTool action for tool 'login_auth_login_post'
+2025-09-22 18:22:15.013 [info] Calling tool 'login_auth_login_post' with toolCallId: tool_bbbee152-bd54-41c4-9efd-3c3e7715a41
+2025-09-22 18:22:15.014 [error] [55484] [Local→Remote] tools/call
+
+2025-09-22 18:22:15.015 [error] [55484] [Local→Remote] tools/call
+
+2025-09-22 18:22:15.026 [error] [55484] [Remote→Local] 15
+
+2025-09-22 18:22:15.027 [error] [55484] [Remote→Local] 15
+
+2025-09-22 18:22:15.028 [error] Error calling tool 'login_auth_login_post': MCP error -32602: Invalid request parameters
+2025-09-22 18:23:11.145 [info] Handling CallTool action for tool 'get_estadisticas_v1_api_estadisticas_get'
+2025-09-22 18:23:11.145 [info] Calling tool 'get_estadisticas_v1_api_estadisticas_get' with toolCallId: tool_8d80993c-c3d8-410f-aaad-cae7a75a0da
+2025-09-22 18:23:11.146 [error] [55484] [Local→Remote] tools/call
+
+2025-09-22 18:23:11.146 [error] [55484] [Local→Remote] tools/call
+
+2025-09-22 18:23:11.149 [error] [55484] [Remote→Local] 16
+
+2025-09-22 18:23:11.149 [error] [55484] [Remote→Local] 16
+
+2025-09-22 18:23:11.150 [error] Error calling tool 'get_estadisticas_v1_api_estadisticas_get': MCP error -32602: Invalid request parameters
+2025-09-22 18:23:13.678 [info] Handling CallTool action for tool 'get_datos_aux_v1_api_comisiones_aux_get'
+2025-09-22 18:23:13.678 [info] Calling tool 'get_datos_aux_v1_api_comisiones_aux_get' with toolCallId: tool_fdd7c3b4-17d6-4003-a044-577f1b6ffe5
+2025-09-22 18:23:13.679 [error] [55484] [Local→Remote] tools/call
+
+2025-09-22 18:23:13.679 [error] [55484] [Local→Remote] tools/call
+
+2025-09-22 18:23:13.683 [error] [55484] [Remote→Local] 17
+
+2025-09-22 18:23:13.683 [error] [55484] [Remote→Local] 17
+
+2025-09-22 18:23:13.683 [error] Error calling tool 'get_datos_aux_v1_api_comisiones_aux_get': MCP error -32602: Invalid request parameters
+2025-09-22 18:23:17.925 [info] Handling CallTool action for tool 'get_datos_aux_v1_api_solicitudes_practica_aux_get'
+2025-09-22 18:23:17.925 [info] Calling tool 'get_datos_aux_v1_api_solicitudes_practica_aux_get' with toolCallId: tool_75388f7a-ea9a-4ae6-9315-fa94c574492
+2025-09-22 18:23:17.926 [error] [55484] [Local→Remote] tools/call
+
+2025-09-22 18:23:17.926 [error] [55484] [Local→Remote] tools/call
+
+2025-09-22 18:23:17.929 [error] [55484] [Remote→Local] 18
+
+2025-09-22 18:23:17.929 [error] [55484] [Remote→Local] 18
+
+2025-09-22 18:23:17.930 [error] Error calling tool 'get_datos_aux_v1_api_solicitudes_practica_aux_get': MCP error -32602: Invalid request parameters
+2025-09-22 18:23:21.674 [info] Handling CallTool action for tool 'get_comisiones_v1_api_comisiones__get'
+2025-09-22 18:23:21.674 [info] Calling tool 'get_comisiones_v1_api_comisiones__get' with toolCallId: tool_05b9e95c-f291-4cab-b98e-9f525e5e437
+2025-09-22 18:23:21.675 [error] [55484] [Local→Remote] tools/call
+
+2025-09-22 18:23:21.675 [error] [55484] [Local→Remote] tools/call
+
+2025-09-22 18:23:21.678 [error] [55484] [Remote→Local] 19
+
+2025-09-22 18:23:21.678 [error] [55484] [Remote→Local] 19
+
+2025-09-22 18:23:21.679 [error] Error calling tool 'get_comisiones_v1_api_comisiones__get': MCP error -32602: Invalid request parameters
+2025-09-22 18:24:43.554 [info] Handling CallTool action for tool 'get_datos_aux_v1_api_solicitudes_practica_aux_get'
+2025-09-22 18:24:43.554 [info] Calling tool 'get_datos_aux_v1_api_solicitudes_practica_aux_get' with toolCallId: tool_8e280111-1f80-423e-baf7-888426090f9
+2025-09-22 18:24:43.555 [error] [55484] [Local→Remote] tools/call
+
+2025-09-22 18:24:43.555 [error] [55484] [Local→Remote] tools/call
+
+2025-09-22 18:24:43.561 [error] [55484] [Remote→Local] 20
+
+2025-09-22 18:24:43.562 [error] [55484] [Remote→Local] 20
+
+2025-09-22 18:24:43.562 [error] Error calling tool 'get_datos_aux_v1_api_solicitudes_practica_aux_get': MCP error -32602: Invalid request parameters
+2025-09-22 18:24:46.025 [info] Handling CallTool action for tool 'get_comisiones_v1_api_comisiones__get'
+2025-09-22 18:24:46.025 [info] Calling tool 'get_comisiones_v1_api_comisiones__get' with toolCallId: tool_140fcf27-b597-427b-a559-43b794ce4ba
+2025-09-22 18:24:46.026 [error] [55484] [Local→Remote] tools/call
+
+2025-09-22 18:24:46.026 [error] [55484] [Local→Remote] tools/call
+
+2025-09-22 18:24:46.033 [error] [55484] [Remote→Local] 21
+
+2025-09-22 18:24:46.033 [error] [55484] [Remote→Local] 21
+
+2025-09-22 18:24:46.034 [error] Error calling tool 'get_comisiones_v1_api_comisiones__get': MCP error -32602: Invalid request parameters
+2025-09-22 18:27:57.304 [info] Handling CallTool action for tool 'get_carreras_v1_api_carreras__get'
+2025-09-22 18:27:57.304 [info] Calling tool 'get_carreras_v1_api_carreras__get' with toolCallId: tool_508384a8-9b8f-4155-bad9-6ab5228338a
+2025-09-22 18:27:57.305 [error] [55484] [Local→Remote] tools/call
+
+2025-09-22 18:27:57.305 [error] [55484] [Local→Remote] tools/call
+
+2025-09-22 18:27:57.312 [error] [55484] [Remote→Local] 22
+
+2025-09-22 18:27:57.312 [error] [55484] [Remote→Local] 22
+
+2025-09-22 18:27:57.313 [error] Error calling tool 'get_carreras_v1_api_carreras__get': MCP error -32602: Invalid request parameters
+2025-09-22 18:28:15.659 [info] Handling CallTool action for tool 'get_carreras_v1_api_carreras__get'
+2025-09-22 18:28:15.659 [info] Calling tool 'get_carreras_v1_api_carreras__get' with toolCallId: tool_8a2f3560-20eb-4b0b-80ed-68750e274df
+2025-09-22 18:28:15.661 [error] [55484] [Local→Remote] tools/call
+
+2025-09-22 18:28:15.661 [error] [55484] [Local→Remote] tools/call
+
+2025-09-22 18:28:15.669 [error] [55484] [Remote→Local] 23
+
+2025-09-22 18:28:15.669 [error] [55484] [Remote→Local] 23
+
+2025-09-22 18:28:15.670 [error] Error calling tool 'get_carreras_v1_api_carreras__get': MCP error -32602: Invalid request parameters
+2025-09-22 18:28:21.761 [info] Handling CallTool action for tool 'get_carreras_v1_api_carreras__get'
+2025-09-22 18:28:21.761 [info] Calling tool 'get_carreras_v1_api_carreras__get' with toolCallId: tool_a4d1d872-0b86-4a21-b49d-8b13704ede0
+2025-09-22 18:28:21.762 [error] [55484] [Local→Remote] tools/call
+
+2025-09-22 18:28:21.763 [error] [55484] [Local→Remote] tools/call
+
+2025-09-22 18:28:21.770 [error] [55484] [Remote→Local] 24
+
+2025-09-22 18:28:21.770 [error] [55484] [Remote→Local] 24
+
+2025-09-22 18:28:21.771 [error] Error calling tool 'get_carreras_v1_api_carreras__get': MCP error -32602: Invalid request parameters
+2025-09-22 18:29:01.648 [info] Handling CallTool action for tool 'get_carreras_v1_api_carreras__get'
+2025-09-22 18:29:01.648 [info] Calling tool 'get_carreras_v1_api_carreras__get' with toolCallId: tool_2b381f6f-9446-495c-80bc-a5af5b64417
+2025-09-22 18:29:01.649 [error] [55484] [Local→Remote] tools/call
+
+2025-09-22 18:29:01.649 [error] [55484] [Local→Remote] tools/call
+
+2025-09-22 18:29:01.653 [error] [55484] [Remote→Local] 25
+
+2025-09-22 18:29:01.653 [error] [55484] [Remote→Local] 25
+
+2025-09-22 18:29:01.653 [error] Error calling tool 'get_carreras_v1_api_carreras__get': MCP error -32602: Invalid request parameters
+2025-09-22 18:29:04.967 [info] Handling CallTool action for tool 'get_carreras_v1_api_carreras__get'
+2025-09-22 18:29:04.967 [info] Calling tool 'get_carreras_v1_api_carreras__get' with toolCallId: tool_f6c90731-3f58-4b0d-b5fa-f26dd674b2c
+2025-09-22 18:29:04.968 [error] [55484] [Local→Remote] tools/call
+
+2025-09-22 18:29:04.968 [error] [55484] [Local→Remote] tools/call
+
+2025-09-22 18:29:04.971 [error] [55484] [Remote→Local] 26
+
+2025-09-22 18:29:04.971 [error] [55484] [Remote→Local] 26
+
+2025-09-22 18:29:04.972 [error] Error calling tool 'get_carreras_v1_api_carreras__get': MCP error -32602: Invalid request parameters
+2025-09-22 18:29:07.828 [info] Handling CallTool action for tool 'get_carreras_v1_api_carreras__get'
+2025-09-22 18:29:07.828 [info] Calling tool 'get_carreras_v1_api_carreras__get' with toolCallId: tool_8a36c6fb-4a0b-444b-9b3c-cdfda3b318e
+2025-09-22 18:29:07.828 [error] [55484] [Local→Remote] tools/call
+
+2025-09-22 18:29:07.828 [error] [55484] [Local→Remote] tools/call
+
+2025-09-22 18:29:07.832 [error] [55484] [Remote→Local] 27
+
+2025-09-22 18:29:07.832 [error] [55484] [Remote→Local] 27
+
+2025-09-22 18:29:07.832 [error] Error calling tool 'get_carreras_v1_api_carreras__get': MCP error -32602: Invalid request parameters
+2025-09-22 18:36:56.850 [error] [55484] Error from remote server: SseError: SSE error: TypeError: terminated: other side closed
+    at _eventSource.onerror (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13096:23)
+    at EventSource.scheduleReconnect_fn (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13000:53)
+    at file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:12850:174
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: undefined,
+  event: {
+    type: 'error',
+    message: 'TypeError: terminated: other side closed',
+    code: undefined,
+    defaultPrevented: false,
+    cancelable: false,
+    timeStamp: 2098333.519958
+  }
+}
+
+2025-09-22 18:36:56.850 [error] [55484] Error from remote server: SseError: SSE error: TypeError: terminated: other side closed
+    at _eventSource.onerror (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13096:23)
+    at EventSource.scheduleReconnect_fn (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13000:53)
+    at file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:12850:174
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: undefined,
+  event: {
+    type: 'error',
+    message: 'TypeError: terminated: other side closed',
+    code: undefined,
+    defaultPrevented: false,
+    cancelable: false,
+    timeStamp: 2098333.519958
+  }
+}
+
+2025-09-22 18:36:59.876 [error] [55484] Error from remote server: SseError: SSE error: Non-200 status code (404)
+    at _eventSource.onerror (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13096:23)
+    at EventSource.failConnection_fn (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:12986:53)
+    at file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:12828:74
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 404,
+  event: {
+    type: 'error',
+    message: 'Non-200 status code (404)',
+    code: 404,
+    defaultPrevented: false,
+    cancelable: false,
+    timeStamp: 2101358.90493
+  }
+}
+
+2025-09-22 18:36:59.876 [error] [55484] Error from remote server: SseError: SSE error: Non-200 status code (404)
+    at _eventSource.onerror (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13096:23)
+    at EventSource.failConnection_fn (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:12986:53)
+    at file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:12828:74
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 404,
+  event: {
+    type: 'error',
+    message: 'Non-200 status code (404)',
+    code: 404,
+    defaultPrevented: false,
+    cancelable: false,
+    timeStamp: 2101358.90493
+  }
+}
+
+2025-09-22 18:39:29.756 [info] Handling CallTool action for tool 'get_carreras_v1_api_carreras__get'
+2025-09-22 18:39:29.756 [info] Calling tool 'get_carreras_v1_api_carreras__get' with toolCallId: tool_28044a0d-0110-4a19-a71c-b3b2f753054
+2025-09-22 18:39:29.757 [error] [55484] [Local→Remote] tools/call
+
+2025-09-22 18:39:29.757 [error] [55484] [Local→Remote] tools/call
+
+2025-09-22 18:39:29.764 [error] [55484] Error from remote server: Error: Error POSTing to endpoint (HTTP 404): {"detail":"Could not find session"}
+    at SSEClientTransport.send (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13182:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[55484] Error from remote server: Error: Error POSTing to endpoint (HTTP 404): {"detail":"Could not find session"}
+    at SSEClientTransport.send (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13182:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+2025-09-22 18:39:29.764 [error] [55484] Error from remote server: Error: Error POSTing to endpoint (HTTP 404): {"detail":"Could not find session"}
+    at SSEClientTransport.send (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13182:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[55484] Error from remote server: Error: Error POSTing to endpoint (HTTP 404): {"detail":"Could not find session"}
+    at SSEClientTransport.send (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13182:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+

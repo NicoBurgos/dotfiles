@@ -1,0 +1,115 @@
+2025-09-28 23:03:11.698 [info] Handling CreateClient action
+2025-09-28 23:03:11.698 [info] Starting new stdio process with command: npx -y mcp-remote@latest http://localhost:8000/mcp --allow-http --transport sse-only
+2025-09-28 23:03:12.978 [error] [110345] Using automatically selected callback port: 16442
+[110345] [110345] Connecting to remote server: http://localhost:8000/mcp
+[110345] Using transport strategy: http-first
+
+2025-09-28 23:03:12.991 [error] [110345] Connection error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:15445:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async StreamableHTTPClientTransport.send (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13446:24) {
+  [cause]: AggregateError [ECONNREFUSED]: 
+      at internalConnectMultiple (node:net:1134:18)
+      at afterConnectMultiple (node:net:1715:7) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+}
+
+2025-09-28 23:03:12.991 [error] [110345] Fatal error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:15445:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async StreamableHTTPClientTransport.send (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13446:24) {
+  [cause]: AggregateError [ECONNREFUSED]: 
+      at internalConnectMultiple (node:net:1134:18)
+      at afterConnectMultiple (node:net:1715:7) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+}
+
+2025-09-28 23:03:13.004 [info] Client closed for command
+2025-09-28 23:03:13.005 [info] Handling ListOfferings action, server stored: false
+2025-09-28 23:03:13.006 [error] No server info found
+2025-09-28 23:03:13.006 [info] Handling ListOfferings action, server stored: false
+2025-09-28 23:03:13.006 [error] No server info found
+2025-09-28 23:03:28.176 [info] Handling ListOfferings action, server stored: false
+2025-09-28 23:03:28.176 [error] No server info found
+2025-09-28 23:03:28.176 [info] Handling CreateClient action
+2025-09-28 23:03:28.176 [info] Starting new stdio process with command: npx -y mcp-remote@latest http://localhost:8000/mcp --allow-http --transport sse-only
+2025-09-28 23:03:29.229 [error] [110844] Using automatically selected callback port: 16442
+[110844] [110844] Connecting to remote server: http://localhost:8000/mcp
+[110844] Using transport strategy: http-first
+
+2025-09-28 23:03:29.283 [error] [110844] Connection error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:15445:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async StreamableHTTPClientTransport.send (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13446:24) {
+  [cause]: AggregateError [ECONNREFUSED]: 
+      at internalConnectMultiple (node:net:1134:18)
+      at afterConnectMultiple (node:net:1715:7) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+}
+[110844] Fatal error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:15445:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async StreamableHTTPClientTransport.send (file:///home/nico/.npm/_npx/1a3c4333f3a90708/node_modules/mcp-remote/dist/chunk-AKJME7CQ.js:13446:24) {
+  [cause]: AggregateError [ECONNREFUSED]: 
+      at internalConnectMultiple (node:net:1134:18)
+      at afterConnectMultiple (node:net:1715:7) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+}
+
+2025-09-28 23:03:29.288 [info] Client closed for command
+2025-09-28 23:03:29.289 [info] Handling ListOfferings action, server stored: false
+2025-09-28 23:03:29.289 [error] No server info found
+2025-09-28 23:03:29.289 [info] Handling ListOfferings action, server stored: false
+2025-09-28 23:03:29.289 [error] No server info found
+2025-09-28 23:03:57.070 [info] Handling ListOfferings action, server stored: false
+2025-09-28 23:03:57.071 [error] No server info found
+2025-09-28 23:04:01.890 [info] Handling ListOfferings action, server stored: false
+2025-09-28 23:04:01.890 [error] No server info found
+2025-09-28 23:04:20.265 [info] Handling ListOfferings action, server stored: false
+2025-09-28 23:04:20.265 [error] No server info found
+2025-09-28 23:04:50.205 [info] Handling ListOfferings action, server stored: false
+2025-09-28 23:04:50.205 [error] No server info found
+2025-09-28 23:05:01.468 [info] Handling ListOfferings action, server stored: false
+2025-09-28 23:05:01.468 [error] No server info found
+2025-09-28 23:06:01.498 [info] Handling ListOfferings action, server stored: false
+2025-09-28 23:06:01.498 [error] No server info found
+2025-09-28 23:06:44.116 [info] Handling ListOfferings action, server stored: false
+2025-09-28 23:06:44.116 [error] No server info found
+2025-09-28 23:13:41.132 [info] Handling ListOfferings action, server stored: false
+2025-09-28 23:13:41.133 [error] No server info found
+2025-09-28 23:19:45.814 [info] Handling ListOfferings action, server stored: false
+2025-09-28 23:19:45.815 [error] No server info found
+2025-09-28 23:19:47.362 [info] Handling ListOfferings action, server stored: false
+2025-09-28 23:19:47.362 [error] No server info found
+2025-09-28 23:20:48.263 [info] Handling ListOfferings action, server stored: false
+2025-09-28 23:20:48.263 [error] No server info found
+2025-09-28 23:22:22.569 [info] Handling ListOfferings action, server stored: false
+2025-09-28 23:22:22.569 [error] No server info found
+2025-09-28 23:23:22.616 [info] Handling ListOfferings action, server stored: false
+2025-09-28 23:23:22.616 [error] No server info found
+2025-09-28 23:23:23.669 [info] Handling ListOfferings action, server stored: false
+2025-09-28 23:23:23.669 [error] No server info found
+2025-09-28 23:26:04.199 [info] Handling ListOfferings action, server stored: false
+2025-09-28 23:26:04.199 [error] No server info found
+2025-09-28 23:26:19.573 [info] Handling ListOfferings action, server stored: false
+2025-09-28 23:26:19.573 [error] No server info found
+2025-09-28 23:28:07.097 [info] Handling ListOfferings action, server stored: false
+2025-09-28 23:28:07.097 [error] No server info found
+2025-09-28 23:28:13.684 [info] Handling ListOfferings action, server stored: false
+2025-09-28 23:28:13.684 [error] No server info found
+2025-09-28 23:28:15.827 [info] Handling ListOfferings action, server stored: false
+2025-09-28 23:28:15.827 [error] No server info found
+2025-09-28 23:34:59.345 [info] Handling ListOfferings action, server stored: false
+2025-09-28 23:34:59.345 [error] No server info found
+2025-09-28 23:35:12.429 [info] Handling ListOfferings action, server stored: false
+2025-09-28 23:35:12.429 [error] No server info found
+2025-09-28 23:35:14.732 [info] Handling ListOfferings action, server stored: false
+2025-09-28 23:35:14.732 [error] No server info found

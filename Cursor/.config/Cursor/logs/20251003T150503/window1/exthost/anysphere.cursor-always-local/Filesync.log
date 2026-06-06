@@ -1,0 +1,1036 @@
+2025-10-03 15:05:09.497 [error] Failed to check if file sync is enabled for user {}
+2025-10-03 15:05:09.497 [error] Failed to fetch fsConfig File sync is disabled
+2025-10-03 15:05:09.497 [error] Failed to fetch fsConfig File sync is disabled
+2025-10-03 15:05:09.767 [info] [registerEventListeners] Registering event listeners
+2025-10-03 15:05:10.945 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 15:05:11.130 [info] Fetched fsConfig in 184.27182300000004ms
+2025-10-03 15:05:11.130 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-10-03 15:05:11.388 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 15:05:11.927 [info] Fetched fsConfig in 538.9837360000001ms
+2025-10-03 15:05:11.927 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-10-03 15:05:11.929 [info] File sync enabled status: true
+2025-10-03 15:05:11.929 [info] Starting sync of visible tabs
+2025-10-03 15:05:12.111 [info] Uploaded file backend/main.go modelVersion=1 in 179.5030829999996ms
+2025-10-03 15:05:12.112 [info] Synced all visible tabs in 184.63556400000016ms
+2025-10-03 15:05:12.208 [info] Starting sync of visible tabs
+2025-10-03 15:05:12.390 [info] Uploaded file backend/main.go modelVersion=1 in 179.84349399999974ms
+2025-10-03 15:05:12.390 [info] Synced all visible tabs in 183.36102800000026ms
+2025-10-03 15:05:12.392 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 15:05:12.576 [info] Fetched fsConfig in 183.9714780000004ms
+2025-10-03 15:05:12.576 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-10-03 15:06:03.833 [error] Failed to check if file sync is enabled for user {}
+2025-10-03 15:06:03.833 [error] Failed to fetch fsConfig File sync is disabled
+2025-10-03 15:06:03.833 [error] Failed to fetch fsConfig File sync is disabled
+2025-10-03 15:06:03.981 [info] [registerEventListeners] Registering event listeners
+2025-10-03 15:06:05.221 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 15:06:05.410 [info] Fetched fsConfig in 186.72819700000036ms
+2025-10-03 15:06:05.410 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-10-03 15:06:05.537 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 15:06:06.098 [info] Fetched fsConfig in 560.9682059999996ms
+2025-10-03 15:06:06.098 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-10-03 15:06:06.098 [info] File sync enabled status: true
+2025-10-03 15:06:06.098 [info] Starting sync of visible tabs
+2025-10-03 15:06:06.098 [info] Synced all visible tabs in 0.07888800000000629ms
+2025-10-03 15:06:06.339 [info] Starting sync of visible tabs
+2025-10-03 15:06:06.339 [info] Synced all visible tabs in 0.3536160000003292ms
+2025-10-03 15:06:06.518 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 15:06:06.696 [info] Fetched fsConfig in 178.00374199999987ms
+2025-10-03 15:06:06.696 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-10-03 15:06:52.018 [info] Uploaded file frontend/src/tour/steps/solicitudes.ts modelVersion=1 in 299.8485920000021ms
+2025-10-03 15:06:52.018 [info] Handled visible editors change in 767.4808429999975ms
+2025-10-03 15:06:52.212 [info] Handled visible editors change in 1.2187750000011874ms
+2025-10-03 15:06:52.820 [info] Uploaded file frontend/src/tour/steps/inicio.ts modelVersion=1 in 189.0373069999987ms
+2025-10-03 15:06:52.820 [info] Handled visible editors change in 570.2762490000023ms
+2025-10-03 15:06:55.135 [info] Handled visible editors change in 0.43096199999854434ms
+2025-10-03 15:06:55.161 [info] Handled visible editors change in 1.0472289999961504ms
+2025-10-03 15:06:56.808 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=2 in 452.1683489999996ms
+2025-10-03 15:07:02.713 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=3 in 193.00180099999852ms
+2025-10-03 15:07:03.538 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 15:07:03.644 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=8 in 180.08813300000475ms
+2025-10-03 15:07:03.729 [info] Fetched fsConfig in 191.4109629999948ms
+2025-10-03 15:07:03.729 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-10-03 15:07:03.730 [info] File sync enabled status: true
+2025-10-03 15:07:03.730 [info] Starting sync of visible tabs
+2025-10-03 15:07:03.730 [info] Synced all visible tabs in 0.19804199999634875ms
+2025-10-03 15:07:04.205 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=9 in 181.1795259999999ms
+2025-10-03 15:07:04.864 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=13 in 191.10099099999934ms
+2025-10-03 15:07:05.211 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=14 in 181.3450490000032ms
+2025-10-03 15:07:06.016 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=15 in 179.37528400000156ms
+2025-10-03 15:07:16.361 [info] Handled visible editors change in 0.2976650000055088ms
+2025-10-03 15:07:16.856 [info] Uploaded file frontend/src/solicitudes-practica/Solicitudes.tsx modelVersion=1 in 175.38339699999779ms
+2025-10-03 15:07:16.856 [info] Handled visible editors change in 443.5698330000014ms
+2025-10-03 15:07:22.063 [info] Handled visible editors change in 0.30649499999708496ms
+2025-10-03 15:07:22.426 [info] Uploaded file frontend/src/solicitudes-practica/components/solicitud-practica-table/SolicitudPracticaTabla.tsx modelVersion=1 in 186.84205799999472ms
+2025-10-03 15:07:22.426 [info] Handled visible editors change in 335.9288230000093ms
+2025-10-03 15:07:35.234 [info] Handled visible editors change in 0.3141909999976633ms
+2025-10-03 15:07:35.506 [info] Uploaded file frontend/src/shared/components/Tabla/Tabla.tsx modelVersion=1 in 176.0848399999959ms
+2025-10-03 15:07:35.506 [info] Handled visible editors change in 246.98505599999044ms
+2025-10-03 15:07:42.948 [info] Synced file frontend/src/shared/components/Tabla/Tabla.tsx modelVersion=2 in 179.24921399999585ms
+2025-10-03 15:07:43.694 [info] Synced file frontend/src/shared/components/Tabla/Tabla.tsx modelVersion=4 in 176.8727790000121ms
+2025-10-03 15:07:44.992 [info] Synced file frontend/src/shared/components/Tabla/Tabla.tsx modelVersion=5 in 177.84151199999906ms
+2025-10-03 15:07:45.301 [info] Synced file frontend/src/shared/components/Tabla/Tabla.tsx modelVersion=6 in 174.44811100000516ms
+2025-10-03 15:07:46.230 [info] Synced file frontend/src/shared/components/Tabla/Tabla.tsx modelVersion=11 in 178.40844899999502ms
+2025-10-03 15:07:46.775 [info] Synced file frontend/src/shared/components/Tabla/Tabla.tsx modelVersion=14 in 175.38085800000408ms
+2025-10-03 15:07:48.186 [info] Handled visible editors change in 0.41128000000026077ms
+2025-10-03 15:07:48.204 [info] Handled visible editors change in 0.7768209999921964ms
+2025-10-03 15:07:48.878 [info] Handled visible editors change in 1.0205459999997402ms
+2025-10-03 15:07:48.904 [info] Handled visible editors change in 0.7690349999902537ms
+2025-10-03 15:07:54.329 [info] Handled visible editors change in 0.9280080000025919ms
+2025-10-03 15:07:54.353 [info] Handled visible editors change in 0.906872999999905ms
+2025-10-03 15:07:57.177 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=16 in 181.0867969999963ms
+2025-10-03 15:07:57.848 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=17 in 182.0053290000069ms
+2025-10-03 15:07:58.634 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=20 in 179.92791099999158ms
+2025-10-03 15:07:59.104 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=22 in 178.10401099998853ms
+2025-10-03 15:08:01.264 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=27 in 177.81000099999073ms
+2025-10-03 15:08:01.545 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=28 in 177.986613999994ms
+2025-10-03 15:08:01.899 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=29 in 183.24112399999285ms
+2025-10-03 15:08:03.049 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=34 in 179.5722609999939ms
+2025-10-03 15:08:03.257 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 15:08:03.512 [info] Fetched fsConfig in 254.30975300000864ms
+2025-10-03 15:08:03.512 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-10-03 15:08:03.512 [info] File sync enabled status: true
+2025-10-03 15:08:03.512 [info] Starting sync of visible tabs
+2025-10-03 15:08:03.512 [info] Synced all visible tabs in 0.08241000000271015ms
+2025-10-03 15:08:06.215 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=40 in 174.14627899999323ms
+2025-10-03 15:08:07.387 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=41 in 179.75084599999536ms
+2025-10-03 15:08:12.248 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=42 in 181.35162500001024ms
+2025-10-03 15:08:12.807 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=43 in 177.64559799998824ms
+2025-10-03 15:08:16.544 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=44 in 178.3300520000048ms
+2025-10-03 15:08:24.976 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=45 in 178.67738599999575ms
+2025-10-03 15:08:26.418 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=56 in 180.4575659999973ms
+2025-10-03 15:08:27.368 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=63 in 179.10632700001588ms
+2025-10-03 15:08:32.220 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=64 in 177.63851700001396ms
+2025-10-03 15:08:33.640 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=81 in 187.5946769999864ms
+2025-10-03 15:08:33.903 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=82 in 179.5578680000035ms
+2025-10-03 15:08:34.248 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=83 in 189.63574500000686ms
+2025-10-03 15:08:34.637 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=85 in 177.4636360000004ms
+2025-10-03 15:08:35.566 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=86 in 174.79977099999087ms
+2025-10-03 15:08:38.213 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=104 in 179.29781499999808ms
+2025-10-03 15:08:38.839 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=107 in 179.32627800002228ms
+2025-10-03 15:08:39.155 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=109 in 178.93229199998314ms
+2025-10-03 15:08:39.459 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=110 in 178.69888799998444ms
+2025-10-03 15:08:40.362 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=116 in 176.3788699999859ms
+2025-10-03 15:08:40.725 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=117 in 188.25886399997398ms
+2025-10-03 15:08:41.429 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=121 in 178.9683059999952ms
+2025-10-03 15:08:41.948 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=122 in 177.19589400000405ms
+2025-10-03 15:08:42.387 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=124 in 178.8694850000029ms
+2025-10-03 15:08:42.987 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=128 in 177.661408999993ms
+2025-10-03 15:08:43.507 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=130 in 179.72950700001093ms
+2025-10-03 15:08:46.825 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=131 in 178.52467099999194ms
+2025-10-03 15:08:48.235 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=133 in 180.99775700000464ms
+2025-10-03 15:08:50.301 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=138 in 181.99031399999512ms
+2025-10-03 15:08:50.822 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=139 in 174.9515319999773ms
+2025-10-03 15:08:51.205 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=140 in 178.62971200002357ms
+2025-10-03 15:08:52.128 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=149 in 180.45484200000647ms
+2025-10-03 15:08:53.255 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=156 in 192.30216599997948ms
+2025-10-03 15:08:54.498 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=160 in 177.76562100002775ms
+2025-10-03 15:08:55.791 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=164 in 176.73879800000577ms
+2025-10-03 15:08:56.396 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=165 in 176.1119839999883ms
+2025-10-03 15:08:56.946 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=169 in 177.02719700001762ms
+2025-10-03 15:08:58.050 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=171 in 178.9478919999965ms
+2025-10-03 15:08:59.570 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=172 in 178.76717200002167ms
+2025-10-03 15:09:01.336 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=173 in 175.70602899999358ms
+2025-10-03 15:09:02.707 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=183 in 192.38946000000578ms
+2025-10-03 15:09:03.152 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=184 in 177.004683999985ms
+2025-10-03 15:09:03.535 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=185 in 177.11182399999234ms
+2025-10-03 15:09:04.022 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 15:09:04.212 [info] Fetched fsConfig in 190.0216070000024ms
+2025-10-03 15:09:04.212 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-10-03 15:09:04.212 [info] File sync enabled status: true
+2025-10-03 15:09:04.212 [info] Starting sync of visible tabs
+2025-10-03 15:09:04.212 [info] Synced all visible tabs in 0.21978499999386258ms
+2025-10-03 15:09:05.507 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=190 in 178.49108000000706ms
+2025-10-03 15:09:07.744 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=191 in 183.8359449999989ms
+2025-10-03 15:09:09.294 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=192 in 179.2122040000104ms
+2025-10-03 15:09:09.558 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=193 in 178.7650180000055ms
+2025-10-03 15:09:11.173 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=194 in 178.78147799998987ms
+2025-10-03 15:09:12.996 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=195 in 184.63321400000132ms
+2025-10-03 15:09:14.891 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=197 in 180.9225640000077ms
+2025-10-03 15:09:16.561 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=198 in 182.91714299999876ms
+2025-10-03 15:09:22.171 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=218 in 181.65962399999262ms
+2025-10-03 15:09:22.723 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=221 in 184.39639799998258ms
+2025-10-03 15:09:24.053 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=226 in 179.7076549999765ms
+2025-10-03 15:09:24.534 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=229 in 178.9279679999745ms
+2025-10-03 15:09:28.899 [info] Handled visible editors change in 0.6666490000206977ms
+2025-10-03 15:09:28.925 [info] Handled visible editors change in 0.7129380000114907ms
+2025-10-03 15:09:29.974 [info] Handled visible editors change in 1.3772630000021309ms
+2025-10-03 15:09:30.000 [info] Handled visible editors change in 0.765161999996053ms
+2025-10-03 15:09:33.397 [info] Handled visible editors change in 0.26269900001352653ms
+2025-10-03 15:09:33.764 [info] Uploaded file frontend/src/tour/driver.ts modelVersion=1 in 175.68746000001556ms
+2025-10-03 15:09:33.764 [info] Handled visible editors change in 317.52983099999256ms
+2025-10-03 15:09:35.834 [info] Synced file frontend/src/tour/driver.ts modelVersion=3 in 208.66828600000008ms
+2025-10-03 15:09:37.751 [info] Synced file frontend/src/tour/driver.ts modelVersion=6 in 175.7051849999989ms
+2025-10-03 15:09:38.880 [info] Synced file frontend/src/tour/driver.ts modelVersion=13 in 180.45364100000006ms
+2025-10-03 15:09:39.597 [info] Synced file frontend/src/tour/driver.ts modelVersion=14 in 179.15909299999475ms
+2025-10-03 15:09:44.627 [info] Synced file frontend/src/tour/driver.ts modelVersion=15 in 178.0535760000057ms
+2025-10-03 15:09:45.883 [info] Synced file frontend/src/tour/driver.ts modelVersion=16 in 179.56180900000618ms
+2025-10-03 15:09:50.691 [info] Handled visible editors change in 1.308541000005789ms
+2025-10-03 15:09:50.718 [info] Handled visible editors change in 0.9820940000063274ms
+2025-10-03 15:09:56.107 [info] Handled visible editors change in 1.119128999998793ms
+2025-10-03 15:09:56.130 [info] Handled visible editors change in 0.7977670000109356ms
+2025-10-03 15:09:59.611 [info] Handled visible editors change in 0.574800000002142ms
+2025-10-03 15:09:59.631 [info] Handled visible editors change in 0.7949979999975767ms
+2025-10-03 15:10:19.293 [info] Handled visible editors change in 0.9969299999938812ms
+2025-10-03 15:10:19.320 [info] Handled visible editors change in 0.7945880000188481ms
+2025-10-03 15:10:20.636 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 15:10:20.821 [info] Fetched fsConfig in 185.42938699998194ms
+2025-10-03 15:10:20.821 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-10-03 15:10:20.822 [info] File sync enabled status: true
+2025-10-03 15:10:20.822 [info] Starting sync of visible tabs
+2025-10-03 15:10:20.822 [info] Synced all visible tabs in 0.2263999999850057ms
+2025-10-03 15:10:30.104 [info] Synced file frontend/src/solicitudes-practica/components/solicitud-practica-table/SolicitudPracticaTabla.tsx modelVersion=2 in 178.16930000000866ms
+2025-10-03 15:10:30.533 [info] Synced file frontend/src/solicitudes-practica/components/solicitud-practica-table/SolicitudPracticaTabla.tsx modelVersion=4 in 175.07660400000168ms
+2025-10-03 15:10:30.985 [info] Synced file frontend/src/solicitudes-practica/components/solicitud-practica-table/SolicitudPracticaTabla.tsx modelVersion=5 in 180.91818199999398ms
+2025-10-03 15:10:31.322 [info] Synced file frontend/src/solicitudes-practica/components/solicitud-practica-table/SolicitudPracticaTabla.tsx modelVersion=6 in 176.39601800002856ms
+2025-10-03 15:10:32.603 [info] Synced file frontend/src/solicitudes-practica/components/solicitud-practica-table/SolicitudPracticaTabla.tsx modelVersion=11 in 180.81880599999567ms
+2025-10-03 15:10:33.665 [info] Synced file frontend/src/solicitudes-practica/components/solicitud-practica-table/SolicitudPracticaTabla.tsx modelVersion=12 in 177.3893509999616ms
+2025-10-03 15:10:36.049 [info] Handled visible editors change in 1.0673539999988861ms
+2025-10-03 15:10:36.073 [info] Handled visible editors change in 0.8295930000022054ms
+2025-10-03 15:10:38.798 [info] Handled visible editors change in 0.7482810000074096ms
+2025-10-03 15:10:38.824 [info] Handled visible editors change in 0.7537129999836907ms
+2025-10-03 15:10:41.771 [info] Handled visible editors change in 0.9237110000103712ms
+2025-10-03 15:10:41.803 [info] Handled visible editors change in 0.8936010000179522ms
+2025-10-03 15:10:42.923 [info] Handled visible editors change in 0.46542100002989173ms
+2025-10-03 15:10:42.943 [info] Handled visible editors change in 0.8785349999670871ms
+2025-10-03 15:10:44.355 [info] Handled visible editors change in 1.010201999975834ms
+2025-10-03 15:10:44.376 [info] Handled visible editors change in 0.9176340000121854ms
+2025-10-03 15:10:46.658 [info] Handled visible editors change in 1.4222369999624789ms
+2025-10-03 15:10:46.685 [info] Handled visible editors change in 0.7956129999947734ms
+2025-10-03 15:10:47.373 [info] Handled visible editors change in 0.9446480000042357ms
+2025-10-03 15:10:47.395 [info] Handled visible editors change in 0.8803060000063851ms
+2025-10-03 15:10:51.234 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=234 in 183.01119000004837ms
+2025-10-03 15:10:51.751 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=236 in 179.4799570000032ms
+2025-10-03 15:10:52.261 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=237 in 178.84182600001805ms
+2025-10-03 15:10:53.252 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=239 in 179.2909010000294ms
+2025-10-03 15:10:53.609 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=240 in 177.08409700001357ms
+2025-10-03 15:10:54.412 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=241 in 178.78444099996705ms
+2025-10-03 15:10:57.034 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=247 in 180.5696009999956ms
+2025-10-03 15:10:59.255 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=254 in 177.87375899998005ms
+2025-10-03 15:10:59.883 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=258 in 178.59076799999457ms
+2025-10-03 15:11:00.686 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=261 in 178.29355299996678ms
+2025-10-03 15:11:01.544 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=262 in 176.86671899998328ms
+2025-10-03 15:11:07.904 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=263 in 182.32831999997143ms
+2025-10-03 15:11:11.320 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=264 in 178.67926800000714ms
+2025-10-03 15:11:11.634 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=266 in 206.93808100000024ms
+2025-10-03 15:11:12.310 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=271 in 189.93543800001498ms
+2025-10-03 15:11:12.880 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=272 in 179.21665600000415ms
+2025-10-03 15:11:13.662 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=275 in 181.30874300003052ms
+2025-10-03 15:11:15.886 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=276 in 179.35915499995463ms
+2025-10-03 15:11:47.967 [info] Handled visible editors change in 0.6752470000064932ms
+2025-10-03 15:11:47.991 [info] Handled visible editors change in 0.7206899999873713ms
+2025-10-03 15:11:49.345 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 15:11:49.530 [info] Fetched fsConfig in 185.040781000047ms
+2025-10-03 15:11:49.530 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-10-03 15:11:49.531 [info] File sync enabled status: true
+2025-10-03 15:11:49.531 [info] Starting sync of visible tabs
+2025-10-03 15:11:49.531 [info] Synced all visible tabs in 0.23072400002274662ms
+2025-10-03 15:11:55.191 [info] Synced file frontend/src/solicitudes-practica/components/solicitud-practica-table/SolicitudPracticaTabla.tsx modelVersion=13 in 180.2224270000006ms
+2025-10-03 15:11:55.890 [info] Synced file frontend/src/solicitudes-practica/components/solicitud-practica-table/SolicitudPracticaTabla.tsx modelVersion=14 in 176.3987640000414ms
+2025-10-03 15:11:57.555 [info] Handled visible editors change in 1.0247760000056587ms
+2025-10-03 15:11:57.579 [info] Handled visible editors change in 0.8198919999995269ms
+2025-10-03 15:11:58.414 [info] Handled visible editors change in 1.5559849999845028ms
+2025-10-03 15:11:58.437 [info] Handled visible editors change in 0.8060030000051484ms
+2025-10-03 15:12:02.489 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=286 in 179.53665899997577ms
+2025-10-03 15:12:05.708 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=287 in 182.50501600001007ms
+2025-10-03 15:12:09.097 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=288 in 181.98528800002532ms
+2025-10-03 15:12:10.146 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=289 in 178.75266599998577ms
+2025-10-03 15:12:13.508 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=291 in 178.13387700001476ms
+2025-10-03 15:12:15.108 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=292 in 259.42138200002955ms
+2025-10-03 15:12:38.309 [info] Handled visible editors change in 0.5323249999783002ms
+2025-10-03 15:12:38.596 [info] Uploaded file frontend/src/solicitudes-practica/Solicitudes.tsx modelVersion=1 in 176.44492999999784ms
+2025-10-03 15:12:38.596 [info] Handled visible editors change in 268.85985300003085ms
+2025-10-03 15:12:46.677 [info] Handled visible editors change in 1.1807339999941178ms
+2025-10-03 15:12:46.702 [info] Handled visible editors change in 0.80594300001394ms
+2025-10-03 15:12:51.251 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 15:12:51.432 [info] Fetched fsConfig in 181.48226799996337ms
+2025-10-03 15:12:51.432 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-10-03 15:12:51.433 [info] File sync enabled status: true
+2025-10-03 15:12:51.433 [info] Starting sync of visible tabs
+2025-10-03 15:12:51.433 [info] Synced all visible tabs in 0.25971200002823025ms
+2025-10-03 15:12:56.662 [info] Synced file frontend/src/solicitudes-practica/components/solicitud-practica-table/SolicitudPracticaTabla.tsx modelVersion=15 in 179.88587800000096ms
+2025-10-03 15:12:57.128 [info] Synced file frontend/src/solicitudes-practica/components/solicitud-practica-table/SolicitudPracticaTabla.tsx modelVersion=17 in 178.91588899999624ms
+2025-10-03 15:12:59.580 [info] Synced file frontend/src/solicitudes-practica/components/solicitud-practica-table/SolicitudPracticaTabla.tsx modelVersion=18 in 177.91957999998704ms
+2025-10-03 15:13:03.216 [info] Handled visible editors change in 0.7175360000110231ms
+2025-10-03 15:13:03.561 [info] Uploaded file frontend/src/shared/components/Tabla/Tabla.tsx modelVersion=14 in 177.93477100000018ms
+2025-10-03 15:13:03.562 [info] Handled visible editors change in 316.2616830000188ms
+2025-10-03 15:13:04.303 [info] Handled visible editors change in 0.32976399996550754ms
+2025-10-03 15:13:04.319 [info] Handled visible editors change in 0.6829020000295714ms
+2025-10-03 15:13:07.789 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=297 in 176.72190600004978ms
+2025-10-03 15:13:08.564 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=298 in 178.8401179999928ms
+2025-10-03 15:13:12.658 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=299 in 181.0140680000186ms
+2025-10-03 15:13:20.165 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=300 in 178.60680499998853ms
+2025-10-03 15:13:21.205 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=306 in 177.02570800000103ms
+2025-10-03 15:13:21.594 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=307 in 191.65230499999598ms
+2025-10-03 15:13:22.422 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=311 in 178.290159999975ms
+2025-10-03 15:13:23.433 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=312 in 180.8270790000097ms
+2025-10-03 15:13:24.663 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=318 in 178.47143600002164ms
+2025-10-03 15:13:25.410 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=319 in 180.02345500001684ms
+2025-10-03 15:13:28.747 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=320 in 182.9265210000449ms
+2025-10-03 15:13:30.751 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=332 in 178.72222300001886ms
+2025-10-03 15:13:31.026 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=333 in 175.9084500000463ms
+2025-10-03 15:13:33.472 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=334 in 179.72626199998194ms
+2025-10-03 15:13:38.722 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=340 in 178.00163600000087ms
+2025-10-03 15:13:39.083 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=341 in 177.51597899995977ms
+2025-10-03 15:13:39.771 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=345 in 176.91460900002858ms
+2025-10-03 15:13:40.753 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=347 in 181.69602599996142ms
+2025-10-03 15:13:41.099 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=348 in 175.89554900000803ms
+2025-10-03 15:13:41.930 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=353 in 179.13483200001065ms
+2025-10-03 15:13:43.913 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=355 in 177.48246100003598ms
+2025-10-03 15:13:45.057 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=360 in 177.4019279999775ms
+2025-10-03 15:13:47.017 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=361 in 182.98112599999877ms
+2025-10-03 15:14:10.392 [info] Handled visible editors change in 0.6411739999894053ms
+2025-10-03 15:14:10.417 [info] Handled visible editors change in 0.6805689999600872ms
+2025-10-03 15:14:11.638 [info] Handled visible editors change in 0.3341339999460615ms
+2025-10-03 15:14:11.652 [info] Handled visible editors change in 0.6666470000054687ms
+2025-10-03 15:14:11.792 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 15:14:11.976 [info] Fetched fsConfig in 183.72002000000793ms
+2025-10-03 15:14:11.976 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-10-03 15:14:11.977 [info] File sync enabled status: true
+2025-10-03 15:14:11.977 [info] Starting sync of visible tabs
+2025-10-03 15:14:11.977 [info] Synced all visible tabs in 0.25047800003085285ms
+2025-10-03 15:14:23.905 [info] Synced file frontend/src/solicitudes-practica/components/solicitud-practica-table/SolicitudPracticaTabla.tsx modelVersion=19 in 191.3468770000036ms
+2025-10-03 15:14:26.068 [info] Synced file frontend/src/solicitudes-practica/components/solicitud-practica-table/SolicitudPracticaTabla.tsx modelVersion=20 in 176.10810599999968ms
+2025-10-03 15:14:26.613 [info] Synced file frontend/src/solicitudes-practica/components/solicitud-practica-table/SolicitudPracticaTabla.tsx modelVersion=23 in 191.01843799999915ms
+2025-10-03 15:14:28.544 [info] Synced file frontend/src/solicitudes-practica/components/solicitud-practica-table/SolicitudPracticaTabla.tsx modelVersion=27 in 177.47118299995782ms
+2025-10-03 15:14:28.917 [info] Synced file frontend/src/solicitudes-practica/components/solicitud-practica-table/SolicitudPracticaTabla.tsx modelVersion=28 in 179.16443100001197ms
+2025-10-03 15:14:29.749 [info] Synced file frontend/src/solicitudes-practica/components/solicitud-practica-table/SolicitudPracticaTabla.tsx modelVersion=31 in 177.24689299997408ms
+2025-10-03 15:14:30.171 [info] Synced file frontend/src/solicitudes-practica/components/solicitud-practica-table/SolicitudPracticaTabla.tsx modelVersion=32 in 179.1805550000281ms
+2025-10-03 15:14:31.022 [info] Synced file frontend/src/solicitudes-practica/components/solicitud-practica-table/SolicitudPracticaTabla.tsx modelVersion=33 in 560.7218059999868ms
+2025-10-03 15:14:31.973 [info] Synced file frontend/src/solicitudes-practica/components/solicitud-practica-table/SolicitudPracticaTabla.tsx modelVersion=36 in 190.545466999989ms
+2025-10-03 15:14:32.674 [info] Synced file frontend/src/solicitudes-practica/components/solicitud-practica-table/SolicitudPracticaTabla.tsx modelVersion=37 in 177.58239300001878ms
+2025-10-03 15:14:34.394 [info] Synced file frontend/src/solicitudes-practica/components/solicitud-practica-table/SolicitudPracticaTabla.tsx modelVersion=38 in 174.61117799999192ms
+2025-10-03 15:14:34.905 [info] Synced file frontend/src/solicitudes-practica/components/solicitud-practica-table/SolicitudPracticaTabla.tsx modelVersion=39 in 177.20851199998287ms
+2025-10-03 15:15:14.726 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 15:15:14.910 [info] Fetched fsConfig in 182.86583999998402ms
+2025-10-03 15:15:14.910 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-10-03 15:15:14.910 [info] File sync enabled status: true
+2025-10-03 15:15:14.910 [info] Starting sync of visible tabs
+2025-10-03 15:15:14.910 [info] Synced all visible tabs in 0.24703100009355694ms
+2025-10-03 15:15:29.446 [info] Handled visible editors change in 0.7620560000650585ms
+2025-10-03 15:15:29.471 [info] Handled visible editors change in 0.7033419999061152ms
+2025-10-03 15:15:41.759 [info] Synced file frontend/src/shared/components/Tabla/Tabla.tsx modelVersion=17 in 175.6637449999107ms
+2025-10-03 15:15:42.707 [info] Synced file frontend/src/shared/components/Tabla/Tabla.tsx modelVersion=18 in 175.80832399998326ms
+2025-10-03 15:15:44.760 [info] Handled visible editors change in 0.7344199999934062ms
+2025-10-03 15:15:44.783 [info] Handled visible editors change in 0.7274329999927431ms
+2025-10-03 15:15:47.739 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=363 in 179.36956599995028ms
+2025-10-03 15:15:48.487 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=364 in 176.25805200007744ms
+2025-10-03 15:15:50.509 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=374 in 180.5553409999702ms
+2025-10-03 15:15:51.238 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=377 in 176.379106999957ms
+2025-10-03 15:15:53.001 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=378 in 177.74388600001112ms
+2025-10-03 15:15:53.990 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=379 in 182.25441599998157ms
+2025-10-03 15:15:54.831 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=383 in 176.78607799997553ms
+2025-10-03 15:15:55.453 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=384 in 175.60519200004637ms
+2025-10-03 15:15:58.940 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=390 in 178.01683099998627ms
+2025-10-03 15:16:00.541 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=391 in 178.1980990000302ms
+2025-10-03 15:16:17.213 [info] Handled visible editors change in 0.6660550000378862ms
+2025-10-03 15:16:17.238 [info] Handled visible editors change in 0.8225020000245422ms
+2025-10-03 15:16:18.538 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 15:16:18.720 [info] Fetched fsConfig in 182.32602100004442ms
+2025-10-03 15:16:18.721 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-10-03 15:16:18.721 [info] File sync enabled status: true
+2025-10-03 15:16:18.721 [info] Starting sync of visible tabs
+2025-10-03 15:16:18.721 [info] Synced all visible tabs in 0.2216430000262335ms
+2025-10-03 15:16:19.152 [info] Handled visible editors change in 0.7361819999059662ms
+2025-10-03 15:16:19.173 [info] Handled visible editors change in 0.8309819999849424ms
+2025-10-03 15:16:22.738 [info] Synced file frontend/src/solicitudes-practica/components/solicitud-practica-table/SolicitudPracticaTabla.tsx modelVersion=40 in 179.30322999996133ms
+2025-10-03 15:16:23.233 [info] Synced file frontend/src/solicitudes-practica/components/solicitud-practica-table/SolicitudPracticaTabla.tsx modelVersion=42 in 222.6371049999725ms
+2025-10-03 15:16:23.499 [info] Synced file frontend/src/solicitudes-practica/components/solicitud-practica-table/SolicitudPracticaTabla.tsx modelVersion=43 in 177.40846199996304ms
+2025-10-03 15:16:24.287 [info] Synced file frontend/src/solicitudes-practica/components/solicitud-practica-table/SolicitudPracticaTabla.tsx modelVersion=44 in 178.07904500002041ms
+2025-10-03 15:16:27.226 [info] Handled visible editors change in 0.9857880000490695ms
+2025-10-03 15:16:27.248 [info] Handled visible editors change in 0.8914160000858828ms
+2025-10-03 15:16:27.954 [info] Handled visible editors change in 0.7324559999397025ms
+2025-10-03 15:16:27.976 [info] Handled visible editors change in 0.7210980000672862ms
+2025-10-03 15:16:31.309 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=396 in 176.86648199998308ms
+2025-10-03 15:16:32.002 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=397 in 182.03143900004216ms
+2025-10-03 15:16:35.058 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=406 in 199.8406299999915ms
+2025-10-03 15:16:35.462 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=407 in 177.31300600001123ms
+2025-10-03 15:16:39.113 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=408 in 177.51958100008778ms
+2025-10-03 15:16:42.679 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=409 in 176.1494759999914ms
+2025-10-03 15:16:43.004 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=411 in 178.19920899998397ms
+2025-10-03 15:16:43.871 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=413 in 176.20340400002897ms
+2025-10-03 15:16:44.244 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=414 in 193.14245100005064ms
+2025-10-03 15:16:44.905 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=416 in 177.53318899997976ms
+2025-10-03 15:16:46.650 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=417 in 185.62930399994366ms
+2025-10-03 15:16:55.368 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=418 in 187.92152299999725ms
+2025-10-03 15:16:56.580 [info] Synced file frontend/src/tour/steps/solicitudes.ts modelVersion=419 in 178.47849100001622ms
+2025-10-03 15:47:27.402 [info] Handled visible editors change in 0.4787620003335178ms
+2025-10-03 15:47:28.054 [info] Uploaded file frontend/src/tour/steps/recepcion-solicitudes.ts modelVersion=1 in 558.9766909996979ms
+2025-10-03 15:47:28.054 [info] Handled visible editors change in 619.2688410002738ms
+2025-10-03 15:47:32.312 [info] Handled visible editors change in 1.2518579997122288ms
+2025-10-03 15:47:32.585 [info] Uploaded file frontend/src/tour/steps/solicitudes.ts modelVersion=419 in 180.5813710000366ms
+2025-10-03 15:47:32.585 [info] Handled visible editors change in 244.25390499969944ms
+2025-10-03 15:47:34.636 [info] Handled visible editors change in 0.33560300013050437ms
+2025-10-03 15:47:34.905 [info] Uploaded file frontend/src/tour/driver.ts modelVersion=16 in 181.5669100000523ms
+2025-10-03 15:47:34.905 [info] Handled visible editors change in 240.6582200000994ms
+2025-10-03 15:47:38.022 [info] Synced file frontend/src/tour/driver.ts modelVersion=17 in 354.3280150000937ms
+2025-10-03 15:47:38.767 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 15:47:38.959 [info] Synced file frontend/src/tour/driver.ts modelVersion=18 in 188.7145269997418ms
+2025-10-03 15:47:39.004 [info] Fetched fsConfig in 236.98289899993688ms
+2025-10-03 15:47:39.004 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-10-03 15:47:39.005 [info] File sync enabled status: true
+2025-10-03 15:47:39.005 [info] Starting sync of visible tabs
+2025-10-03 15:47:39.005 [info] Synced all visible tabs in 0.1041979999281466ms
+2025-10-03 15:47:40.755 [info] Synced file frontend/src/tour/driver.ts modelVersion=19 in 185.23291399981827ms
+2025-10-03 15:47:42.408 [info] Synced file frontend/src/tour/driver.ts modelVersion=20 in 187.25645300000906ms
+2025-10-03 15:47:42.699 [info] Handled visible editors change in 1.213179999962449ms
+2025-10-03 15:47:42.723 [info] Handled visible editors change in 0.7870119996368885ms
+2025-10-03 15:47:44.242 [info] Handled visible editors change in 1.254406000021845ms
+2025-10-03 15:47:44.266 [info] Handled visible editors change in 0.8211969998665154ms
+2025-10-03 15:47:45.644 [info] Handled visible editors change in 0.6601319997571409ms
+2025-10-03 15:47:45.671 [info] Handled visible editors change in 1.0345239997841418ms
+2025-10-03 15:47:46.929 [info] Synced file frontend/src/tour/steps/recepcion-solicitudes.ts modelVersion=2 in 187.98314600018784ms
+2025-10-03 15:47:52.053 [info] Synced file frontend/src/tour/steps/recepcion-solicitudes.ts modelVersion=4 in 186.54735499992967ms
+2025-10-03 15:47:52.347 [info] Synced file frontend/src/tour/steps/recepcion-solicitudes.ts modelVersion=6 in 186.77550500025973ms
+2025-10-03 15:47:53.438 [info] Synced file frontend/src/tour/steps/recepcion-solicitudes.ts modelVersion=11 in 195.17270100023597ms
+2025-10-03 15:47:54.115 [info] Synced file frontend/src/tour/steps/recepcion-solicitudes.ts modelVersion=13 in 205.6310240002349ms
+2025-10-03 15:47:56.562 [info] Handled visible editors change in 0.6661960002966225ms
+2025-10-03 15:47:56.582 [info] Handled visible editors change in 0.7325210003182292ms
+2025-10-03 15:48:07.191 [info] Handled visible editors change in 0.4862500000745058ms
+2025-10-03 15:48:07.214 [info] Handled visible editors change in 1.0361770000308752ms
+2025-10-03 15:48:11.879 [info] Handled visible editors change in 0.6880499999970198ms
+2025-10-03 15:48:12.198 [info] Uploaded file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=1 in 185.34499399969354ms
+2025-10-03 15:48:12.198 [info] Handled visible editors change in 256.9573949999176ms
+2025-10-03 15:48:14.893 [info] Handled visible editors change in 0.9094329997897148ms
+2025-10-03 15:48:14.923 [info] Handled visible editors change in 0.6522599998861551ms
+2025-10-03 15:48:17.397 [info] Synced file frontend/src/tour/driver.ts modelVersion=21 in 187.4462089999579ms
+2025-10-03 15:48:19.200 [info] Synced file frontend/src/tour/driver.ts modelVersion=22 in 186.1907629999332ms
+2025-10-03 15:48:22.401 [info] Synced file frontend/src/tour/driver.ts modelVersion=25 in 186.99677999969572ms
+2025-10-03 15:48:25.349 [info] Synced file frontend/src/tour/driver.ts modelVersion=26 in 187.0229199999012ms
+2025-10-03 15:48:26.013 [info] Synced file frontend/src/tour/driver.ts modelVersion=27 in 187.20410400023684ms
+2025-10-03 15:48:36.261 [info] Handled visible editors change in 1.38402200024575ms
+2025-10-03 15:48:36.286 [info] Handled visible editors change in 0.8401500000618398ms
+2025-10-03 15:48:46.517 [info] Handled visible editors change in 0.30593799985945225ms
+2025-10-03 15:48:46.807 [info] Uploaded file frontend/src/procesos/components/recepcion-solicitudes/RecepcionSolicitudes.tsx modelVersion=1 in 186.5987719995901ms
+2025-10-03 15:48:46.807 [info] Handled visible editors change in 257.2627230002545ms
+2025-10-03 15:48:47.891 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 15:48:48.082 [info] Fetched fsConfig in 191.10637000016868ms
+2025-10-03 15:48:48.082 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-10-03 15:48:48.083 [info] File sync enabled status: true
+2025-10-03 15:48:48.083 [info] Starting sync of visible tabs
+2025-10-03 15:48:48.083 [info] Synced all visible tabs in 0.2288790000602603ms
+2025-10-03 15:49:05.021 [info] Handled visible editors change in 0.9568759999237955ms
+2025-10-03 15:49:05.045 [info] Handled visible editors change in 0.7549169999547303ms
+2025-10-03 15:49:12.581 [info] Handled visible editors change in 0.6533190002664924ms
+2025-10-03 15:49:12.602 [info] Handled visible editors change in 0.6730499998666346ms
+2025-10-03 15:49:18.910 [info] Synced file frontend/src/procesos/components/recepcion-solicitudes/RecepcionSolicitudes.tsx modelVersion=2 in 184.8293980001472ms
+2025-10-03 15:49:21.136 [info] Handled visible editors change in 0.5970569998025894ms
+2025-10-03 15:49:21.155 [info] Handled visible editors change in 0.7022740002721548ms
+2025-10-03 15:49:25.605 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=3 in 187.3085680003278ms
+2025-10-03 15:49:26.605 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=4 in 187.076298000291ms
+2025-10-03 15:49:28.354 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=5 in 186.1480149999261ms
+2025-10-03 15:49:32.354 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=8 in 186.83179000020027ms
+2025-10-03 15:49:33.534 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=9 in 185.83098799968138ms
+2025-10-03 15:49:34.417 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=10 in 184.22149300016463ms
+2025-10-03 15:49:39.424 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=11 in 194.97929499996826ms
+2025-10-03 15:49:45.975 [info] Handled visible editors change in 0.6671540001407266ms
+2025-10-03 15:49:45.999 [info] Handled visible editors change in 0.7254939996637404ms
+2025-10-03 15:49:54.638 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 15:49:54.831 [info] Fetched fsConfig in 193.10037400014699ms
+2025-10-03 15:49:54.831 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-10-03 15:49:54.831 [info] File sync enabled status: true
+2025-10-03 15:49:54.831 [info] Starting sync of visible tabs
+2025-10-03 15:49:54.831 [info] Synced all visible tabs in 0.06601599976420403ms
+2025-10-03 15:50:01.103 [info] Handled visible editors change in 0.7455450003035367ms
+2025-10-03 15:50:01.129 [info] Handled visible editors change in 0.6794400000944734ms
+2025-10-03 15:50:05.396 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=12 in 253.74846299970523ms
+2025-10-03 15:50:07.658 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=13 in 181.44651000015438ms
+2025-10-03 15:50:11.275 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=14 in 178.17489599995315ms
+2025-10-03 15:50:12.155 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=15 in 179.56008099997416ms
+2025-10-03 15:50:14.485 [info] Uploaded file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=16 in 189.63254499994218ms
+2025-10-03 15:50:18.880 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=17 in 177.1541220000945ms
+2025-10-03 15:50:20.745 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=18 in 177.13325199997053ms
+2025-10-03 15:50:22.938 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=19 in 177.08392699994147ms
+2025-10-03 15:50:24.828 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=20 in 182.71312600001693ms
+2025-10-03 15:50:27.233 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=21 in 186.31862000003457ms
+2025-10-03 15:50:30.480 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=22 in 178.53824499994516ms
+2025-10-03 15:50:32.773 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=23 in 175.3067509997636ms
+2025-10-03 15:50:35.267 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=24 in 181.33392400015146ms
+2025-10-03 15:50:41.600 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=25 in 175.8450690000318ms
+2025-10-03 15:50:43.017 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=26 in 176.79840099997818ms
+2025-10-03 15:50:43.809 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=27 in 175.93968599988148ms
+2025-10-03 15:51:13.246 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 15:51:13.438 [info] Fetched fsConfig in 191.1780949998647ms
+2025-10-03 15:51:13.438 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-10-03 15:51:13.438 [info] File sync enabled status: true
+2025-10-03 15:51:13.438 [info] Starting sync of visible tabs
+2025-10-03 15:51:13.438 [info] Synced all visible tabs in 0.23425900004804134ms
+2025-10-03 15:51:14.850 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=35 in 187.18462800001726ms
+2025-10-03 15:51:15.411 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=36 in 186.66589100006968ms
+2025-10-03 15:51:23.505 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=37 in 188.0212169997394ms
+2025-10-03 15:51:27.304 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=38 in 186.76829500030726ms
+2025-10-03 15:51:29.709 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=40 in 185.99717900017276ms
+2025-10-03 15:51:41.465 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=42 in 183.86548900045455ms
+2025-10-03 15:51:45.116 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=43 in 177.68577599991113ms
+2025-10-03 15:51:46.524 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=44 in 177.37171400012448ms
+2025-10-03 15:51:48.282 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=45 in 176.22263400023803ms
+2025-10-03 15:51:48.740 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=47 in 184.0867300000973ms
+2025-10-03 15:51:50.028 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=48 in 177.78264500014484ms
+2025-10-03 15:52:22.725 [info] Handled visible editors change in 0.8720680000260472ms
+2025-10-03 15:52:22.752 [info] Handled visible editors change in 0.7236500000581145ms
+2025-10-03 15:52:24.075 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 15:52:24.261 [info] Fetched fsConfig in 185.26418700022623ms
+2025-10-03 15:52:24.261 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-10-03 15:52:24.261 [info] File sync enabled status: true
+2025-10-03 15:52:24.261 [info] Starting sync of visible tabs
+2025-10-03 15:52:24.261 [info] Synced all visible tabs in 0.2583550000563264ms
+2025-10-03 15:52:24.313 [info] Handled visible editors change in 0.701434999704361ms
+2025-10-03 15:52:24.335 [info] Handled visible editors change in 0.7247269996441901ms
+2025-10-03 15:52:28.422 [info] Handled visible editors change in 0.895562999881804ms
+2025-10-03 15:52:28.447 [info] Handled visible editors change in 0.8321479996666312ms
+2025-10-03 15:52:32.391 [info] Handled visible editors change in 0.9948599999770522ms
+2025-10-03 15:52:32.416 [info] Handled visible editors change in 0.7385549996979535ms
+2025-10-03 15:53:10.662 [info] Handled visible editors change in 0.8871720000170171ms
+2025-10-03 15:53:10.686 [info] Handled visible editors change in 0.764007999561727ms
+2025-10-03 15:53:12.123 [info] Handled visible editors change in 0.6118490002118051ms
+2025-10-03 15:53:12.145 [info] Handled visible editors change in 0.7462280001491308ms
+2025-10-03 15:53:36.435 [info] Handled visible editors change in 0.4892810001038015ms
+2025-10-03 15:53:36.456 [info] Handled visible editors change in 0.6382899996824563ms
+2025-10-03 15:53:41.283 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=49 in 352.40107899997383ms
+2025-10-03 15:53:41.986 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 15:53:42.028 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=53 in 177.75709600001574ms
+2025-10-03 15:53:42.172 [info] Fetched fsConfig in 185.8470339998603ms
+2025-10-03 15:53:42.172 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-10-03 15:53:42.172 [info] File sync enabled status: true
+2025-10-03 15:53:42.172 [info] Starting sync of visible tabs
+2025-10-03 15:53:42.172 [info] Synced all visible tabs in 0.24724899977445602ms
+2025-10-03 15:54:27.885 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=54 in 179.30242800014094ms
+2025-10-03 15:54:49.779 [info] Handled visible editors change in 0.9501950000412762ms
+2025-10-03 15:54:50.061 [info] Uploaded file frontend/src/tour/driver.ts modelVersion=27 in 180.18014399986714ms
+2025-10-03 15:54:50.062 [info] Handled visible editors change in 257.820669000037ms
+2025-10-03 15:54:51.005 [info] Handled visible editors change in 0.7339610001072288ms
+2025-10-03 15:54:51.027 [info] Handled visible editors change in 0.7643889999017119ms
+2025-10-03 15:54:51.259 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 15:54:51.445 [info] Fetched fsConfig in 185.9493309999816ms
+2025-10-03 15:54:51.445 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-10-03 15:54:51.446 [info] File sync enabled status: true
+2025-10-03 15:54:51.446 [info] Starting sync of visible tabs
+2025-10-03 15:54:51.446 [info] Synced all visible tabs in 0.12607600027695298ms
+2025-10-03 15:54:51.570 [info] Handled visible editors change in 0.6420229999348521ms
+2025-10-03 15:54:51.864 [info] Uploaded file frontend/src/procesos/components/recepcion-solicitudes/RecepcionSolicitudes.tsx modelVersion=2 in 176.07497600000352ms
+2025-10-03 15:54:51.864 [info] Handled visible editors change in 274.4275960000232ms
+2025-10-03 15:55:00.477 [info] Handled visible editors change in 0.8678790000267327ms
+2025-10-03 15:55:00.501 [info] Handled visible editors change in 0.7189859999343753ms
+2025-10-03 15:55:03.080 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=56 in 178.61142100021243ms
+2025-10-03 15:55:03.747 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=59 in 177.6241540000774ms
+2025-10-03 15:55:04.181 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=62 in 177.6700570001267ms
+2025-10-03 15:55:04.441 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=63 in 176.73314299993217ms
+2025-10-03 15:55:05.847 [info] Handled visible editors change in 0.8748570000752807ms
+2025-10-03 15:55:05.871 [info] Handled visible editors change in 0.7312409998849034ms
+2025-10-03 15:55:10.372 [info] Handled visible editors change in 0.9735320000909269ms
+2025-10-03 15:55:10.394 [info] Handled visible editors change in 0.7312659998424351ms
+2025-10-03 15:55:11.471 [info] Handled visible editors change in 1.3401049999520183ms
+2025-10-03 15:55:11.497 [info] Handled visible editors change in 0.8481089998967946ms
+2025-10-03 15:55:15.653 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=64 in 176.7183990003541ms
+2025-10-03 15:55:26.912 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=65 in 183.63884499995038ms
+2025-10-03 15:55:27.338 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=66 in 179.10627199988812ms
+2025-10-03 15:55:28.025 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=67 in 178.09492099983618ms
+2025-10-03 15:55:29.087 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=68 in 178.52796200010926ms
+2025-10-03 15:55:29.525 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=69 in 176.64061799971387ms
+2025-10-03 15:55:29.895 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=70 in 178.02423300035298ms
+2025-10-03 15:55:32.009 [info] Handled visible editors change in 0.663304999936372ms
+2025-10-03 15:55:32.031 [info] Handled visible editors change in 0.7410759995691478ms
+2025-10-03 15:55:36.396 [info] Handled visible editors change in 0.967886000405997ms
+2025-10-03 15:55:36.420 [info] Handled visible editors change in 0.722836000379175ms
+2025-10-03 15:55:44.079 [info] Handled visible editors change in 0.8630329999141395ms
+2025-10-03 15:55:44.104 [info] Handled visible editors change in 1.0732150003314018ms
+2025-10-03 15:55:45.617 [info] Handled visible editors change in 0.6998069998808205ms
+2025-10-03 15:55:45.637 [info] Handled visible editors change in 0.7326270001940429ms
+2025-10-03 15:55:47.470 [info] Handled visible editors change in 1.376161000225693ms
+2025-10-03 15:55:47.495 [info] Handled visible editors change in 0.9026399999856949ms
+2025-10-03 15:55:49.643 [info] Handled visible editors change in 0.5320469997823238ms
+2025-10-03 15:55:49.662 [info] Handled visible editors change in 0.7348110000602901ms
+2025-10-03 15:55:54.567 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 15:55:54.752 [info] Fetched fsConfig in 184.66860800003633ms
+2025-10-03 15:55:54.752 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-10-03 15:55:54.752 [info] File sync enabled status: true
+2025-10-03 15:55:54.752 [info] Starting sync of visible tabs
+2025-10-03 15:55:54.752 [info] Synced all visible tabs in 0.2599699995480478ms
+2025-10-03 15:56:46.230 [info] Handled visible editors change in 0.8848190000280738ms
+2025-10-03 15:56:46.254 [info] Handled visible editors change in 0.767649999819696ms
+2025-10-03 15:57:27.153 [info] Handled visible editors change in 0.6990559999831021ms
+2025-10-03 15:57:27.174 [info] Handled visible editors change in 0.8263699999079108ms
+2025-10-03 15:57:28.412 [info] Handled visible editors change in 1.0120199997909367ms
+2025-10-03 15:57:28.435 [info] Handled visible editors change in 0.7308450001291931ms
+2025-10-03 15:57:31.702 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 15:57:31.885 [info] Fetched fsConfig in 182.24582999991253ms
+2025-10-03 15:57:31.885 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-10-03 15:57:31.885 [info] File sync enabled status: true
+2025-10-03 15:57:31.885 [info] Starting sync of visible tabs
+2025-10-03 15:57:31.885 [info] Synced all visible tabs in 0.2117849998176098ms
+2025-10-03 15:57:35.939 [info] Synced file frontend/src/procesos/components/recepcion-solicitudes/RecepcionSolicitudes.tsx modelVersion=3 in 177.1632419996895ms
+2025-10-03 15:57:36.923 [info] Synced file frontend/src/procesos/components/recepcion-solicitudes/RecepcionSolicitudes.tsx modelVersion=4 in 178.82441699970514ms
+2025-10-03 15:58:04.181 [info] Handled visible editors change in 0.9031799999065697ms
+2025-10-03 15:58:04.203 [info] Handled visible editors change in 0.8233099998906255ms
+2025-10-03 15:58:21.466 [info] Handled visible editors change in 0.3267339998856187ms
+2025-10-03 15:58:21.735 [info] Uploaded file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=1 in 198.9378069997765ms
+2025-10-03 15:58:21.736 [info] Handled visible editors change in 242.0512530002743ms
+2025-10-03 15:58:22.531 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=2 in 175.35671600000933ms
+2025-10-03 15:58:26.549 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=5 in 175.77364300005138ms
+2025-10-03 15:58:27.437 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=6 in 183.6541169998236ms
+2025-10-03 15:58:32.021 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=7 in 177.4060060000047ms
+2025-10-03 15:58:34.020 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=8 in 176.83596999989823ms
+2025-10-03 15:58:34.395 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=9 in 177.6622779997997ms
+2025-10-03 15:58:34.889 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 15:58:35.072 [info] Fetched fsConfig in 182.91460000025108ms
+2025-10-03 15:58:35.072 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-10-03 15:58:35.073 [info] File sync enabled status: true
+2025-10-03 15:58:35.073 [info] Starting sync of visible tabs
+2025-10-03 15:58:35.125 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=11 in 177.27198299998417ms
+2025-10-03 15:58:35.283 [info] Uploaded file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=11 in 208.7664850000292ms
+2025-10-03 15:58:35.283 [info] Synced all visible tabs in 210.24567599967122ms
+2025-10-03 15:58:36.427 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=18 in 179.23305199993774ms
+2025-10-03 15:58:37.010 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=19 in 184.09034299990162ms
+2025-10-03 15:58:37.717 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=20 in 177.21101799979806ms
+2025-10-03 15:58:38.584 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=21 in 176.61695800023153ms
+2025-10-03 15:58:42.540 [info] Handled visible editors change in 0.6421889998018742ms
+2025-10-03 15:58:42.561 [info] Handled visible editors change in 0.7547479998320341ms
+2025-10-03 15:58:44.705 [info] Synced file frontend/src/tour/driver.ts modelVersion=28 in 178.97422599978745ms
+2025-10-03 15:58:46.155 [info] Synced file frontend/src/tour/driver.ts modelVersion=29 in 177.56236399989575ms
+2025-10-03 15:58:48.599 [info] Synced file frontend/src/tour/driver.ts modelVersion=30 in 176.77223500004038ms
+2025-10-03 15:58:50.197 [info] Handled visible editors change in 0.2959799999371171ms
+2025-10-03 15:58:50.198 [info] Handled visible editors change in 0.7142809997312725ms
+2025-10-03 15:59:12.780 [info] Handled visible editors change in 0.3612059997394681ms
+2025-10-03 15:59:13.079 [info] Uploaded file frontend/src/procesos/components/evaluacion-documentacion/EvaluacionDocumentacion.tsx modelVersion=1 in 178.62596700014547ms
+2025-10-03 15:59:13.079 [info] Handled visible editors change in 266.4132779999636ms
+2025-10-03 15:59:19.912 [info] Synced file frontend/src/procesos/components/evaluacion-documentacion/EvaluacionDocumentacion.tsx modelVersion=2 in 179.4101129998453ms
+2025-10-03 15:59:40.084 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 15:59:40.267 [info] Fetched fsConfig in 183.1113049997948ms
+2025-10-03 15:59:40.267 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-10-03 15:59:40.267 [info] File sync enabled status: true
+2025-10-03 15:59:40.267 [info] Starting sync of visible tabs
+2025-10-03 15:59:40.267 [info] Synced all visible tabs in 0.229526000097394ms
+2025-10-03 15:59:55.751 [info] Synced file frontend/src/procesos/components/evaluacion-documentacion/EvaluacionDocumentacion.tsx modelVersion=6 in 176.85749099962413ms
+2025-10-03 15:59:56.136 [info] Synced file frontend/src/procesos/components/evaluacion-documentacion/EvaluacionDocumentacion.tsx modelVersion=7 in 177.7398459999822ms
+2025-10-03 15:59:56.973 [info] Synced file frontend/src/procesos/components/evaluacion-documentacion/EvaluacionDocumentacion.tsx modelVersion=8 in 183.55555000016466ms
+2025-10-03 16:00:04.421 [info] Synced file frontend/src/procesos/components/evaluacion-documentacion/EvaluacionDocumentacion.tsx modelVersion=9 in 176.1741140000522ms
+2025-10-03 16:00:07.922 [info] Synced file frontend/src/procesos/components/evaluacion-documentacion/EvaluacionDocumentacion.tsx modelVersion=10 in 176.49424100015312ms
+2025-10-03 16:00:08.313 [info] Synced file frontend/src/procesos/components/evaluacion-documentacion/EvaluacionDocumentacion.tsx modelVersion=12 in 175.64709999971092ms
+2025-10-03 16:00:08.830 [info] Synced file frontend/src/procesos/components/evaluacion-documentacion/EvaluacionDocumentacion.tsx modelVersion=13 in 180.26415900001302ms
+2025-10-03 16:00:10.343 [info] Handled visible editors change in 0.7459449996240437ms
+2025-10-03 16:00:10.366 [info] Handled visible editors change in 0.8249030001461506ms
+2025-10-03 16:00:14.899 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=22 in 177.6986059998162ms
+2025-10-03 16:00:18.262 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=23 in 180.56554900016636ms
+2025-10-03 16:00:25.225 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=24 in 179.8881309996359ms
+2025-10-03 16:00:26.708 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=25 in 181.35936800017953ms
+2025-10-03 16:00:27.136 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=26 in 182.07386300014332ms
+2025-10-03 16:00:27.426 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=27 in 176.9417890002951ms
+2025-10-03 16:00:29.261 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=28 in 182.18177299993113ms
+2025-10-03 16:00:31.775 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=34 in 178.2550419997424ms
+2025-10-03 16:00:32.039 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=35 in 178.8690819996409ms
+2025-10-03 16:00:32.481 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=37 in 178.0323740001768ms
+2025-10-03 16:00:32.776 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=38 in 179.40880999993533ms
+2025-10-03 16:00:33.790 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=39 in 177.44785000011325ms
+2025-10-03 16:00:36.494 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=40 in 179.04056299990043ms
+2025-10-03 16:00:36.916 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=42 in 183.59814900020137ms
+2025-10-03 16:00:37.190 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=43 in 177.0115279997699ms
+2025-10-03 16:00:37.735 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=44 in 233.325753999874ms
+2025-10-03 16:00:39.053 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=45 in 187.77504999982193ms
+2025-10-03 16:01:05.392 [info] Handled visible editors change in 0.6703810002654791ms
+2025-10-03 16:01:05.413 [info] Handled visible editors change in 0.702337000053376ms
+2025-10-03 16:01:06.710 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 16:01:06.895 [info] Fetched fsConfig in 184.70147500000894ms
+2025-10-03 16:01:06.896 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-10-03 16:01:06.896 [info] File sync enabled status: true
+2025-10-03 16:01:06.896 [info] Starting sync of visible tabs
+2025-10-03 16:01:06.896 [info] Synced all visible tabs in 0.20128200016915798ms
+2025-10-03 16:01:22.820 [info] Synced file frontend/src/procesos/components/evaluacion-documentacion/EvaluacionDocumentacion.tsx modelVersion=14 in 180.21524100005627ms
+2025-10-03 16:01:24.872 [info] Synced file frontend/src/procesos/components/evaluacion-documentacion/EvaluacionDocumentacion.tsx modelVersion=15 in 177.19143600016832ms
+2025-10-03 16:01:30.847 [info] Synced file frontend/src/procesos/components/evaluacion-documentacion/EvaluacionDocumentacion.tsx modelVersion=16 in 175.86907599959522ms
+2025-10-03 16:01:31.124 [info] Synced file frontend/src/procesos/components/evaluacion-documentacion/EvaluacionDocumentacion.tsx modelVersion=17 in 176.53384899999946ms
+2025-10-03 16:01:31.930 [info] Synced file frontend/src/procesos/components/evaluacion-documentacion/EvaluacionDocumentacion.tsx modelVersion=20 in 175.9595089997165ms
+2025-10-03 16:01:32.430 [info] Synced file frontend/src/procesos/components/evaluacion-documentacion/EvaluacionDocumentacion.tsx modelVersion=21 in 176.49207000015303ms
+2025-10-03 16:01:32.797 [info] Synced file frontend/src/procesos/components/evaluacion-documentacion/EvaluacionDocumentacion.tsx modelVersion=22 in 183.66151000000536ms
+2025-10-03 16:01:36.162 [info] Synced file frontend/src/procesos/components/evaluacion-documentacion/EvaluacionDocumentacion.tsx modelVersion=23 in 175.47435100004077ms
+2025-10-03 16:01:37.385 [info] Synced file frontend/src/procesos/components/evaluacion-documentacion/EvaluacionDocumentacion.tsx modelVersion=24 in 175.91950700012967ms
+2025-10-03 16:01:38.900 [info] Synced file frontend/src/procesos/components/evaluacion-documentacion/EvaluacionDocumentacion.tsx modelVersion=25 in 176.15244699968025ms
+2025-10-03 16:01:39.349 [info] Synced file frontend/src/procesos/components/evaluacion-documentacion/EvaluacionDocumentacion.tsx modelVersion=26 in 178.8819220000878ms
+2025-10-03 16:01:40.102 [info] Synced file frontend/src/procesos/components/evaluacion-documentacion/EvaluacionDocumentacion.tsx modelVersion=27 in 176.68782200012356ms
+2025-10-03 16:01:42.369 [info] Synced file frontend/src/procesos/components/evaluacion-documentacion/EvaluacionDocumentacion.tsx modelVersion=28 in 177.18033500015736ms
+2025-10-03 16:01:58.570 [info] Handled visible editors change in 0.6766119999811053ms
+2025-10-03 16:01:58.592 [info] Handled visible editors change in 0.7048780000768602ms
+2025-10-03 16:02:01.446 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=46 in 175.89414200000465ms
+2025-10-03 16:02:04.592 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=47 in 177.09530999977142ms
+2025-10-03 16:02:07.329 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 16:02:07.510 [info] Fetched fsConfig in 180.70235100015998ms
+2025-10-03 16:02:07.510 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-10-03 16:02:07.511 [info] File sync enabled status: true
+2025-10-03 16:02:07.511 [info] Starting sync of visible tabs
+2025-10-03 16:02:07.511 [info] Synced all visible tabs in 0.23704800009727478ms
+2025-10-03 16:02:15.267 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=48 in 176.68042200012133ms
+2025-10-03 16:02:16.392 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=56 in 178.6937949997373ms
+2025-10-03 16:02:21.520 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=57 in 177.94948199996725ms
+2025-10-03 16:02:22.381 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=62 in 196.46304599987343ms
+2025-10-03 16:02:23.309 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=66 in 177.4019089997746ms
+2025-10-03 16:02:23.943 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=67 in 262.65965599985793ms
+2025-10-03 16:02:44.846 [info] Handled visible editors change in 0.7584140002727509ms
+2025-10-03 16:02:44.868 [info] Handled visible editors change in 0.7175520001910627ms
+2025-10-03 16:02:45.597 [info] Handled visible editors change in 0.9538030000403523ms
+2025-10-03 16:02:45.622 [info] Handled visible editors change in 0.7566960002295673ms
+2025-10-03 16:02:50.297 [info] Synced file frontend/src/procesos/components/evaluacion-documentacion/EvaluacionDocumentacion.tsx modelVersion=29 in 179.0121759995818ms
+2025-10-03 16:02:51.233 [info] Synced file frontend/src/procesos/components/evaluacion-documentacion/EvaluacionDocumentacion.tsx modelVersion=30 in 191.68209600029513ms
+2025-10-03 16:02:53.562 [info] Synced file frontend/src/procesos/components/evaluacion-documentacion/EvaluacionDocumentacion.tsx modelVersion=36 in 175.16574200009927ms
+2025-10-03 16:03:16.696 [info] Handled visible editors change in 1.0666749998927116ms
+2025-10-03 16:03:16.722 [info] Handled visible editors change in 0.7512650000862777ms
+2025-10-03 16:03:18.027 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 16:03:18.213 [info] Fetched fsConfig in 186.3241650001146ms
+2025-10-03 16:03:18.213 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-10-03 16:03:18.214 [info] File sync enabled status: true
+2025-10-03 16:03:18.214 [info] Starting sync of visible tabs
+2025-10-03 16:03:18.214 [info] Synced all visible tabs in 0.2275410001166165ms
+2025-10-03 16:03:20.009 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=68 in 178.67699899990112ms
+2025-10-03 16:03:22.386 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=69 in 179.2874269997701ms
+2025-10-03 16:03:29.831 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=70 in 181.4286930002272ms
+2025-10-03 16:03:30.534 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=71 in 176.8773889997974ms
+2025-10-03 16:03:30.884 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=72 in 178.7111820001155ms
+2025-10-03 16:03:31.809 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=73 in 181.19055300019681ms
+2025-10-03 16:03:32.888 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=74 in 177.82159500010312ms
+2025-10-03 16:03:34.367 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=75 in 180.12776200007647ms
+2025-10-03 16:03:35.221 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=76 in 176.95180900022388ms
+2025-10-03 16:03:35.837 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=78 in 194.45881899958476ms
+2025-10-03 16:03:37.547 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=80 in 176.56115700025111ms
+2025-10-03 16:03:37.868 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=82 in 178.20991199975833ms
+2025-10-03 16:03:38.705 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=85 in 178.9747549998574ms
+2025-10-03 16:03:39.475 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=88 in 179.91527699958533ms
+2025-10-03 16:03:40.762 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=90 in 180.4966420000419ms
+2025-10-03 16:03:41.609 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=96 in 179.09987299982458ms
+2025-10-03 16:03:42.906 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=97 in 179.87383299972862ms
+2025-10-03 16:03:43.348 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=98 in 178.3822069996968ms
+2025-10-03 16:03:43.627 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=99 in 176.02495299978182ms
+2025-10-03 16:03:44.519 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=100 in 177.02214499982074ms
+2025-10-03 16:03:45.393 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=101 in 175.43753500003368ms
+2025-10-03 16:03:46.104 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=102 in 178.64030899992213ms
+2025-10-03 16:03:48.457 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=104 in 179.46594200003892ms
+2025-10-03 16:03:50.511 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=111 in 177.92933299997821ms
+2025-10-03 16:03:50.805 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=112 in 179.51659299992025ms
+2025-10-03 16:03:51.738 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=113 in 180.2097570002079ms
+2025-10-03 16:03:55.323 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=116 in 177.18976699979976ms
+2025-10-03 16:03:57.160 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=117 in 176.4653179999441ms
+2025-10-03 16:04:10.730 [info] Handled visible editors change in 0.6991340001113713ms
+2025-10-03 16:04:10.756 [info] Handled visible editors change in 0.6952019999735057ms
+2025-10-03 16:04:32.567 [info] Handled visible editors change in 1.0177739998325706ms
+2025-10-03 16:04:32.603 [info] Handled visible editors change in 2.00555199990049ms
+2025-10-03 16:04:33.835 [info] Handled visible editors change in 0.5520509998314083ms
+2025-10-03 16:04:33.859 [info] Handled visible editors change in 0.8144340002909303ms
+2025-10-03 16:04:34.121 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 16:04:34.305 [info] Fetched fsConfig in 184.28033899981529ms
+2025-10-03 16:04:34.305 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-10-03 16:04:34.305 [info] File sync enabled status: true
+2025-10-03 16:04:34.305 [info] Starting sync of visible tabs
+2025-10-03 16:04:34.305 [info] Synced all visible tabs in 0.13252100022509694ms
+2025-10-03 16:04:42.086 [info] Synced file frontend/src/procesos/components/evaluacion-documentacion/EvaluacionDocumentacion.tsx modelVersion=37 in 180.28611799981445ms
+2025-10-03 16:04:43.121 [info] Handled visible editors change in 0.9900569999590516ms
+2025-10-03 16:04:43.147 [info] Handled visible editors change in 0.7639230000786483ms
+2025-10-03 16:04:45.845 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=118 in 177.1527009997517ms
+2025-10-03 16:04:47.216 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=119 in 179.1794850002043ms
+2025-10-03 16:04:57.571 [info] Handled visible editors change in 1.2004919997416437ms
+2025-10-03 16:04:57.851 [info] Uploaded file frontend/src/tour/driver.ts modelVersion=30 in 177.95647300034761ms
+2025-10-03 16:04:57.851 [info] Handled visible editors change in 256.3572030002251ms
+2025-10-03 16:04:59.201 [info] Handled visible editors change in 1.1562210000120103ms
+2025-10-03 16:04:59.226 [info] Handled visible editors change in 0.754052999895066ms
+2025-10-03 16:05:03.249 [info] Handled visible editors change in 1.0298760002478957ms
+2025-10-03 16:05:03.273 [info] Handled visible editors change in 0.7405280000530183ms
+2025-10-03 16:05:04.627 [info] Handled visible editors change in 0.6540830000303686ms
+2025-10-03 16:05:04.650 [info] Handled visible editors change in 0.7388829998672009ms
+2025-10-03 16:05:06.488 [info] Handled visible editors change in 0.6107280002906919ms
+2025-10-03 16:05:06.506 [info] Handled visible editors change in 0.7518080002628267ms
+2025-10-03 16:05:06.862 [info] Handled visible editors change in 1.181404999922961ms
+2025-10-03 16:05:06.884 [info] Handled visible editors change in 0.8089020000770688ms
+2025-10-03 16:05:09.746 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=121 in 184.90701900003478ms
+2025-10-03 16:05:10.352 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=122 in 178.86751500004902ms
+2025-10-03 16:05:11.212 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=129 in 178.70646400004625ms
+2025-10-03 16:05:12.618 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=130 in 188.4792799996212ms
+2025-10-03 16:05:13.890 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=131 in 573.530563000124ms
+2025-10-03 16:05:31.539 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=132 in 179.28224099986255ms
+2025-10-03 16:05:32.139 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=133 in 176.41041700029746ms
+2025-10-03 16:05:32.704 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=135 in 177.51385900005698ms
+2025-10-03 16:05:33.927 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=136 in 175.15236200019717ms
+2025-10-03 16:05:34.478 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=149 in 177.85673100035638ms
+2025-10-03 16:05:34.814 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 16:05:34.996 [info] Fetched fsConfig in 182.68891000002623ms
+2025-10-03 16:05:34.996 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-10-03 16:05:34.997 [info] File sync enabled status: true
+2025-10-03 16:05:34.997 [info] Starting sync of visible tabs
+2025-10-03 16:05:35.174 [info] Uploaded file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=152 in 176.5061369999312ms
+2025-10-03 16:05:35.174 [info] Synced all visible tabs in 177.29498999984935ms
+2025-10-03 16:05:35.302 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=152 in 175.8902690000832ms
+2025-10-03 16:05:36.752 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=166 in 178.59963000006974ms
+2025-10-03 16:05:37.588 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=167 in 182.33317300025374ms
+2025-10-03 16:05:38.307 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=171 in 184.5781360003166ms
+2025-10-03 16:05:39.239 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=177 in 179.58189800009131ms
+2025-10-03 16:05:40.654 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=180 in 176.98011699970812ms
+2025-10-03 16:05:41.259 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=181 in 177.16581600019708ms
+2025-10-03 16:05:43.893 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=196 in 178.55180899985135ms
+2025-10-03 16:05:47.227 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=205 in 191.0342490002513ms
+2025-10-03 16:05:47.625 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=206 in 177.6593269999139ms
+2025-10-03 16:06:04.677 [info] Handled visible editors change in 0.3588499999605119ms
+2025-10-03 16:06:04.693 [info] Handled visible editors change in 0.665345000103116ms
+2025-10-03 16:06:06.289 [info] Handled visible editors change in 1.02473200019449ms
+2025-10-03 16:06:06.311 [info] Handled visible editors change in 0.8582399999722838ms
+2025-10-03 16:06:08.675 [info] Handled visible editors change in 0.8690849998965859ms
+2025-10-03 16:06:08.700 [info] Handled visible editors change in 0.7687039999291301ms
+2025-10-03 16:06:14.274 [info] Synced file frontend/src/procesos/components/evaluacion-documentacion/EvaluacionDocumentacion.tsx modelVersion=38 in 176.13453799998388ms
+2025-10-03 16:06:15.827 [info] Synced file frontend/src/procesos/components/evaluacion-documentacion/EvaluacionDocumentacion.tsx modelVersion=40 in 176.66431399993598ms
+2025-10-03 16:06:19.586 [info] Handled visible editors change in 0.9715630002319813ms
+2025-10-03 16:06:19.611 [info] Handled visible editors change in 0.7506619999185205ms
+2025-10-03 16:06:25.663 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=207 in 177.7391090001911ms
+2025-10-03 16:06:30.168 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=209 in 177.97357899975032ms
+2025-10-03 16:06:38.144 [info] Handled visible editors change in 1.1637069997377694ms
+2025-10-03 16:06:38.172 [info] Handled visible editors change in 0.7484410000033677ms
+2025-10-03 16:06:39.529 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 16:06:39.711 [info] Fetched fsConfig in 181.7697259997949ms
+2025-10-03 16:06:39.711 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-10-03 16:06:39.711 [info] File sync enabled status: true
+2025-10-03 16:06:39.711 [info] Starting sync of visible tabs
+2025-10-03 16:06:39.711 [info] Synced all visible tabs in 0.27010499965399504ms
+2025-10-03 16:06:44.198 [info] Synced file frontend/src/procesos/components/evaluacion-documentacion/EvaluacionDocumentacion.tsx modelVersion=41 in 177.2449249997735ms
+2025-10-03 16:06:45.476 [info] Synced file frontend/src/procesos/components/evaluacion-documentacion/EvaluacionDocumentacion.tsx modelVersion=42 in 179.30163399968296ms
+2025-10-03 16:06:46.391 [info] Synced file frontend/src/procesos/components/evaluacion-documentacion/EvaluacionDocumentacion.tsx modelVersion=48 in 178.4438319997862ms
+2025-10-03 16:06:46.695 [info] Synced file frontend/src/procesos/components/evaluacion-documentacion/EvaluacionDocumentacion.tsx modelVersion=49 in 176.46942499978468ms
+2025-10-03 16:06:49.116 [info] Synced file frontend/src/procesos/components/evaluacion-documentacion/EvaluacionDocumentacion.tsx modelVersion=50 in 179.70095300022513ms
+2025-10-03 16:06:52.595 [info] Synced file frontend/src/procesos/components/evaluacion-documentacion/EvaluacionDocumentacion.tsx modelVersion=51 in 176.3660300001502ms
+2025-10-03 16:06:53.691 [info] Synced file frontend/src/procesos/components/evaluacion-documentacion/EvaluacionDocumentacion.tsx modelVersion=59 in 177.3969769999385ms
+2025-10-03 16:06:54.816 [info] Synced file frontend/src/procesos/components/evaluacion-documentacion/EvaluacionDocumentacion.tsx modelVersion=65 in 182.64792999997735ms
+2025-10-03 16:06:55.310 [info] Synced file frontend/src/procesos/components/evaluacion-documentacion/EvaluacionDocumentacion.tsx modelVersion=67 in 176.39543499983847ms
+2025-10-03 16:06:56.001 [info] Synced file frontend/src/procesos/components/evaluacion-documentacion/EvaluacionDocumentacion.tsx modelVersion=68 in 176.07042100001127ms
+2025-10-03 16:06:56.398 [info] Synced file frontend/src/procesos/components/evaluacion-documentacion/EvaluacionDocumentacion.tsx modelVersion=68 in 175.48726799990982ms
+2025-10-03 16:06:56.423 [info] Handled visible editors change in 0.3592599998228252ms
+2025-10-03 16:06:56.447 [info] Handled visible editors change in 0.7208090000785887ms
+2025-10-03 16:07:00.358 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=212 in 251.34065200015903ms
+2025-10-03 16:07:01.670 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=213 in 176.7021150002256ms
+2025-10-03 16:07:05.887 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=214 in 176.8028560001403ms
+2025-10-03 16:07:07.652 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=215 in 177.29767300002277ms
+2025-10-03 16:07:08.194 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=216 in 176.30234000040218ms
+2025-10-03 16:07:09.447 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=217 in 175.22806199965999ms
+2025-10-03 16:07:10.485 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=218 in 178.02619800018147ms
+2025-10-03 16:07:35.174 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=219 in 175.5832520001568ms
+2025-10-03 16:07:35.547 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=220 in 177.11095099989325ms
+2025-10-03 16:07:36.307 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=222 in 176.734182999935ms
+2025-10-03 16:07:39.696 [info] Synced file frontend/src/tour/steps/evaluacionDocumentacion.ts modelVersion=223 in 179.50559200020507ms
+2025-10-03 16:07:42.267 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 16:07:42.454 [info] Fetched fsConfig in 186.99460600037128ms
+2025-10-03 16:07:42.455 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-10-03 16:07:42.455 [info] File sync enabled status: true
+2025-10-03 16:07:42.455 [info] Starting sync of visible tabs
+2025-10-03 16:07:42.455 [info] Synced all visible tabs in 0.2608270002529025ms
+2025-10-03 16:07:52.576 [info] Handled visible editors change in 0.26573600014671683ms
+2025-10-03 16:07:52.878 [info] Uploaded file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=70 in 200.9930320000276ms
+2025-10-03 16:07:52.878 [info] Handled visible editors change in 272.11188300000504ms
+2025-10-03 16:07:56.384 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=71 in 179.48843600042164ms
+2025-10-03 16:08:03.476 [info] Handled visible editors change in 0.3536859997548163ms
+2025-10-03 16:08:04.057 [info] Uploaded file frontend/src/procesos/components/recepcion-solicitudes/RecepcionSolicitudes.tsx modelVersion=4 in 247.27484200010076ms
+2025-10-03 16:08:04.057 [info] Handled visible editors change in 537.9263220001012ms
+2025-10-03 16:08:12.528 [info] Synced file frontend/src/procesos/components/recepcion-solicitudes/RecepcionSolicitudes.tsx modelVersion=5 in 193.64512399956584ms
+2025-10-03 16:08:13.756 [info] Synced file frontend/src/procesos/components/recepcion-solicitudes/RecepcionSolicitudes.tsx modelVersion=6 in 174.24933600006625ms
+2025-10-03 16:08:14.468 [info] Synced file frontend/src/procesos/components/recepcion-solicitudes/RecepcionSolicitudes.tsx modelVersion=7 in 180.88872700044885ms
+2025-10-03 16:08:15.249 [info] Handled visible editors change in 1.202512999996543ms
+2025-10-03 16:08:15.275 [info] Handled visible editors change in 0.8462879997678101ms
+2025-10-03 16:08:17.902 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=72 in 177.7613409999758ms
+2025-10-03 16:08:19.381 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=73 in 179.37802400020882ms
+2025-10-03 16:08:20.104 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=74 in 177.20045199990273ms
+2025-10-03 16:08:24.806 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=81 in 180.00333300000057ms
+2025-10-03 16:08:25.207 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=82 in 176.20166800031438ms
+2025-10-03 16:08:26.874 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=83 in 179.38097199983895ms
+2025-10-03 16:08:27.924 [info] Synced file frontend/src/tour/steps/recepcionSolicitudes.ts modelVersion=84 in 177.36622500000522ms
+2025-10-03 16:09:20.145 [info] Handled visible editors change in 0.6935299998149276ms
+2025-10-03 16:09:20.173 [info] Handled visible editors change in 0.7544289999641478ms
+2025-10-03 16:09:21.469 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 16:09:21.651 [info] Fetched fsConfig in 180.96493599982932ms
+2025-10-03 16:09:21.651 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-10-03 16:09:21.651 [info] File sync enabled status: true
+2025-10-03 16:09:21.651 [info] Starting sync of visible tabs
+2025-10-03 16:09:21.651 [info] Synced all visible tabs in 0.20368199981749058ms
+2025-10-03 16:09:23.191 [info] Handled visible editors change in 1.0127619998529553ms
+2025-10-03 16:09:23.220 [info] Handled visible editors change in 0.7339999997057021ms
+2025-10-03 16:09:27.565 [info] Handled visible editors change in 0.8992139999754727ms
+2025-10-03 16:09:27.590 [info] Handled visible editors change in 0.8094620001502335ms
+2025-10-03 16:09:38.310 [info] Handled visible editors change in 0.33390199998393655ms
+2025-10-03 16:09:38.579 [info] Uploaded file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=1 in 189.92206300003454ms
+2025-10-03 16:09:38.579 [info] Handled visible editors change in 238.43619799986482ms
+2025-10-03 16:09:39.947 [info] Handled visible editors change in 0.3451819997280836ms
+2025-10-03 16:09:40.206 [info] Uploaded file frontend/src/tour/steps/dashboard.ts modelVersion=1 in 193.0009869998321ms
+2025-10-03 16:09:40.206 [info] Handled visible editors change in 233.02099099988118ms
+2025-10-03 16:09:42.755 [info] Handled visible editors change in 1.167091999668628ms
+2025-10-03 16:09:43.071 [info] Uploaded file frontend/src/tour/steps/inicio.ts modelVersion=1 in 221.46781999990344ms
+2025-10-03 16:09:43.071 [info] Handled visible editors change in 277.20496999984607ms
+2025-10-03 16:09:47.201 [info] Handled visible editors change in 0.3128809998743236ms
+2025-10-03 16:09:47.215 [info] Handled visible editors change in 0.6335509996861219ms
+2025-10-03 16:09:49.672 [info] Handled visible editors change in 1.3741540000773966ms
+2025-10-03 16:09:49.717 [info] Handled visible editors change in 0.7457870002835989ms
+2025-10-03 16:09:50.851 [info] Handled visible editors change in 0.9906709999777377ms
+2025-10-03 16:09:50.874 [info] Handled visible editors change in 0.7686830000020564ms
+2025-10-03 16:09:53.400 [info] Handled visible editors change in 1.3771759998053312ms
+2025-10-03 16:09:53.425 [info] Handled visible editors change in 0.8139980002306402ms
+2025-10-03 16:09:54.717 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=2 in 186.4700869997032ms
+2025-10-03 16:09:58.154 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=3 in 182.68410700000823ms
+2025-10-03 16:10:05.569 [info] Handled visible editors change in 0.34716999996453524ms
+2025-10-03 16:10:05.861 [info] Uploaded file frontend/src/procesos/components/evaluacion-planificacion/EvaluacionPlanificacion.tsx modelVersion=1 in 176.49371699988842ms
+2025-10-03 16:10:05.861 [info] Handled visible editors change in 264.1801269999705ms
+2025-10-03 16:22:53.194 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 16:22:53.378 [info] Fetched fsConfig in 183.15803399961442ms
+2025-10-03 16:22:53.378 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-10-03 16:22:53.378 [info] File sync enabled status: true
+2025-10-03 16:22:53.379 [info] Starting sync of visible tabs
+2025-10-03 16:22:53.558 [info] Uploaded file frontend/src/procesos/components/evaluacion-planificacion/EvaluacionPlanificacion.tsx modelVersion=1 in 178.09076000005007ms
+2025-10-03 16:22:53.558 [info] Synced all visible tabs in 180.47838999982923ms
+2025-10-03 16:22:54.292 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/EvaluacionPlanificacion.tsx modelVersion=2 in 179.23543500062078ms
+2025-10-03 16:22:55.516 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/EvaluacionPlanificacion.tsx modelVersion=3 in 176.7921250006184ms
+2025-10-03 16:22:57.221 [info] Handled visible editors change in 0.5713459998369217ms
+2025-10-03 16:22:57.539 [info] Uploaded file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=3 in 177.32914199959487ms
+2025-10-03 16:22:57.539 [info] Handled visible editors change in 305.0838949996978ms
+2025-10-03 16:23:00.680 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=4 in 176.99613600037992ms
+2025-10-03 16:23:01.542 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=5 in 173.98910700064152ms
+2025-10-03 16:23:08.216 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=10 in 173.89329099934548ms
+2025-10-03 16:23:09.159 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=16 in 193.02383799944073ms
+2025-10-03 16:23:09.464 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=17 in 176.66126799955964ms
+2025-10-03 16:23:15.101 [info] Handled visible editors change in 0.8565859999507666ms
+2025-10-03 16:23:15.124 [info] Handled visible editors change in 0.7793880002573133ms
+2025-10-03 16:23:23.632 [info] Handled visible editors change in 0.3317440003156662ms
+2025-10-03 16:23:23.908 [info] Uploaded file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=1 in 187.40808799955994ms
+2025-10-03 16:23:23.908 [info] Handled visible editors change in 248.25681499950588ms
+2025-10-03 16:23:33.765 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=5 in 175.5479359999299ms
+2025-10-03 16:23:34.181 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=6 in 175.278754000552ms
+2025-10-03 16:23:34.598 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=7 in 176.32888100016862ms
+2025-10-03 16:23:37.397 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=8 in 177.7046819999814ms
+2025-10-03 16:23:39.345 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=9 in 179.0600960003212ms
+2025-10-03 16:23:40.980 [info] Handled visible editors change in 1.0272619994357228ms
+2025-10-03 16:23:41.005 [info] Handled visible editors change in 0.765565000474453ms
+2025-10-03 16:23:41.943 [info] Handled visible editors change in 0.9023190001025796ms
+2025-10-03 16:23:41.966 [info] Handled visible editors change in 0.7374099995940924ms
+2025-10-03 16:23:42.532 [info] Handled visible editors change in 0.6432389998808503ms
+2025-10-03 16:23:42.552 [info] Handled visible editors change in 0.6908269999548793ms
+2025-10-03 16:23:52.456 [info] Handled visible editors change in 0.35616800002753735ms
+2025-10-03 16:23:52.756 [info] Uploaded file frontend/src/tour/driver.ts modelVersion=30 in 175.48591100052ms
+2025-10-03 16:23:52.756 [info] Handled visible editors change in 278.2021220000461ms
+2025-10-03 16:23:53.808 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 16:23:53.990 [info] Fetched fsConfig in 181.11449499987066ms
+2025-10-03 16:23:53.990 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-10-03 16:23:53.990 [info] File sync enabled status: true
+2025-10-03 16:23:53.990 [info] Starting sync of visible tabs
+2025-10-03 16:23:53.990 [info] Synced all visible tabs in 0.15583099983632565ms
+2025-10-03 16:23:56.000 [info] Synced file frontend/src/tour/driver.ts modelVersion=31 in 174.42081499937922ms
+2025-10-03 16:23:57.158 [info] Synced file frontend/src/tour/driver.ts modelVersion=32 in 177.47757399920374ms
+2025-10-03 16:23:58.738 [info] Synced file frontend/src/tour/driver.ts modelVersion=33 in 174.8394869994372ms
+2025-10-03 16:24:31.087 [info] Handled visible editors change in 1.0897610001266003ms
+2025-10-03 16:24:31.113 [info] Handled visible editors change in 0.7696129996329546ms
+2025-10-03 16:24:32.582 [info] Handled visible editors change in 0.7809469997882843ms
+2025-10-03 16:24:32.607 [info] Handled visible editors change in 0.752573000267148ms
+2025-10-03 16:24:34.259 [info] Handled visible editors change in 0.7682959996163845ms
+2025-10-03 16:24:34.280 [info] Handled visible editors change in 0.7500640004873276ms
+2025-10-03 16:24:45.581 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=10 in 176.79355400055647ms
+2025-10-03 16:24:46.799 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=11 in 176.61551999952644ms
+2025-10-03 16:24:47.345 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=12 in 172.70822999998927ms
+2025-10-03 16:24:48.103 [info] Handled visible editors change in 1.0340480003505945ms
+2025-10-03 16:24:48.126 [info] Handled visible editors change in 0.7562910001724958ms
+2025-10-03 16:24:49.809 [info] Handled visible editors change in 1.0236640004441142ms
+2025-10-03 16:24:49.833 [info] Handled visible editors change in 0.7710849996656179ms
+2025-10-03 16:24:53.440 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=18 in 176.55561199970543ms
+2025-10-03 16:24:54.280 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=19 in 180.19404799956828ms
+2025-10-03 16:25:13.647 [info] Handled visible editors change in 1.236815999262035ms
+2025-10-03 16:25:13.675 [info] Handled visible editors change in 0.7275330005213618ms
+2025-10-03 16:25:14.688 [info] Handled visible editors change in 0.7671289993450046ms
+2025-10-03 16:25:14.710 [info] Handled visible editors change in 0.6859459998086095ms
+2025-10-03 16:25:21.016 [info] Handled visible editors change in 0.5555469999089837ms
+2025-10-03 16:25:21.037 [info] Handled visible editors change in 0.6817600000649691ms
+2025-10-03 16:25:27.415 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=14 in 180.00672200042754ms
+2025-10-03 16:25:28.960 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=16 in 177.27586800046265ms
+2025-10-03 16:25:29.882 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=17 in 182.79896199982613ms
+2025-10-03 16:25:33.189 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=18 in 178.05033299978822ms
+2025-10-03 16:25:34.255 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=19 in 189.22905700001866ms
+2025-10-03 16:25:47.021 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=20 in 175.52571099996567ms
+2025-10-03 16:25:48.296 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=21 in 177.30793199967593ms
+2025-10-03 16:25:48.865 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=22 in 173.94165300019085ms
+2025-10-03 16:25:52.129 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=23 in 174.13558800052851ms
+2025-10-03 16:25:52.568 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=25 in 174.77985499985516ms
+2025-10-03 16:26:01.490 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=26 in 186.8732190001756ms
+2025-10-03 16:26:02.380 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 16:26:02.562 [info] Fetched fsConfig in 181.29923000000417ms
+2025-10-03 16:26:02.562 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-10-03 16:26:02.562 [info] File sync enabled status: true
+2025-10-03 16:26:02.562 [info] Starting sync of visible tabs
+2025-10-03 16:26:02.562 [info] Synced all visible tabs in 0.2087449999526143ms
+2025-10-03 16:26:03.602 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=27 in 176.47305000014603ms
+2025-10-03 16:26:04.409 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=28 in 175.38315199967474ms
+2025-10-03 16:26:07.166 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=29 in 175.23706000018865ms
+2025-10-03 16:26:09.119 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=30 in 178.0928369993344ms
+2025-10-03 16:26:12.032 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=31 in 173.86922699958086ms
+2025-10-03 16:26:16.124 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=32 in 176.54165500029922ms
+2025-10-03 16:26:16.445 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=33 in 174.97076100017875ms
+2025-10-03 16:26:16.995 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=34 in 176.35646300017834ms
+2025-10-03 16:26:20.366 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=35 in 176.43135900050402ms
+2025-10-03 16:26:21.571 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=36 in 189.27680200058967ms
+2025-10-03 16:26:28.847 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=37 in 175.1343669993803ms
+2025-10-03 16:26:29.512 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=38 in 175.91703299991786ms
+2025-10-03 16:26:35.444 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=39 in 175.13772400002927ms
+2025-10-03 16:26:36.496 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=40 in 175.47852199990302ms
+2025-10-03 16:26:39.035 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=41 in 176.23835900053382ms
+2025-10-03 16:26:41.464 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=42 in 175.09639200009406ms
+2025-10-03 16:26:44.682 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=43 in 178.31108599994332ms
+2025-10-03 16:26:45.235 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=44 in 178.31833499949425ms
+2025-10-03 16:26:46.352 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=45 in 178.54687200021ms
+2025-10-03 16:26:49.556 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=46 in 180.44050099980086ms
+2025-10-03 16:26:53.474 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=47 in 179.11472900025547ms
+2025-10-03 16:26:54.051 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=51 in 177.32000899966806ms
+2025-10-03 16:26:58.890 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=52 in 176.58769600000232ms
+2025-10-03 16:27:00.323 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=53 in 177.07415500003844ms
+2025-10-03 16:27:01.498 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=54 in 176.04248700011522ms
+2025-10-03 16:27:10.271 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=55 in 178.48521799966693ms
+2025-10-03 16:27:10.314 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 16:27:10.506 [info] Fetched fsConfig in 192.2161830002442ms
+2025-10-03 16:27:10.506 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-10-03 16:27:10.506 [info] File sync enabled status: true
+2025-10-03 16:27:10.506 [info] Starting sync of visible tabs
+2025-10-03 16:27:10.506 [info] Synced all visible tabs in 0.08212099969387054ms
+2025-10-03 16:27:12.882 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=56 in 175.45014199987054ms
+2025-10-03 16:27:14.220 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=57 in 175.3114109998569ms
+2025-10-03 16:27:18.017 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=58 in 177.68109800014645ms
+2025-10-03 16:27:20.790 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=59 in 183.13071499951184ms
+2025-10-03 16:27:37.460 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=60 in 176.93978899996728ms
+2025-10-03 16:27:38.592 [info] Synced file frontend/src/procesos/components/evaluacion-planificacion/components/comision/comision-form/ComisionForm.tsx modelVersion=61 in 178.99651099927723ms
+2025-10-03 16:27:41.621 [info] Handled visible editors change in 0.7673519998788834ms
+2025-10-03 16:27:41.644 [info] Handled visible editors change in 0.7446949994191527ms
+2025-10-03 16:27:45.485 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=20 in 177.4546109996736ms
+2025-10-03 16:27:49.250 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=21 in 175.75478199962527ms
+2025-10-03 16:27:54.963 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=23 in 200.93479899968952ms
+2025-10-03 16:27:55.270 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=24 in 177.89779699966311ms
+2025-10-03 16:27:55.564 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=25 in 179.0176320001483ms
+2025-10-03 16:27:56.248 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=27 in 176.95961599983275ms
+2025-10-03 16:27:57.361 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=28 in 176.0798779996112ms
+2025-10-03 16:28:02.992 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=29 in 176.53660599980503ms
+2025-10-03 16:28:05.240 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=30 in 177.97054499946535ms
+2025-10-03 16:28:06.881 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=31 in 180.092470000498ms
+2025-10-03 16:28:14.406 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 16:28:14.591 [info] Fetched fsConfig in 184.32089599967003ms
+2025-10-03 16:28:14.591 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-10-03 16:28:14.591 [info] File sync enabled status: true
+2025-10-03 16:28:14.591 [info] Starting sync of visible tabs
+2025-10-03 16:28:14.591 [info] Synced all visible tabs in 0.2623819997534156ms
+2025-10-03 16:28:15.231 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=32 in 177.43592399917543ms
+2025-10-03 16:28:20.908 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=33 in 187.8814540002495ms
+2025-10-03 16:28:25.593 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=34 in 176.23111800011247ms
+2025-10-03 16:28:33.864 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=35 in 178.71377599984407ms
+2025-10-03 16:28:34.705 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=36 in 187.28450900036842ms
+2025-10-03 16:28:38.077 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=37 in 177.2420809995383ms
+2025-10-03 16:28:43.520 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=38 in 185.91856699995697ms
+2025-10-03 16:28:45.277 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=39 in 176.6812699995935ms
+2025-10-03 16:28:48.665 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=40 in 179.01430600043386ms
+2025-10-03 16:28:49.989 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=41 in 179.97480599954724ms
+2025-10-03 16:28:51.450 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=42 in 175.64564799983054ms
+2025-10-03 16:28:52.729 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=43 in 176.09335299953818ms
+2025-10-03 16:28:53.757 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=44 in 178.85268799960613ms
+2025-10-03 16:28:54.691 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=45 in 174.92479600012302ms
+2025-10-03 16:29:07.883 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=46 in 177.04685799963772ms
+2025-10-03 16:29:08.239 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=47 in 176.7621879996732ms
+2025-10-03 16:29:09.700 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=56 in 175.78559300024062ms
+2025-10-03 16:29:10.168 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=57 in 177.9873110000044ms
+2025-10-03 16:29:12.351 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=58 in 179.64471899997443ms
+2025-10-03 16:29:13.548 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=62 in 178.14891900029033ms
+2025-10-03 16:29:13.904 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=63 in 174.82054200023413ms
+2025-10-03 16:29:14.766 [info] Synced file frontend/src/tour/steps/evaluacionPlanificacion.ts modelVersion=64 in 179.0393019998446ms
+2025-10-03 16:29:15.625 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 16:29:15.625 [error] Failed to fetch fsConfig File sync is disabled
+2025-10-03 16:29:15.626 [error] Failed to fetch fsConfig File sync is disabled
+2025-10-03 16:29:15.626 [info] File sync enabled status: false
+2025-10-03 16:38:10.573 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-10-03 16:38:10.574 [error] Failed to fetch fsConfig File sync is disabled
+2025-10-03 16:38:10.574 [error] Failed to fetch fsConfig File sync is disabled
+2025-10-03 16:38:10.574 [info] File sync enabled status: false
