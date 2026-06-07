@@ -2,19 +2,25 @@ return {
   "jameswolensky/marker-groups.nvim",
   lazy = false,
   dependencies = {
-    "nvim-lua/plenary.nvim", -- Required
-    "ibhagwan/fzf-lua", -- Optional: fzf-lua picker
-    "folke/snacks.nvim", -- Optional: Snacks picker
-    "nvim-telescope/telescope.nvim", -- Optional: Telescope picker
-    -- mini.pick is part of mini.nvim; this plugin vendors mini.nvim for tests,
-    -- but you can also install mini.nvim explicitly to use mini.pick system-wide
-    -- "nvim-mini/mini.nvim",
+    "nvim-lua/plenary.nvim",
+    "ibhagwan/fzf-lua",
+    "folke/snacks.nvim",
+    "nvim-telescope/telescope.nvim",
   },
   config = function()
-    require("marker-groups").setup {
-      -- Default picker is 'vim' (built-in vim.ui)
-      -- Accepted values: 'vim' | 'snacks' | 'fzf-lua' | 'mini.pick' | 'telescope'
+    require("marker-groups").setup({
       picker = "snacks",
-    }
+      keymaps = {
+        enabled = true,
+        prefix = "<leader>m",
+      },
+    })
+
+    local wk = require("which-key")
+
+    wk.add({
+      { "<leader>m", group = "Markers", icon = "󰍉" },
+      { "<leader>mg", group = "Marker Groups", icon = "" },
+    })
   end,
 }

@@ -1,3 +1,5 @@
+﻿"$schema" = 'https://starship.rs/config-schema.json'
+
 format = """\
 $directory\
 $os\
@@ -21,7 +23,7 @@ $time\
 
 add_newline = true
 command_timeout = 3600000
-palette = "gentleman"
+palette = "wallust"
 
 [fill]
 symbol = ' '
@@ -175,33 +177,3 @@ disabled = false
 disabled = false
 time_format = "%H:%M"
 format = '[ $time](fg:subtext0)'
-
-
-[palettes.wallust]
-text = "#F7DCDB"
-red = "#414559"
-green = "#414559"
-yellow = "#5D638F"
-blue = "#8F6E86"
-mauve = "#5B86A4"
-pink = "#AF7572"
-teal = "#ECC5C3"
-
-subtext0 = "#A58A88"
-overlay0 = "#131218"
-
-rosewater = "#444863"
-flamingo = "#444863"
-maroon = "#6A71AB"
-lavender = "#A27294"
-subtext1 = "#488FBF"
-overlay2 = "#E99C98"
-overlay1 = "#ECC5C3"
-
-surface2 = "#3D3C44"
-surface1 = "#131218"
-surface0 = "#131218"
-
-base = "#131218"
-mantle = "#131218"
-crust = "#131218"

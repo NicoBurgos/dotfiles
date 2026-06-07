@@ -167,68 +167,21 @@ apply_image_wallpaper() {
 
   awww img -o "$focused_monitor" "$image_path" $AWWW_PARAMS
 
-  # 1. Aquí se ejecuta Wallust
-  OLD_TIME=$(stat -c %Y "$HOME/.cache/wal/colors.sh" 2>/dev/null || echo 0)
-
+  # Delegamos TODO el flujo wallust + papirus-folders + icon cache a WallustSwww.sh
+  # (que ya internamente llama map_color.sh, papirus-folders, gtk-update-icon-cache
+  #  y actualiza /usr/share y ~/.local con sudo preservado por sudoers).
   "$SCRIPTSDIR/WallustSwww.sh" "$image_path"
 
-  # =========================================================
-  # 👇 ESPERA ACTIVA Y CAMBIO DE ICONOS 👇
-  # =========================================================
+  # Matar tumblerd (daemon de iconos) y thunar para que recarguen del disco
+  pkill -x tumblerd 2>/dev/null
+  pkill -x thunar 2>/dev/null
+  sleep 1
 
-  # Esperar hasta que Wallust genere el archivo (máximo 5 segundos)
-  # Esperar a que Wallust ACTUALICE colors.sh
-  count=0
-
-  while true; do
-    NEW_TIME=$(stat -c %Y "$HOME/.cache/wal/colors.sh" 2>/dev/null || echo 0)
-
-    if [ "$NEW_TIME" != "$OLD_TIME" ]; then
-      break
-    fi
-
-    sleep 0.5
-    ((count++))
-
-    if [ $count -gt 20 ]; then
-      notify-send "Wallust" "Timeout esperando actualización de colores"
-      return
-    fi
-  done
-
-  if [ -f "$HOME/.cache/wal/colors.sh" ]; then
-    source "$HOME/.cache/wal/colors.sh"
-
-    COLOR=$("$SCRIPTSDIR/map_color.sh")
-
-    echo "Papirus color: $COLOR"
-    notify-send "Wallust" "Aplicando color: $COLOR"
-
-    papirus-folders -C "$COLOR" --theme Papirus-Dark
-
-    gtk-update-icon-cache -f -t ~/.local/share/icons/Papirus-Dark
-
-    # También actualizar el tema del sistema (XDG_DATA_HOME preservado via sudoers)
-    XDG_DATA_HOME=/usr/share sudo /usr/bin/papirus-folders -C "$COLOR" --theme Papirus-Dark
-    sudo /usr/bin/gtk-update-icon-cache -f -t /usr/share/icons/Papirus-Dark
-
-    gsettings set org.gnome.desktop.interface icon-theme "Papirus-Dark"
-
-    pkill -SIGUSR1 waybar 2>/dev/null
-
-    thunar -q 2>/dev/null
-
-    notify-send "Wallust" "Iconos cambiados a: $COLOR"
-  fi
-
-  # Forzar el tema de iconos en el sistema
+  # Forzar tema de iconos y dark mode
   gsettings set org.gnome.desktop.interface icon-theme "Papirus-Dark"
   gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 
-  # Matar Thunar y recargar para que tome el cambio
-  pkill -x thunar
-  # =========================================================
-  sleep 2
+  sleep 1
   "$SCRIPTSDIR/Refresh.sh"
   sleep 1
 

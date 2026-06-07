@@ -1,0 +1,28 @@
+[palettes.wallust]
+text = "{{foreground}}"
+red = "{{color1}}"
+green = "{{color2}}"
+yellow = "{{color3}}"
+blue = "{{color4}}"
+mauve = "{{color5}}"
+pink = "{{color6}}"
+teal = "{{color7}}"
+
+subtext0 = "{{color8}}"
+overlay0 = "{{background}}"
+
+rosewater = "{{color9}}"
+flamingo = "{{color10}}"
+maroon = "{{color11}}"
+lavender = "{{color12}}"
+subtext1 = "{{color13}}"
+overlay2 = "{{color14}}"
+overlay1 = "{{color15}}"
+
+surface2 = "{{color0}}"
+surface1 = "{{background}}"
+surface0 = "{{background}}"
+
+base = "{{background}}"
+mantle = "{{background}}"
+crust = "{{background}}"

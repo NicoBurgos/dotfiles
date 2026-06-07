@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 # /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  #
-# original code https://gist.github.com/Surendrajat/ff3876fd2166dd86fb71180f4e9342d7
-# weather using python
+# Weather module for waybar — powered by Open-Meteo (no API key, no scraping).
+# Docs: https://open-meteo.com/en/docs
 
-import requests
 import json
 import os
-from pyquery import PyQuery  # install using `pip install pyquery`
+import sys
+import urllib.error
+import urllib.request
 
-# weather icons
+
 weather_icons = {
     "sunnyDay": "󰖙",
     "clearNight": "󰖔",
@@ -23,124 +24,115 @@ weather_icons = {
 }
 
 
-# Get current location based on IP address
+def fetch_json(url, timeout=10):
+    req = urllib.request.Request(url, headers={"User-Agent": "waybar-weather/1.0"})
+    with urllib.request.urlopen(req, timeout=timeout) as resp:
+        return json.loads(resp.read().decode("utf-8"))
+
+
 def get_location():
-    response = requests.get("https://ipinfo.io")
-    data = response.json()
-    loc = data["loc"].split(",")
-    return float(loc[0]), float(loc[1])
+    """Best-effort geolocation via public IP. Returns (lat, lon) or None on failure."""
+    try:
+        data = fetch_json("https://ipinfo.io/json")
+        lat, lon = data["loc"].split(",")
+        return float(lat), float(lon)
+    except (urllib.error.URLError, KeyError, ValueError, json.JSONDecodeError):
+        return None
 
 
-# Get latitude and longitude
-latitude, longitude = get_location()
+# WMO weather codes (https://open-meteo.com/en/docs#weathervariables)
+# Returns (status_code, status_phrase). status_code maps to weather_icons keys.
+def wmo_to_status(code, is_day):
+    day = is_day == 1
+    if code == 0:
+        return ("sunnyDay" if day else "clearNight", "Clear")
+    if code in (1, 2):
+        return ("cloudyFoggyDay" if day else "cloudyFoggyNight", "Partly cloudy")
+    if code == 3:
+        return ("cloudyFoggyDay", "Overcast")
+    if code in (45, 48):
+        return ("cloudyFoggyDay", "Fog")
+    if code in (51, 53, 55, 56, 57):
+        return ("rainyDay", "Drizzle")
+    if code in (61, 63, 65, 66, 67):
+        return ("rainyDay", "Rain")
+    if code in (71, 73, 75, 77):
+        return ("snowyIcyDay", "Snow")
+    if code in (80, 81, 82):
+        return ("rainyDay", "Rain showers")
+    if code in (85, 86):
+        return ("snowyIcyDay", "Snow showers")
+    if code in (95, 96, 99):
+        return ("severe", "Thunderstorm")
+    return ("default", "Unknown")
 
-# Open-Meteo API endpoint
-url = f"https://weather.com/en-PH/weather/today/l/{latitude},{longitude}"
 
-# manual location_id
-# NOTE: if you want to add manually, make sure you disable def get_location above
-# to get your own location_id, go to https://weather.com & search your location.
-# once you choose your location, you can see the location_id in the URL(64 chars long hex string)
-# like this: https://weather.com/en-PH/weather/today/l/bca47d1099e762a012b9a139c36f30a0b1e647f69c0c4ac28b537e7ae9c1c200
-# location_id = "bca47d1099e762a012b9a139c36f30a0b1e647f69c0c4ac28b537e7ae9c1c200"  # TODO
+def main():
+    coords = get_location()
+    if coords is None:
+        raise SystemExit("Unable to determine location")
 
-# NOTE to change to deg F, change the URL to your preffered location after weather.com
-# Default is English-Philippines with Busan, South Korea as location_id
-# get html page
-# url = "https://weather.com/en-PH/weather/today/l/" + location_id
+    lat, lon = coords
+    url = (
+        f"https://api.open-meteo.com/v1/forecast"
+        f"?latitude={lat}&longitude={lon}"
+        f"&current=temperature_2m,apparent_temperature,relative_humidity_2m,"
+        f"is_day,precipitation,weather_code,wind_speed_10m"
+        f"&daily=temperature_2m_max,temperature_2m_min"
+        f"&timezone=auto&wind_speed_unit=kmh&temperature_unit=celsius"
+    )
 
-html_data = PyQuery(url=url)
+    data = fetch_json(url)
+    current = data["current"]
+    daily = data["daily"]
 
-# current temperature
-temp = html_data("span[data-testid='TemperatureValue']").eq(0).text()
+    temp = current["temperature_2m"]
+    temp_feel = current["apparent_temperature"]
+    humidity = current["relative_humidity_2m"]
+    wind_speed = current["wind_speed_10m"]
+    is_day = current["is_day"]
+    status_code, status_phrase = wmo_to_status(current["weather_code"], is_day)
 
-# current status phrase
-status = html_data("div[data-testid='wxPhrase']").text()
-status = f"{status[:16]}.." if len(status) > 17 else status
+    icon = weather_icons.get(status_code, weather_icons["default"])
 
-# status code
-status_code = html_data("#regionHeader").attr("class").split(" ")[2].split("-")[2]
+    status_display = f"{status_phrase[:16]}.." if len(status_phrase) > 17 else status_phrase
 
-# status icon
-icon = (
-    weather_icons[status_code]
-    if status_code in weather_icons
-    else weather_icons["default"]
-)
+    temp_min = daily["temperature_2m_min"][0]
+    temp_max = daily["temperature_2m_max"][0]
 
-# temperature feels like
-temp_feel = html_data(
-    "div[data-testid='FeelsLikeSection'] > span > span[data-testid='TemperatureValue']"
-).text()
-temp_feel_text = f"Feels like {temp_feel}c"
+    tooltip_text = "\t\t{}\t\t\n{}\n{}\n{}\n\n{}\n{}\n".format(
+        f'<span size="xx-large">{temp}°C</span>',
+        f"<big> {icon}</big>",
+        f"<b>{status_display}</b>",
+        f"<small>Feels like {temp_feel}°C</small>",
+        f"<b>  {temp_min}°C\t\t  {temp_max}°C</b>",
+        f"  {wind_speed} km/h\t  {humidity}%",
+    )
 
-# min-max temperature
-temp_min = (
-    html_data("div[data-testid='wxData'] > span[data-testid='TemperatureValue']")
-    .eq(1)
-    .text()
-)
-temp_max = (
-    html_data("div[data-testid='wxData'] > span[data-testid='TemperatureValue']")
-    .eq(0)
-    .text()
-)
-temp_min_max = f"  {temp_min}\t\t  {temp_max}"
+    out_data = {
+        "text": f"{icon}  {temp}°C",
+        "alt": status_phrase,
+        "tooltip": tooltip_text,
+        "class": status_code,
+    }
+    print(json.dumps(out_data))
 
-# wind speed
-wind_speed = str(html_data("span[data-testid='Wind'] > span").text())
-wind_text = f"  {wind_speed}"
+    simple_weather = (
+        f"{icon}  {status_phrase}\n"
+        f" {temp}°C (Feels like {temp_feel}°C)\n"
+        f" {wind_speed} km/h \n"
+        f"  {humidity}% \n"
+    )
+    try:
+        with open(os.path.expanduser("~/.cache/.weather_cache"), "w") as f:
+            f.write(simple_weather)
+    except OSError as e:
+        print(f"Error writing to cache: {e}", file=sys.stderr)
 
-# humidity
-humidity = html_data("span[data-testid='PercentageValue']").text()
-humidity_text = f"  {humidity}"
 
-# visibility
-visibility = html_data("span[data-testid='VisibilityValue']").text()
-visibility_text = f"  {visibility}"
-
-# air quality index
-air_quality_index = html_data("text[data-testid='DonutChartValue']").text()
-
-# hourly rain prediction
-prediction = html_data("section[aria-label='Hourly Forecast']")(
-    "div[data-testid='SegmentPrecipPercentage'] > span"
-).text()
-prediction = prediction.replace("Chance of Rain", "")
-prediction = f"\n\n (hourly) {prediction}" if len(prediction) > 0 else prediction
-
-# tooltip text
-tooltip_text = str.format(
-    "\t\t{}\t\t\n{}\n{}\n{}\n\n{}\n{}\n{}{}",
-    f'<span size="xx-large">{temp}</span>',
-    f"<big> {icon}</big>",
-    f"<b>{status}</b>",
-    f"<small>{temp_feel_text}</small>",
-    f"<b>{temp_min_max}</b>",
-    f"{wind_text}\t{humidity_text}",
-    f"{visibility_text}\tAQI {air_quality_index}",
-    f"<i> {prediction}</i>",
-)
-
-# print waybar module data
-out_data = {
-    "text": f"{icon}  {temp}",
-    "alt": status,
-    "tooltip": tooltip_text,
-    "class": status_code,
-}
-print(json.dumps(out_data))
-
-simple_weather = (
-    f"{icon}  {status}\n"
-    + f"  {temp} ({temp_feel_text})\n"
-    + f"{wind_text} \n"
-    + f"{humidity_text} \n"
-    + f"{visibility_text} AQI{air_quality_index}\n"
-)
-
-try:
-    with open(os.path.expanduser("~/.cache/.weather_cache"), "w") as file:
-        file.write(simple_weather)
-except Exception as e:
-    print(f"Error writing to cache: {e}")
+if __name__ == "__main__":
+    try:
+        main()
+    except (urllib.error.URLError, KeyError, ValueError, json.JSONDecodeError) as e:
+        print(f"Weather fetch failed: {e}", file=sys.stderr)
+        sys.exit(1)

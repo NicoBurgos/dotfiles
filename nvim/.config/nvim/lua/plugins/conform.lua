@@ -1,54 +1,20 @@
 return {
   "stevearc/conform.nvim",
-  event = { "BufReadPre", "BufNewFile" },
-  config = function()
-    local conform = require "conform"
+  optional = true,
+  ---@param opts ConformOpts
+  opts = function(_, opts)
+    -- Definimos los filetypes que queremos soportar
+    local supported = { "javascriptreact", "javascript", "typescript", "typescriptreact" }
 
-    conform.setup {
-      formatters_by_ft = {
-        -- Lua
-        lua = { "stylua" }, -- o "luaformatter" si prefieres
+    opts.formatters_by_ft = opts.formatters_by_ft or {}
+    for _, ft in ipairs(supported) do
+      opts.formatters_by_ft[ft] = opts.formatters_by_ft[ft] or {}
+      table.insert(opts.formatters_by_ft[ft], "biome")
+    end
 
-        -- Shell
-        bash = { "beautysh" },
-        sh = { "beautysh" },
-        zsh = { "beautysh" },
-
-        -- JavaScript / TypeScript
-        javascript = { "biome", "prettier" },
-        javascriptreact = { "biome", "prettier" },
-        typescript = { "biome", "prettier" },
-        typescriptreact = { "biome", "prettier" },
-        json = { "biome", "prettier" },
-
-        -- HTML / CSS / Markdown
-        html = { "prettier" },
-        css = { "prettier" },
-        scss = { "prettier" },
-        markdown = { "cbfmt", "prettier" },
-
-        -- Python
-        python = { "black" },
-
-        -- YAML
-        yaml = { "yamlfmt" },
-
-        -- SQL
-        sql = { "sqlfmt" },
-      },
-
-      -- Formato automático al guardar
-      format_on_save = true,
-      timeout_ms = 500,
+    opts.formatters = opts.formatters or {}
+    opts.formatters.biome = {
+      require_cwd = true,
     }
-
-    -- Mapeo para formatear manualmente con <leader>l
-    vim.keymap.set({ "n", "v" }, "<leader>l", function()
-      conform.format {
-        lsp_fallback = true,
-        async = false,
-        timeout_ms = 1000,
-      }
-    end, { desc = "Format file or range (in visual mode)" })
   end,
 }
