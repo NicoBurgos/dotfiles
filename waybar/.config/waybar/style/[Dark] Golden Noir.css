@@ -1,7 +1,7 @@
 /* ----------- 💫 https://github.com/JaKooLit 💫 -------- */
 /* ...............Golden Noir................ */
 /* --- 👍 designed by https://github.com/Krautt  👍 --- */
-
+@import "/home/nico/.config/waybar/wallust/colors-waybar.css";
 * {
     font-family: "JetBrainsMono Nerd Font";
     font-weight: bold;
@@ -12,9 +12,9 @@
 }
 
 window#waybar {
-    background: #040406;
+    background: @background;
+    color: @foreground;
     border-radius: 30px;
-    color: #cba6f7;
 
 }
 
@@ -23,12 +23,12 @@ window#waybar.hidden {
 }
 
 tooltip {
-    background: #1e1e2e;
     border-radius: 10px;
     border-width: 2px;
     border-style: solid;
-    border-color: #11111b;
-    color: #ffd700;
+    background: @background;
+    border-color: @color8;
+    color: @color11;
 }
 
 /*-----module groups----*/
@@ -42,8 +42,8 @@ tooltip {
 }
 
 .modules-center {
-    border-left: 1px solid #ffd700;
-    border-right: 1px solid #ffd700;
+    border-left: 1px solid @color11;
+    border-right: 1px solid @color11;
     border-radius: 20px;
 	padding-top: 2px;
 	padding-bottom: 2px;
@@ -53,7 +53,7 @@ tooltip {
 
 #taskbar button,
 #workspaces button {
-    color: #6E6A86;
+    color: @color8;
     box-shadow: none;
 	text-shadow: none;
     padding: 0px;
@@ -66,18 +66,18 @@ tooltip {
 
 #taskbar button.active,
 #workspaces button.active {
-    color: #ffd700;
-    border-radius: 50%;
-    background-color: black;
-    border-radius: 15px 15px 15px 15px;
+    color: @background;
+    background-color: @color11;
+
+    border-radius: 15px;
     padding-left: 8px;
     padding-right: 8px;
-    animation: gradient_f 20s ease-in infinite;
-    transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
+
+    border: 2px solid @color13;
 }
 
 #workspaces button.focused {
-    color: #d8dee9;
+    color: @foreground;
 }
 
 #workspaces button.urgent {
@@ -87,7 +87,8 @@ tooltip {
 
 #taskbar button:hover,
 #workspaces button:hover {
-    color: #ffd700;
+    color: @color13;
+    background-color: alpha(@color13, 0.15);
     border-radius: 15px;
  	padding-left: 2px;
     padding-right: 2px;
@@ -152,7 +153,7 @@ tooltip {
 #custom-weather.showyIcyDay,
 #custom-weather.snowyIcyNight,
 #custom-weather.sunnyDay {
-    color: #e5d9f5;
+    color: @foreground;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	padding-right: 6px;
@@ -199,12 +200,12 @@ tooltip {
     min-width: 80px;
     min-height: 5px;
     border-radius: 5px;
-    background-color: #22252a;
+    background-color: @color0;
 }
 
 #backlight-slider highlight,
 #pulseaudio-slider highlight {
     min-height: 10px;
     border-radius: 5px;
-    background-color: #ba5663;
+    background-color: @color5;
 }

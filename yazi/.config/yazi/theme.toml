@@ -1,0 +1,28 @@
+[manager]
+cwd = { fg = "#AF7572", italic = true }
+hovered = { fg = "#131218", bg = "#8F6E86" }
+preview_hovered = { underline = true }
+find_keyword = { fg = "#5D638F", italic = true }
+find_position = { fg = "#5B86A4", bg = "reset", italic = true }
+marker_selected = { fg = "#414559", bg = "#414559" }
+marker_copied = { fg = "#5D638F", bg = "#5D638F" }
+marker_cut = { fg = "#414559", bg = "#414559" }
+tab_active = { fg = "#131218", bg = "#8F6E86" }
+tab_inactive = { fg = "#F7DCDB", bg = "#3D3C44" }
+border_style = { fg = "#A58A88" }
+
+[status]
+separator_open = ""
+separator_close = ""
+separator_style = { fg = "#3D3C44", bg = "#3D3C44" }
+mode_normal = { fg = "#131218", bg = "#8F6E86", bold = true }
+mode_select = { fg = "#131218", bg = "#414559", bold = true }
+mode_unset = { fg = "#131218", bg = "#414559", bold = true }
+progress_label = { fg = "#F7DCDB", bold = true }
+progress_normal = { fg = "#8F6E86", bg = "#3D3C44" }
+progress_error = { fg = "#414559", bg = "#3D3C44" }
+permissions_t = { fg = "#8F6E86" }
+permissions_r = { fg = "#5D638F" }
+permissions_w = { fg = "#414559" }
+permissions_x = { fg = "#414559" }
+permissions_s = { fg = "#A58A88" }
