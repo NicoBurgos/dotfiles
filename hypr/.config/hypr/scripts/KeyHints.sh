@@ -1,19 +1,20 @@
 #!/bin/bash
 # /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  ##
+# Quick cheat sheet of all keybinds. Updated to match UserKeybinds.conf.
+# Each row has 3 columns: KEY | DESCRIPTION | COMMAND
+# Section headers use empty key, text in description column.
 
 # GDK BACKEND. Change to either wayland or x11 if having issues
 BACKEND=wayland
 
-# Check if rofi or yad is running and kill them if they are
+# Kill any rofi/yad that might be open
 if pidof rofi > /dev/null; then
   pkill rofi
 fi
-
 if pidof yad > /dev/null; then
   pkill yad
 fi
 
-# Launch yad with calculated width and height
 GDK_BACKEND=$BACKEND yad \
     --center \
     --title="KooL Quick Cheat Sheet" \
@@ -23,50 +24,89 @@ GDK_BACKEND=$BACKEND yad \
     --column=Description: \
     --column=Command: \
     --timeout-indicator=bottom \
-"ESC" "close this app" "" " = " "SUPER KEY (Windows Key Button)" "(SUPER KEY)" \
-" SHIFT K" "Searchable Keybinds" "(Search all Keybinds via rofi)" \
-" SHIFT E" "KooL Hyprland Settings Menu" "" \
+"ESC" "close this app" "" \
 "" "" "" \
-" enter" "Terminal" "(kitty)" \
-" SHIFT enter" "DropDown Terminal" " Q to close" \
-" B" "Launch Browser" "(Default browser)" \
-" A" "Desktop Overview" "(AGS - if opted to install)" \
-" D" "Application Launcher" "(rofi-wayland)" \
-" E" "Open File Manager" "(Thunar)" \
-" S" "Google Search using rofi" "(rofi)" \
-" Q" "close active window" "(not kill)" \
-" Shift Q " "kills an active window" "(kill)" \
-" ALT mouse scroll up/down   " "Desktop Zoom" "Desktop Magnifier" \
-" Alt V" "Clipboard Manager" "(cliphist)" \
-" W" "Choose wallpaper" "(Wallpaper Menu)" \
-" Shift W" "Choose wallpaper effects" "(imagemagick + swww)" \
-"CTRL ALT W" "Random wallpaper" "(via swww)" \
-" CTRL ALT B" "Hide/UnHide Waybar" "waybar" \
-" CTRL B" "Choose waybar styles" "(waybar styles)" \
-" ALT B" "Choose waybar layout" "(waybar layout)" \
-" ALT R" "Reload Waybar swaync Rofi" "CHECK NOTIFICATION FIRST!!!" \
-" SHIFT N" "Launch Notification Panel" "swaync Notification Center" \
-" Print" "screenshot" "(grim)" \
-" Shift Print" "screenshot region" "(grim + slurp)" \
-" Shift S" "screenshot region" "(swappy)" \
-" CTRL Print" "screenshot timer 5 secs " "(grim)" \
-" CTRL SHIFT Print" "screenshot timer 10 secs " "(grim)" \
-"ALT Print" "Screenshot active window" "active window only" \
-"CTRL ALT P" "power-menu" "(wlogout)" \
-"CTRL ALT L" "screen lock" "(hyprlock)" \
-"CTRL ALT Del" "Hyprland Exit" "(NOTE: Hyprland Will exit immediately)" \
-" SHIFT F" "Fullscreen" "Toggles to full screen" \
-" CTL F" "Fake Fullscreen" "Toggles to fake full screen" \
-" ALT L" "Toggle Dwindle | Master Layout" "Hyprland Layout" \
-" SPACEBAR" "Toggle float" "single window" \
-" ALT SPACEBAR" "Toggle all windows to float" "all windows" \
-" ALT O" "Toggle Blur" "normal or less blur" \
-" CTRL O" "Toggle Opaque ON or OFF" "on active window only" \
-" Shift A" "Animations Menu" "Choose Animations via rofi" \
-" CTRL R" "Rofi Themes Menu" "Choose Rofi Themes via rofi" \
-" CTRL Shift R" "Rofi Themes Menu v2" "Choose Rofi Themes via Theme Selector (modified)" \
-" SHIFT G" "Gamemode! All animations OFF or ON" "toggle" \
-" ALT E" "Rofi Emoticons" "Emoticon" \
-" H" "Launch this Quick Cheat Sheet" "" \
+"SUPER" "Windows Key (the main modifier)" "" \
 "" "" "" \
-"More tips:" "https://github.com/JaKooLit/Hyprland-Dots/wiki" ""\
+"=== APPS ===" "" "" \
+"SUPER+Return" "Terminal" "(wezterm)" \
+"SUPER+SHIFT+Return" "Drop-down Terminal" "Q to close" \
+"SUPER+SPACE" "Application Launcher" "(rofi-wayland)" \
+"SUPER+E" "File Manager" "(thunar)" \
+"SUPER+B" "Browser" "(default browser)" \
+"SUPER+K" "Kitty terminal" "" \
+"SUPER+V" "Clipboard Manager" "(cliphist)" \
+"SUPER+C" "VS Code" "" \
+"SUPER+P" "Bitwarden" "" \
+"SUPER+O" "Obsidian" "" \
+"SUPER+M" "Pear Desktop" "(YouTube Music client)" \
+"SUPER+W" "WhatsApp (wasistlos)" "" \
+"SUPER+ALT+N" "WhatsApp GUI (nmgui)" "" \
+"SUPER+Y" "YouTube (web)" "" \
+"SUPER+I" "OpenCode (linuxbrew)" "(wezterm -e /home/linuxbrew/.linuxbrew/bin/opencode)" \
+"SUPER+D" "Lazydocker" "(kitty -e lazydocker)" \
+"SUPER+T" "btop" "(kitty -e btop)" \
+"SUPER+S" "Google search via rofi" "" \
+"" "" "" \
+"=== WINDOW NAVIGATION ===" "" "" \
+"SUPER+arrows" "Move focus" "" \
+"SUPER+CTRL+arrows" "Move window" "" \
+"SUPER+SHIFT+arrows" "Resize window" "" \
+"SUPER+ALT+arrows" "Swap with neighbor" "" \
+"" "" "" \
+"=== MASTER LAYOUT (only when toggled) ===" "" "" \
+"" "Default is dwindle. Binds below are no-op unless toggled." "" \
+"SUPER+CTRL+I" "Swap with master" "(focused <-> master)" \
+"SUPER+CTRL+." "Master bigger" "(+40px via MasterSize.sh)" \
+"SUPER+CTRL+," "Master smaller" "(-40px via MasterSize.sh)" \
+"SUPER+CTRL+0" "Reset master 50/50" "(MasterSize.sh reset)" \
+"SUPER+SHIFT+L" "Toggle dwindle <-> master" "" \
+"" "" "" \
+"=== WINDOW / FLOAT ===" "" "" \
+"SUPER+Q" "Close active window" "" \
+"SUPER+SHIFT+Q" "Kill active process" "" \
+"SUPER+SHIFT+F" "Fullscreen" "" \
+"SUPER+CTRL+F" "Fake fullscreen" "" \
+"SUPER+ALT+F" "Maximize toggle (no fullscreen)" "(ToggleMaximize.sh)" \
+"SUPER+F" "Toggle float" "" \
+"SUPER+ALT+SPACE" "All windows to float" "" \
+"" "" "" \
+"=== WALLPAPER ===" "" "" \
+"SUPER+SHIFT+W" "Select wallpaper" "" \
+"SUPER+SHIFT+ALT+W" "Wallpaper effects" "(imagemagick + swww)" \
+"SUPER+CTRL+ALT+W" "Random wallpaper" "" \
+"" "" "" \
+"=== SYSTEM ===" "" "" \
+"SUPER+SHIFT+H" "This cheat sheet" "" \
+"SUPER+SHIFT+R" "Reload waybar/swaync/rofi" "" \
+"SUPER+SHIFT+O" "Toggle blur" "" \
+"SUPER+SHIFT+A" "Animations menu" "" \
+"SUPER+SHIFT+P" "Color picker" "(hyprpicker)" \
+"SUPER+SHIFT+K" "Searchable keybinds" "" \
+"SUPER+SHIFT+E" "KooL Settings Menu" "" \
+"SUPER+SHIFT+Z" "Change zsh theme" "" \
+"SUPER+SHIFT+V" "KVM (parrotOS)" "" \
+"SUPER+SHIFT+C" "Rclone sync" "" \
+"SUPER+SHIFT+D" "Sync dotfiles" "" \
+"SUPER+SHIFT+B" "Sync blog" "" \
+"SUPER+SHIFT+G" "Mount Gdrive" "" \
+"SUPER+ALT+E" "Emoji picker (rofi)" "" \
+"SUPER+CTRL+C" "Calculator (rofi)" "" \
+"SUPER+CTRL+O" "Toggle opacity (active win)" "" \
+"SUPER+CTRL+ALT+B" "Toggle waybar" "" \
+"SUPER+CTRL+B" "Waybar styles" "" \
+"SUPER+ALT+B" "Waybar layout" "" \
+"" "" "" \
+"=== SCREENSHOTS ===" "" "" \
+"Print" "Lightshot" "" \
+"SUPER+SHIFT+Print" "Region (hyprshot)" "" \
+"" "" "" \
+"=== MISC ===" "" "" \
+"SUPER+CTRL+ALT+L" "Lock screen" "" \
+"SUPER+CTRL+ALT+P" "Power menu (wlogout)" "" \
+"SUPER+CTRL+ALT+Del" "Exit Hyprland" "" \
+"" "" "" \
+"" "Note: SUPER+, and SUPER+. (no CTRL)" "cycle workspaces" \
+"" "Note: SUPER+CTRL+, and SUPER+CTRL+." "are for master size" \
+"" "" "" \
+"More tips:" "https://github.com/JaKooLit/Hyprland-Dots/wiki" "" \

@@ -12,12 +12,12 @@ wallpaper_current="$HOME/.config/hypr/wallpaper_effects/.wallpaper_current"
 iDIR="$HOME/.config/swaync/images"
 iDIRi="$HOME/.config/swaync/icons"
 
-# swww transition config
+# awww transition config
 FPS=60
 TYPE="any"
 DURATION=2
 BEZIER=".43,1.19,1,.4"
-SWWW_PARAMS="--transition-fps $FPS --transition-type $TYPE --transition-duration $DURATION --transition-bezier $BEZIER"
+AWWW_PARAMS="--transition-fps $FPS --transition-type $TYPE --transition-duration $DURATION --transition-bezier $BEZIER"
 
 # Check if package bc exists
 if ! command -v bc &>/dev/null; then
@@ -45,7 +45,7 @@ rofi_override="element-icon{size:${adjusted_icon_size}%;}"
 
 # Kill existing wallpaper daemons for video
 kill_wallpaper_for_video() {
-  swww kill 2>/dev/null
+  awww kill 2>/dev/null
   pkill mpvpaper 2>/dev/null
   pkill swaybg 2>/dev/null
   pkill hyprpaper 2>/dev/null
@@ -124,7 +124,7 @@ menu() {
 #         exit 1
 #       fi
 #
-# 	  exec $SCRIPTSDIR/sddm_wallpaper.sh --normal
+#       exec $SCRIPTSDIR/sddm_wallpaper.sh --normal
 #
 #     fi
 #   fi
@@ -137,7 +137,7 @@ modify_startup_config() {
   # Check if it's a live wallpaper (video)
   if [[ "$selected_file" =~ \.(mp4|mkv|mov|webm)$ ]]; then
     # For video wallpapers:
-    sed -i '/^\s*exec-once\s*=\s*swww-daemon\s*--format\s*xrgb\s*$/s/^/\#/' "$startup_config"
+    sed -i '/^\s*exec-once\s*=\s*awww-daemon\s*--format\s*xrgb\s*$/s/^/\#/' "$startup_config"
     sed -i '/^\s*#\s*exec-once\s*=\s*mpvpaper\s*.*$/s/^#\s*//;' "$startup_config"
 
     # Update the livewallpaper variable with the selected video path (using $HOME)
@@ -147,8 +147,7 @@ modify_startup_config() {
     echo "Configured for live wallpaper (video)."
   else
     # For image wallpapers:
-    sed -i '/^\s*#\s*exec-once\s*=\s*swww-daemon\s*--format\s*xrgb\s*$/s/^\s*#\s*//;' "$startup_config"
-
+    sed -i '/^\s*#\s*exec-once\s*=\s*awww-daemon\s*--format\s*xrgb\s*$/s/^\s*#\s*//;' "$startup_config"
     sed -i '/^\s*exec-once\s*=\s*mpvpaper\s*.*$/s/^/\#/' "$startup_config"
 
     echo "Configured for static wallpaper (image)."
@@ -161,22 +160,80 @@ apply_image_wallpaper() {
 
   kill_wallpaper_for_image
 
-  if ! pgrep -x "swww-daemon" >/dev/null; then
-    echo "Starting swww-daemon..."
-    swww-daemon --format xrgb &
+  if ! pgrep -x "awww-daemon" >/dev/null; then
+    echo "Starting awww-daemon..."
+    awww-daemon --format xrgb &
   fi
 
-  swww img -o "$focused_monitor" "$image_path" $SWWW_PARAMS
+  awww img -o "$focused_monitor" "$image_path" $AWWW_PARAMS
 
-  # Run additional scripts
-  "$SCRIPTSDIR/WallustSwww.sh"
+  # 1. Aquí se ejecuta Wallust
+  OLD_TIME=$(stat -c %Y "$HOME/.cache/wal/colors.sh" 2>/dev/null || echo 0)
+
+  "$SCRIPTSDIR/WallustSwww.sh" "$image_path"
+
+  # =========================================================
+  # 👇 ESPERA ACTIVA Y CAMBIO DE ICONOS 👇
+  # =========================================================
+
+  # Esperar hasta que Wallust genere el archivo (máximo 5 segundos)
+  # Esperar a que Wallust ACTUALICE colors.sh
+  count=0
+
+  while true; do
+    NEW_TIME=$(stat -c %Y "$HOME/.cache/wal/colors.sh" 2>/dev/null || echo 0)
+
+    if [ "$NEW_TIME" != "$OLD_TIME" ]; then
+      break
+    fi
+
+    sleep 0.5
+    ((count++))
+
+    if [ $count -gt 20 ]; then
+      notify-send "Wallust" "Timeout esperando actualización de colores"
+      return
+    fi
+  done
+
+  if [ -f "$HOME/.cache/wal/colors.sh" ]; then
+    source "$HOME/.cache/wal/colors.sh"
+
+    COLOR=$("$SCRIPTSDIR/map_color.sh")
+
+    echo "Papirus color: $COLOR"
+    notify-send "Wallust" "Aplicando color: $COLOR"
+
+    papirus-folders -C "$COLOR" --theme Papirus-Dark
+
+    gtk-update-icon-cache -f -t ~/.local/share/icons/Papirus-Dark
+
+    # También actualizar el tema del sistema (XDG_DATA_HOME preservado via sudoers)
+    XDG_DATA_HOME=/usr/share sudo /usr/bin/papirus-folders -C "$COLOR" --theme Papirus-Dark
+    sudo /usr/bin/gtk-update-icon-cache -f -t /usr/share/icons/Papirus-Dark
+
+    gsettings set org.gnome.desktop.interface icon-theme "Papirus-Dark"
+
+    pkill -SIGUSR1 waybar 2>/dev/null
+
+    thunar -q 2>/dev/null
+
+    notify-send "Wallust" "Iconos cambiados a: $COLOR"
+  fi
+
+  # Forzar el tema de iconos en el sistema
+  gsettings set org.gnome.desktop.interface icon-theme "Papirus-Dark"
+  gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+
+  # Matar Thunar y recargar para que tome el cambio
+  pkill -x thunar
+  # =========================================================
   sleep 2
   "$SCRIPTSDIR/Refresh.sh"
   sleep 1
 
-  set_sddm_wallpaper
+  # set_sddm_wallpaper
 }
-
 apply_video_wallpaper() {
   local video_path="$1"
 
@@ -234,4 +291,3 @@ if pidof rofi >/dev/null; then
 fi
 
 main
-
